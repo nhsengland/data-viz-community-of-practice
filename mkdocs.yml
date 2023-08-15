@@ -1,7 +1,7 @@
 site_name: Data Viz Community of Practice
 # site_url: https://example.com
-repo_url: https://github.com/NHSDigital/rap-community-of-practice
-repo_name: RAP Community of Practice
+repo_url: https://github.com/p-jacques/data-viz-community-of-practice
+repo_name: Data Viz Community of Practice
 edit_uri: edit/main/docs/
 plugins:
   - git-revision-date-localized:
@@ -13,11 +13,11 @@ plugins:
 nav:
   - Home: index.md
   - About: about.md
-  - Introduction to RAP:
+  - Dashboard lifecycle:
       - Why RAP is important: introduction_to_RAP/why_RAP_is_important.md
       - Levels of RAP: introduction_to_RAP/levels_of_RAP.md
       - What is open source?: introduction_to_RAP/what-is-open-source.md
-  - Our RAP service:
+  - Dashboard design:
       - our_RAP_service/index.md
       - Building team capability: our_RAP_service/building_team_capability.md
       - Support models: our_RAP_service/support-models.md
@@ -27,7 +27,7 @@ nav:
       - Programme level reporting: our_RAP_service/programme-level-reporting.md
       - Service design and user research: our_RAP_service/service-design-and-user-research.md
       
-  - Implementing RAP:
+  - QA & Testing:
       - Are you ready for RAP?: implementing_RAP/rap-readiness.md
       - Code review: implementing_RAP/code-review.md
       - Coding best practice: implementing_RAP/coding-best-practice.md
