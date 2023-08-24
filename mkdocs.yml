@@ -18,14 +18,14 @@ nav:
       - Levels of RAP: introduction_to_RAP/levels_of_RAP.md
       - What is open source?: introduction_to_RAP/what-is-open-source.md
   - Dashboard design:
-      - our_RAP_service/index.md
-      - Building team capability: our_RAP_service/building_team_capability.md
-      - Support models: our_RAP_service/support-models.md
-      - Thin slice strategy: our_RAP_service/thin-slice-strategy.md
-      - Typical engagement flow: our_RAP_service/typical-engagement-flow.md
-      - RAP pre-engagement Questionnare: our_RAP_service/rap-pre-engagement-questionnaire.md
-      - Programme level reporting: our_RAP_service/programme-level-reporting.md
-      - Service design and user research: our_RAP_service/service-design-and-user-research.md
+      - dashboard_design/index.md
+      - Building team capability: dashboard_design/building_team_capability.md
+      - Support models: dashboard_design/support-models.md
+      - Thin slice strategy: dashboard_design/thin-slice-strategy.md
+      - Typical engagement flow: dashboard_design/typical-engagement-flow.md
+      - RAP pre-engagement Questionnare: dashboard_design/rap-pre-engagement-questionnaire.md
+      - Programme level reporting: dashboard_design/programme-level-reporting.md
+      - Service design and user research: dashboard_design/service-design-and-user-research.md
       
   - QA & Testing:
       - Are you ready for RAP?: implementing_RAP/rap-readiness.md

@@ -253,7 +253,7 @@ These metrics are only approximate proxies for how well-tested your code is. It 
 [sprints]: https://www.atlassian.com/agile/scrum/sprints
 [documentation]: ../training_resources/python/python-functions.md#documentation
 [tdd]: ../training_resources/python/unit-testing.md#test-driven-development
-[thin-slice-pipeline]: ../our_RAP_service/thin-slice-strategy.md#thin-slice-pipeline
+[thin-slice-pipeline]: ../dashboard_design/thin-slice-strategy.md#thin-slice-pipeline
 [code-review]: ./code-review.md
 [silver-level-of-rap]: ../introduction_to_RAP/levels_of_RAP.md#silver-rap---implementing-best-practice
 [baseline-level-of-rap]: ../introduction_to_RAP/levels_of_RAP.md#baseline-rap---getting-the-fundamentals-right
