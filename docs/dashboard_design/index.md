@@ -36,6 +36,9 @@ These design guidelines are useful for:
 <p>A <a href="https://thenextweb.com/news/designing-websites-that-mirror-how-our-eyes-work-part-2">Z-pattern layout</a> draws attention to the top-left corner first before moving to the top right, then down to the bottom left, with the bottom-right corner as the last stop. Each corner has a visual cue (like a logo) or CTA (like a contact button).</p>
 <p> An <a href="https://www.nngroup.com/articles/text-scanning-patterns-eyetracking/2">F-pattern layout</a>, which follows a more crowded pattern leading visitors from left to right and back again, works well for text-heavy pages.</p>
 
+![Diagram of Z and F reading patterns](images/reading-layouts.png "Diagram of Z and F reading patterns")
+
+
 ### White Space
 
 <p>White space separates and groups elements in a dashboard.</p>

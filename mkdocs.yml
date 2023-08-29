@@ -19,14 +19,16 @@ nav:
       - What is open source?: introduction_to_RAP/what-is-open-source.md
   - Dashboard design:
       - dashboard_design/index.md
-      - Building team capability: dashboard_design/building_team_capability.md
-      - Support models: dashboard_design/support-models.md
-      - Thin slice strategy: dashboard_design/thin-slice-strategy.md
-      - Typical engagement flow: dashboard_design/typical-engagement-flow.md
-      - RAP pre-engagement Questionnare: dashboard_design/rap-pre-engagement-questionnaire.md
-      - Programme level reporting: dashboard_design/programme-level-reporting.md
-      - Service design and user research: dashboard_design/service-design-and-user-research.md
-      
+      - Data-ink ratio: dashboard_design/service-design-and-user-research.md
+      - Dashboard layout: dashboard_design/typical-engagement-flow.md
+      - Navigation: dashboard_design/rap-pre-engagement-questionnaire.md
+      - Device Types: dashboard_design/programme-level-reporting.md
+      - Typography: dashboard_design/typography.md
+      - Colours: dashboard_design/support-models.md
+      - Logo: dashboard_design/thin-slice-strategy.md
+      - Filters: dashboard_design/index.md
+      - Tooltips: dashboard_design/index.md
+      - Icons: dashboard_design/index.md
   - QA & Testing:
       - Are you ready for RAP?: implementing_RAP/rap-readiness.md
       - Code review: implementing_RAP/code-review.md
