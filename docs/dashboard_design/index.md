@@ -1,8 +1,7 @@
 # Dashboard design
 
-## Purpose
-
-Design guidelines help us to work together on sophisticated digital products, using a standardised visual language. 
+We convey our visual identity through the products we build. Design guidelines help us to work together on sophisticated digital products, using a standardised visual language. 
+<br>
 These guidelines are for developers, product owners and quality assurance testers working on data visualisation products in the NHS.
 
 ## Benefits
@@ -25,120 +24,42 @@ These design guidelines are useful for:
 <br>
 <p>Design guidelines specify the exact sizing and formatting requirements so that NHS front-end developers can follow the same standards.</p>
 
-!!! tip "TLDR"
-    - **very brief** summary of the main findings
-    - any key links i.e. to forms or other things people need fill in
-    - try to keep it to just three
+## Key Principles
 
-??? question "Why should we care?"
-    - Brief summary of why this is important
-    - any key links of background
-    - We can have a bigger section on this below
+???+ tip "Visual Hierarchy"
+    The first place your eyes go to is the **top of the screen**. 
+    Place important information here for users to easily scan.
 
-??? success "Pre-requisites"
-    * Some information on what someone might need to be familiar with before they can use this page
+### Visual Hierarchy
+<p>Visual Hierarchy is the organisation of design elements by importance. It directs a user's attention to enhance their engagement of the information presented.</p>
+<p>There are two primary <a href="https://99designs.com/blog/tips/visual-hierarchy-landing-page-designs">reading layouts</a>: Z pattern and F pattern.</p>
+<p>A <a href="https://thenextweb.com/news/designing-websites-that-mirror-how-our-eyes-work-part-2">Z-pattern layout</a> draws attention to the top-left corner first before moving to the top right, then down to the bottom left, with the bottom-right corner as the last stop. Each corner has a visual cue (like a logo) or CTA (like a contact button).</p>
+<p> An <a href="https://www.nngroup.com/articles/text-scanning-patterns-eyetracking/2">F-pattern layout</a>, which follows a more crowded pattern leading visitors from left to right and back again, works well for text-heavy pages.</p>
 
-    |Pre-requisite | Importance | Note |
-    |--------------|------------|------|
-    |[Some link to some other guide we have](https://nhsdigital.github.io/rap-community-of-practice/)|Necessary/Helpful|Any comment we have on this|
-    |some other guide|Helpful|another note|
+### White Space
 
-!!! info inline end
-    XKCD comics can also be great at grabbing attention:
+<p>White space separates and groups elements in a dashboard.</p>
+<p>It helps the eye to scan a page for information. Without it, your dashboard will be hard to read. </p>
+<p>Adding white space reinforces the visual hierarchy of your dashboard. It puts the spotlight on the data in your dashboard. </p> 
+<p>Click <a href="https://www.creatopy.com/blog/white-space-in-graphic-design/">here</a> for more examples of using white space in practice. </p>
 
-    ![An amusing comic about marketing](https://imgs.xkcd.com/comics/immune_system.png "An amusing comic about marketing")
+### Contrast
 
-**Don't forget to update the `mkdocs.yml` file to add this page, so it appears in the nav bar!**
+<p>Contrast directs the user's attention to focal point in your dashboard, highlighting important information to achieve impact.</p>
+<p>It is also crucial for practical reasons. For instance, text should have a  <a href="https://www.w3.org/TR/WCAG20-TECHS/G183.html">contrast ratio of at least 3:1</a> to ensure your dashboard is accessible to all users.</p>
+<p>Contrast in size, shape and colour are all important to ensure your dashboard is successful in achieving its specific goal. With no contrast all, you'd just end up with a single colored block for a dashboard!</p> 
 
-Here we need some bit explaining the background of the thing the page is talking about
+### Size and Scale
 
-- keep it brief
-- make it clear what it is and what the benefit is
-- don't go into details of the methods, but perhaps highlight some of the key approaches described below
+<p>Size and scale are used in visual hierarchy to communicate prioritized information. </p>
+<p>Size refers to the physical dimensions of an element, while scale defines its proportion relative to other elements on the page. Large elements generally attract more attention in the hierarchy, while smaller ones are secondary.</p>
+<p>Manipulating the size and scale of your dashboard components creates a sense of perspective, guiding users to focus on the most important information first.</p>
 
-## First subtitle of the main content
-
-Talk about the issue  break it down into steps.
-
-We might even include a little diagram:
-
-```mermaid
-graph LR
-    A[Have an idea] --> B{Make a page};
-    B -->|Pull Request| C[Colleagues Review];
-    C --> D[Feedback];
-    D --> B;
-    B ----->|Approved| E[Publish!];
-```
-
-Consider linking to other pages and try and extract the general concept from language specific implementations, i.e. we could have a pager about "functions", and then link to specific pages on how to do functions in Python and R.
-
-Also, have a look on the following pages to see if they have guidance we could link to, or adapt
-- [Quality Assurance of Code for Analytics](https://best-practice-and-impact.github.io/qa-of-code-guidance/intro.html)
-- [Turing Way](https://the-turing-way.netlify.app/welcome.html)
-- [Central RAP Guidance from GSS](https://analysisfunction.civilservice.gov.uk/support/reproducible-analytical-pipelines/)
-
-## General subsection template
-
-Write some content here
-
-### General subsubsection template
-
-This might be on some specific aspect of the subsection
-
-#### General subsubsubsection template
-
-We might need to get even more specific, but probably wont use this as much!
-
-## Further subtitles
-
-You can include code snippets `inline` or in blocks:
-
-```Python
-    print("hello world")
-```
-
-You might also want to hide large code snippets:
-
-??? example "Some big code snippet"
-    ```Python
-    print("HA, I lied, it's only a small code snippet")
-    ```
-
-!!! note
-    Admonition blocks can be helpful to bring out key points
-
-    See [mkdocs guidance]()
-
-## Further subsections
-
-Continue to work through the subject, but we don't have to make the pages long -  a short page can be just as useful!
-
-You can include pictures, however referencing them requires a few steps back in the directory tree (see below):
-
-![image-alt-text](images/add_file.PNG "Some random picture")
-
-You can also have tabs:
-
-=== "Tab 1"
-    We can put whatever we want in here
-    ```Python
-        def somefunc(a):
-            return None
-    ```
-
-=== "Tab 2"
-    And in here something completely different, such as a diagram
-    ![alt text](images/branch_info.JPG "Some random picture")
-
-## Further Reading
-
-- Provide any useful links people might need to further their learning
 
 ??? info "_External Links Disclaimer_"
 
-    *NHS Digital makes every effort to ensure that external links are accurate, up to date and relevant, however we cannot take responsibility for pages maintained by external providers.*
+    *NHS England makes every effort to ensure that external links are accurate, up to date and relevant, however we cannot take responsibility for pages maintained by external providers.*
 
-    *NHS Digital is not affiliated with any of the websites or companies in the links to external websites.*
+    *NHS England is not affiliated with any of the websites or companies in the links to external websites.*
 
-    *If you come across any external links that do not work, we would be grateful if you could report them by raising an issue on our [RAP Community of Practice GitHub].*
+    *If you come across any external links that do not work, we would be grateful if you could report them by raising an issue on our [Data Viz Community of Practice GitHub](https://github.com/NHSDigital/data-viz-community-of-practice).*
