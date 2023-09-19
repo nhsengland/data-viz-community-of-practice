@@ -14,9 +14,10 @@ nav:
   - Home: index.md
   - About: about.md
   - Dashboard lifecycle:
-      - Why RAP is important: introduction_to_RAP/why_RAP_is_important.md
-      - Levels of RAP: introduction_to_RAP/levels_of_RAP.md
-      - What is open source?: introduction_to_RAP/what-is-open-source.md
+      - dashboard_lifecycle/index.md
+      - Planning cycle: dashboard_lifecycle/planning_cycle.md
+      #- Development steps: dashboard_lifecycle/development_steps.md
+      - Sketches, Wireframes and Prototypes: dashboard_lifecycle/sketches_wireframes_prototypes.md
   - Dashboard design:
       - dashboard_design/index.md
       - Data-ink ratio: dashboard_design/service-design-and-user-research.md
