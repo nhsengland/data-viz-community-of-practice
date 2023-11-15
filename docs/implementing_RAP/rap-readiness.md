@@ -70,4 +70,4 @@ Code can always, always be improved. How good is 'good enough' for your project?
 [4]: ../training_resources/git/intro-to-git.md
 [5]: ../training_resources/R/README.md
 [6]: ../introduction_to_RAP/levels_of_RAP.md
-[7]: ../our_RAP_service/thin-slice-strategy.md
+[7]: ../dashboard_design/thin-slice-strategy.md
