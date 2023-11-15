@@ -3,6 +3,7 @@
 Typefaces are an important element of the NHS identity. The consistent application of NHS typefaces creates a unified brand which patients and the public can trust.</p>
 </div>
 
+
 ## Fonts
 !!! info inline end "Did you know...?"
     Frutiger is the primary typeface of the NHS. However, **Arial should be used in all NHS data products** as Frutiger is not always available!
@@ -10,7 +11,7 @@ Typefaces are an important element of the NHS identity. The consistent applicati
 !!! danger "You must use Arial font"
     - Set your default font to be Arial before starting development
     - Font size should not be smaller than size 10
-    - Use "<u>T</u>itle <u>C</u>ase" for dashboard titles. Else: use "<u>S</u>entence case" 
+    - Use "<ins>T</ins>itle <ins>C</ins>ase" for dashboard titles. Else: use "<ins>S</ins>entence case" 
 
 
 ## Best Practices

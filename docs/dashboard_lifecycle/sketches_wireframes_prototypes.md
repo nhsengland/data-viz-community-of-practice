@@ -4,7 +4,7 @@
 
 From low levels of fidelity sketching to high levels of fidelity prototypes, each has its place in communicating your dashboard ideas to stakeholders and for generating feedback.
 
-![Sketch to Prototype fidelity levels](../images/sketches_to_prototypes.PNG)
+![Sketch to Prototype fidelity levels](images/sketches_to_prototypes.PNG)
 
 Each type is a way to validate or invalidate our asumptions. They simulate the experience we want to deliver without requiring us to build the real thing. You shouldn't worry about making them perfect as long as they communicate the idea and are appropriate for the feedback you are aiming to get.
 
