@@ -19,14 +19,18 @@ nav:
       #- Development steps: dashboard_lifecycle/development_steps.md
       - Sketches, Wireframes and Prototypes: dashboard_lifecycle/sketches_wireframes_prototypes.md
   - Dashboard design:
-      - our_RAP_service/index.md
-      - Building team capability: our_RAP_service/building_team_capability.md
-      - Support models: our_RAP_service/support-models.md
-      - Thin slice strategy: our_RAP_service/thin-slice-strategy.md
-      - Typical engagement flow: our_RAP_service/typical-engagement-flow.md
-      - RAP pre-engagement Questionnare: our_RAP_service/rap-pre-engagement-questionnaire.md
-      - Programme level reporting: our_RAP_service/programme-level-reporting.md
-      - Service design and user research: our_RAP_service/service-design-and-user-research.md
+      - dashboard_design/index.md
+      - Principles: dashboard_design/principles.md
+      - Layout & Navigation: dashboard_design/layout.md
+      - Typography: dashboard_design/typography.md
+      - Colours: dashboard_design/colours.md
+      - Icons & logos: dashboard_design/icons.md
+      - Filters & buttons: dashboard_design/filters.md
+      - KPIs: dashboard_design/kpis.md
+      - Chart types: dashboard_design/chart_types.md
+      - Table design: dashboard_design/tables.md
+      - Tooltips: dashboard_design/tooltips.md
+      - Guidance & info page: dashboard_design/guidance.md
       
   - QA & Testing:
       - Are you ready for RAP?: implementing_RAP/rap-readiness.md
