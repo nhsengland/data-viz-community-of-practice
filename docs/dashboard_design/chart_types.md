@@ -14,7 +14,7 @@ Make sure you are answering intelligent, useful and practical questions with you
 
 
 ### Demonstrate deviation
-![Deviation charts](images/demonstrate_deviation.PNG){ data-title="Demonstrate deviation" data-description=".custom-desc1" data-caption-position="left" data-gallery="deviation"}
+![Deviation charts](images/demonstrate_deviation.PNG){ data-title="Demonstrate deviation" data-description=".custom-desc1" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc1">
     <p>- Diverging bar</p>
     <p>- Surplus/deficit filled line</p>
@@ -23,7 +23,7 @@ Make sure you are answering intelligent, useful and practical questions with you
 </div>
 
 ### Better understand relationships
-![Relationship charts](images/better_understand_relationships.PNG){ data-title="Better understand relationships" data-description=".custom-desc2" data-caption-position="left" data-gallery="relationships"}
+![Relationship charts](images/better_understand_relationships.PNG){ data-title="Better understand relationships" data-description=".custom-desc2" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc2">
     <p>- Line + Column</p>
     <p>- Connected scatter plot</p>
@@ -33,7 +33,7 @@ Make sure you are answering intelligent, useful and practical questions with you
 </div>
 
 ### Understand flow
-![Flow charts](images/understand_flow.PNG){ data-title="Understand flow" data-description=".custom-desc3" data-caption-position="left" data-gallery="flow"}
+![Flow charts](images/understand_flow.PNG){ data-title="Understand flow" data-description=".custom-desc3" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc3">
     <p>- Waterfall</p>
     <p>- Network</p>
@@ -42,7 +42,7 @@ Make sure you are answering intelligent, useful and practical questions with you
 </div>
 
 ### Show rank
-![Rank charts](images/show_rank.png){ data-title="Show rank" data-description=".custom-desc4" data-caption-position="left" data-gallery="rank"}
+![Rank charts](images/show_rank.png){ data-title="Show rank" data-description=".custom-desc4" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc4">
     <p>- Slope</p>
     <p>- Ordered proportional symbol</p>
@@ -55,11 +55,11 @@ Make sure you are answering intelligent, useful and practical questions with you
 ### Analyse trends
 === "Analyse trends"
 
-    ![Trend charts](images/analyse_trends_1.png){data-title="Analyse trends" data-description=".custom-desc5" data-caption-position="left" data-gallery="trends"}
+    ![Trend charts](images/analyse_trends_1.png){data-title="Analyse trends" data-description=".custom-desc5" data-caption-position="left" data-gallery="charts"}
 
 === "continued"
 
-    ![Trend charts](images/analyse_trends_2.png){data-title="Analyse trends continued" data-description=".custom-desc5" data-caption-position="left" data-gallery="trends"}
+    ![Trend charts](images/analyse_trends_2.png){data-title="Analyse trends continued" data-description=".custom-desc5" data-caption-position="left" data-gallery="charts"}
 
 <div class="glightbox-desc custom-desc5">
     <p>- Fan chart</p>
@@ -77,7 +77,7 @@ Make sure you are answering intelligent, useful and practical questions with you
 </div>
 
 ### Understand the distribution
-![Distribution charts](images/understand_distribution.png){data-title="Understand the distribution" data-description=".custom-desc6" data-caption-position="left" data-gallery="distribution"}
+![Distribution charts](images/understand_distribution.png){data-title="Understand the distribution" data-description=".custom-desc6" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc6">
     <p>- Dot plot</p>
     <p>- Barcode plot</p>
@@ -92,11 +92,11 @@ Make sure you are answering intelligent, useful and practical questions with you
 ### Show composition
 === "Show composition"
 
-    ![Composition charts](images/show_composition_1.png){data-title="Show composition" data-description=".custom-desc7" data-caption-position="left" data-gallery="composition"}
+    ![Composition charts](images/show_composition_1.png){data-title="Show composition" data-description=".custom-desc7" data-caption-position="left" data-gallery="charts"}
 
 === "continued"
 
-    ![Composition charts](images/show_composition_2.png){data-title="Show composition continued" data-description=".custom-desc7" data-caption-position="left" data-gallery="composition"}
+    ![Composition charts](images/show_composition_2.png){data-title="Show composition continued" data-description=".custom-desc7" data-caption-position="left" data-gallery="charts"}
 
 <div class="glightbox-desc custom-desc7">
     <p>- Venn diagram</p>
@@ -111,7 +111,7 @@ Make sure you are answering intelligent, useful and practical questions with you
 </div>
 
 ### Demonstrate magnitude
-![Magnitude charts](images/demonstrate_magnitude.png){ data-title="Demonstrate magnitude" data-description=".custom-desc8" data-caption-position="left" data-gallery="magnitude"}
+![Magnitude charts](images/demonstrate_magnitude.png){ data-title="Demonstrate magnitude" data-description=".custom-desc8" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc8">
     <p>- Isotypes</p>
     <p>- Paired bar graph</p>
@@ -124,7 +124,7 @@ Make sure you are answering intelligent, useful and practical questions with you
 </div>
 
 ### Geographical patterns
-![Geographical charts](images/geographical_patterns.png){ data-title="Geographical patterns" data-description=".custom-desc9" data-caption-position="left" data-gallery="geographical"}
+![Geographical charts](images/geographical_patterns.png){ data-title="Geographical patterns" data-description=".custom-desc9" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc9">
     <p>- Flow map</p>
     <p>- Basic choropleth</p>
