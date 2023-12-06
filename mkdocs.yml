@@ -106,6 +106,7 @@ markdown_extensions:
       custom_checkbox: true
   - tables
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -142,3 +143,5 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 watch:
   - overrides
+plugins:
+  - glightbox

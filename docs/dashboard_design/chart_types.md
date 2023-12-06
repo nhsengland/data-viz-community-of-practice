@@ -12,125 +12,129 @@ The same numbers can be shown in several ways, it is up to you to select the one
 
 Make sure you are answering intelligent, useful and practical questions with your charts; consider quality not quantity. Use your questions as a starting point to help you think about the most appropriate chart type. We have provided flow charts to help you make the right decision based on your data and your product's purpose.
 
-!!! danger inline "demonstrate deviation"
 
-    - Diverging bar
-    - Surplus/deficit filled line
-    - Diverging stacked bar
-    - Spine chart
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+### Demonstrate deviation
+![Deviation charts](images/demonstrate_deviation.PNG){ data-title="Demonstrate deviation" data-description=".custom-desc1" data-caption-position="left" data-gallery="deviation"}
+<div class="glightbox-desc custom-desc1">
+    <p>- Diverging bar</p>
+    <p>- Surplus/deficit filled line</p>
+    <p>- Diverging stacked bar</p>
+    <p>- Spine chart</p>
+</div>
 
-!!! danger inline end "understand flow"
+### Better understand relationships
+![Relationship charts](images/better_understand_relationships.PNG){ data-title="Better understand relationships" data-description=".custom-desc2" data-caption-position="left" data-gallery="relationships"}
+<div class="glightbox-desc custom-desc2">
+    <p>- Line + Column</p>
+    <p>- Connected scatter plot</p>
+    <p>- Scatter plot</p>
+    <p>- Bubble chart</p>
+    <p>- XY heatmap</p>
+</div>
 
-    - Waterfall
-    - Network
-    - Chord
-    - Sankey
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+### Understand flow
+![Flow charts](images/understand_flow.PNG){ data-title="Understand flow" data-description=".custom-desc3" data-caption-position="left" data-gallery="flow"}
+<div class="glightbox-desc custom-desc3">
+    <p>- Waterfall</p>
+    <p>- Network</p>
+    <p>- Chord</p>
+    <p>- Sankey</p>
+</div>
 
-!!! danger "better understand relationships"
+### Show rank
+![Rank charts](images/show_rank.png){ data-title="Show rank" data-description=".custom-desc4" data-caption-position="left" data-gallery="rank"}
+<div class="glightbox-desc custom-desc4">
+    <p>- Slope</p>
+    <p>- Ordered proportional symbol</p>
+    <p>- Bar graph</p>
+    <p>- Lollipop chart</p>
+    <p>- Column graph</p>
+    <p>- Bullet graph/Dot strip</p>
+</div>
 
-    - Line + Column
-    - Connected scatter plot
-    - Scatter plot
-    - Bubble chart
-    - XY heatmap
+### Analyse trends
+=== "Analyse trends"
 
-<br>
-[comment]: <> (break is fixing grid format when windowed!!)
+    ![Trend charts](images/analyse_trends_1.png){data-title="Analyse trends" data-description=".custom-desc5" data-caption-position="left" data-gallery="trends"}
 
-!!! danger inline "show rank"
+=== "continued"
 
-    - Slope
-    - Ordered proportional symbol
-    - Bar graph
-    - Lollipop chart
-    - Column graph
-    - Bullet graph/Dot strip
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+    ![Trend charts](images/analyse_trends_2.png){data-title="Analyse trends continued" data-description=".custom-desc5" data-caption-position="left" data-gallery="trends"}
 
-!!! danger inline end "understand the distribution"
+<div class="glightbox-desc custom-desc5">
+    <p>- Fan chart</p>
+    <p>- Calendar heatmap</p>
+    <p>- Priestly timeline</p>
+    <p>- Circle timeline</p>
+    <p>- Area chart</p>
+    <p>- Dual-axis chart</p>
+    <p>- Connected scatter plot</p>
+    <p>- Stock price</p>
+    <p>- Slope</p>
+    <p>- Line graph</p>
+    <p>- Column chart</p>
+    <p>- Seismogram</p>
+</div>
 
-    - Dot plot
-    - Barcode plot
-    - Dot strip plot
-    - Box plot
-    - Violin plot
-    - Histogram
-    - Population pyramid
-    - Cumulative curve
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
-    <p>&nbsp;</p>
+### Understand the distribution
+![Distribution charts](images/understand_distribution.png){data-title="Understand the distribution" data-description=".custom-desc6" data-caption-position="left" data-gallery="distribution"}
+<div class="glightbox-desc custom-desc6">
+    <p>- Dot plot</p>
+    <p>- Barcode plot</p>
+    <p>- Dot strip plot</p>
+    <p>- Box plot</p>
+    <p>- Violin plot</p>
+    <p>- Histogram</p>
+    <p>- Population pyramid</p>
+    <p>- Cumulative curve</p>
+</div>
 
-!!! danger "analyse trends"
+### Show composition
+=== "Show composition"
 
-    - Fan chart
-    - Calendar heatmap
-    - Priestly timeline
-    - Circle timeline
-    - Area chart
-    - Dual-axis chart
-    - Connected scatter plot
-    - Stock price
-    - Slope
-    - Line graph
-    - Column chart
-    - Seismogram
+    ![Composition charts](images/show_composition_1.png){data-title="Show composition" data-description=".custom-desc7" data-caption-position="left" data-gallery="composition"}
 
-<br>
-[comment]: <> (break is fixing grid format when windowed!!)
+=== "continued"
 
-!!! danger inline "show composition"
+    ![Composition charts](images/show_composition_2.png){data-title="Show composition continued" data-description=".custom-desc7" data-caption-position="left" data-gallery="composition"}
 
-    - Venn diagram
-    - Stacked proportional bar
-    - Stacked column
-    - Tree map
-    - Sunburst
-    - Waterfall chart
-    - Grid plot
-    - Arc/pie chart
-    - Donut chart
+<div class="glightbox-desc custom-desc7">
+    <p>- Venn diagram</p>
+    <p>- Stacked proportional bar</p>
+    <p>- Stacked column</p>
+    <p>- Tree map</p>
+    <p>- Sunburst</p>
+    <p>- Waterfall chart</p>
+    <p>- Grid plot</p>
+    <p>- Arc/pie chart</p>
+    <p>- Donut chart</p>
+</div>
 
-!!! danger inline end "geographical patterns"
+### Demonstrate magnitude
+![Magnitude charts](images/demonstrate_magnitude.png){ data-title="Demonstrate magnitude" data-description=".custom-desc8" data-caption-position="left" data-gallery="magnitude"}
+<div class="glightbox-desc custom-desc8">
+    <p>- Isotypes</p>
+    <p>- Paired bar graph</p>
+    <p>- Paired column graph</p>
+    <p>- Parallel coordinates</p>
+    <p>- Bar graph</p>
+    <p>- Column graph</p>
+    <p>- Lollipop chart</p>
+    <p>- Radar chart</p>
+</div>
 
-    - Flow map
-    - Basic choropleth
-    - Proportional symbol
-    - Contour map
-    - Heat map
-    - Dot density
-    - Scaled cartogram
-    - Equalized cartogram
-    <p>&nbsp;</p>
-
-!!! danger "demonstrate magnitude"
-
-    - Isotypes
-    - Paired bar graph
-    - Paired column graph
-    - Parallel coordinates
-    - Bar graph
-    - Column graph
-    - Lollipop chart
-    - Radar chart
-
-<br>
-[comment]: <> (break is fixing grid format when windowed!!)
-
-
-## Data maps
-
-## Showing national standards
+### Geographical patterns
+![Geographical charts](images/geographical_patterns.png){ data-title="Geographical patterns" data-description=".custom-desc9" data-caption-position="left" data-gallery="geographical"}
+<div class="glightbox-desc custom-desc9">
+    <p>- Flow map</p>
+    <p>- Basic choropleth</p>
+    <p>- Proportional symbol</p>
+    <p>- Contour map</p>
+    <p>- Heat map</p>
+    <p>- Dot density</p>
+    <p>- Scaled cartogram</p>
+    <p>- Equalized cartogram</p>
+</div>
 
 !!! note "Useful links"
 
@@ -139,3 +143,70 @@ Make sure you are answering intelligent, useful and practical questions with you
     - How to choose the right chart for your data - Infogram
 
     - Choosing the right chart
+[comment]: <> (need actual links to add in!!)
+
+
+## Data maps
+
+Removing as much clutter as possible removes potential distractions from your data and makes everything easier to read.
+
+!!! tip inline "Best practice"
+    Forgo 'chart-junk'
+
+    - For filled maps, you can get rid of everything in the map by setting washout to 100% in map layers
+
+    - For unfilled maps, uncheck base to remove the water colour
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+![Uncluttered map in Tableau](images/uncluttered_tableau_map.png){: width="63%" data-gallery="map"}
+
+!!! note "Useful links"
+
+    - See how data mapping has halted the epidemic - John Snow's cholera map
+[comment]: <> (need actual links to add in!!)
+
+
+## Showing national standards
+
+National standards should be clearly labelled in charts wherever applicable. They should be shown with a black dashed (not dotted) line and "standard = n%" label.
+
+<figure markdown>
+  ![National standards](images/national_standards_chart.png){data-gallery="national"}
+</figure>
+
+
+## SPC charts
+
+Approaches popular in the NHS, such as red, amber, green (RAG) rating and two point comparisions, have limitations for good decision-making.
+
+<figure markdown>
+  ![RAG table](images/specialty_rtt_performance_table.png){data-gallery="rtt"}
+  <figcaption>An example RAG table</figcaption>
+</figure>
+
+The table above contains a lot of data but key messages such as "Are we improving or declining?" are very hard to determine.
+These two specialities when viewed as an SPC chart with more data, show a more informative picture.
+Clearly, conversations with these two specialties should be different, something the RAG table would not have suggested.
+
+<figure markdown>
+  ![SPC chart](images/spc_chart.png){data-gallery="rtt"}
+  <figcaption>An example SPC chart</figcaption>
+</figure>
+
+SPC charts will allow you to understand when something statistically significant is happening, caused by an external factor, rather than the natural variation of the system.
+SPC can help to avoid tampering and the costs associated with it.
+It can also help you to determine if, given the variance of the system, a target can be met and how reliably.
+This will help to guide you when a system needs a complete re-design, an improvement cycle, or is in fact capable.
+You can use SPC anywhere you have a metric that displays variance in between a time period. The data does not have to have a normal distribution.
+
+**Caution:** Although there are many benefits to using SPC charts, they should also be applied with caution.
+If there are situations where your data set displays seasonality, autocorrelation or small data sets, then additional research on how to construct an SPC accurately is necessary.
+Caution should also be taken with users, as interpreting an SPC chart not only requires understanding on how to interpret SPC charts, but a proper knowledge of the data and it's relationship with other information to avoid incorrect conclusions. Consider whether including SPC will benefit the conversation.
+
+!!! note "Useful links"
+
+    - NHS England > Making data count
+[comment]: <> (need actual links to add in!!)
