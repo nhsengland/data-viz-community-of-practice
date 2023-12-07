@@ -16,40 +16,48 @@ Make sure you are answering intelligent, useful and practical questions with you
 ### Demonstrate deviation
 ![Deviation charts](images/demonstrate_deviation.PNG){ data-title="Demonstrate deviation" data-description=".custom-desc1" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc1">
-    <p>- Diverging bar</p>
-    <p>- Surplus/deficit filled line</p>
-    <p>- Diverging stacked bar</p>
-    <p>- Spine chart</p>
+<ul>
+    <li>Diverging bar</li>
+    <li>Surplus/deficit filled line</li>
+    <li>Diverging stacked bar</li>
+    <li>Spine chart</li>
+</ul>
 </div>
 
 ### Better understand relationships
 ![Relationship charts](images/better_understand_relationships.PNG){ data-title="Better understand relationships" data-description=".custom-desc2" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc2">
-    <p>- Line + Column</p>
-    <p>- Connected scatter plot</p>
-    <p>- Scatter plot</p>
-    <p>- Bubble chart</p>
-    <p>- XY heatmap</p>
+<ul>
+    <li>Line + Column</li>
+    <li>Connected scatter plot</li>
+    <li>Scatter plot</li>
+    <li>Bubble chart</li>
+    <li>XY heatmap</li>
+</ul>
 </div>
 
 ### Understand flow
 ![Flow charts](images/understand_flow.PNG){ data-title="Understand flow" data-description=".custom-desc3" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc3">
-    <p>- Waterfall</p>
-    <p>- Network</p>
-    <p>- Chord</p>
-    <p>- Sankey</p>
+<ul>
+    <li>Waterfall</li>
+    <li>Network</li>
+    <li>Chord</li>
+    <li>Sankey</li>
+</ul>
 </div>
 
 ### Show rank
 ![Rank charts](images/show_rank.png){ data-title="Show rank" data-description=".custom-desc4" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc4">
-    <p>- Slope</p>
-    <p>- Ordered proportional symbol</p>
-    <p>- Bar graph</p>
-    <p>- Lollipop chart</p>
-    <p>- Column graph</p>
-    <p>- Bullet graph/Dot strip</p>
+<ul>
+    <li>Slope</li>
+    <li>Ordered proportional symbol</li>
+    <li>Bar graph</li>
+    <li>Lollipop chart</li>
+    <li>Column graph</li>
+    <li>Bullet graph/Dot strip</li>
+</ul>
 </div>
 
 ### Analyse trends
@@ -62,31 +70,35 @@ Make sure you are answering intelligent, useful and practical questions with you
     ![Trend charts](images/analyse_trends_2.png){data-title="Analyse trends continued" data-description=".custom-desc5" data-caption-position="left" data-gallery="charts"}
 
 <div class="glightbox-desc custom-desc5">
-    <p>- Fan chart</p>
-    <p>- Calendar heatmap</p>
-    <p>- Priestly timeline</p>
-    <p>- Circle timeline</p>
-    <p>- Area chart</p>
-    <p>- Dual-axis chart</p>
-    <p>- Connected scatter plot</p>
-    <p>- Stock price</p>
-    <p>- Slope</p>
-    <p>- Line graph</p>
-    <p>- Column chart</p>
-    <p>- Seismogram</p>
+<ul>
+    <li>Fan chart</li>
+    <li>Calendar heatmap</li>
+    <li>Priestly timeline</li>
+    <li>Circle timeline</li>
+    <li>Area chart</li>
+    <li>Dual-axis chart</li>
+    <li>Connected scatter plot</li>
+    <li>Stock price</li>
+    <li>Slope</li>
+    <li>Line graph</li>
+    <li>Column chart</li>
+    <li>Seismogram</li>
+</ul>
 </div>
 
 ### Understand the distribution
 ![Distribution charts](images/understand_distribution.png){data-title="Understand the distribution" data-description=".custom-desc6" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc6">
-    <p>- Dot plot</p>
-    <p>- Barcode plot</p>
-    <p>- Dot strip plot</p>
-    <p>- Box plot</p>
-    <p>- Violin plot</p>
-    <p>- Histogram</p>
-    <p>- Population pyramid</p>
-    <p>- Cumulative curve</p>
+<ul>
+    <li>Dot plot</li>
+    <li>Barcode plot</li>
+    <li>Dot strip plot</li>
+    <li>Box plot</li>
+    <li>Violin plot</li>
+    <li>Histogram</li>
+    <li>Population pyramid</li>
+    <li>Cumulative curve</li>
+</ul>
 </div>
 
 ### Show composition
@@ -99,41 +111,47 @@ Make sure you are answering intelligent, useful and practical questions with you
     ![Composition charts](images/show_composition_2.png){data-title="Show composition continued" data-description=".custom-desc7" data-caption-position="left" data-gallery="charts"}
 
 <div class="glightbox-desc custom-desc7">
-    <p>- Venn diagram</p>
-    <p>- Stacked proportional bar</p>
-    <p>- Stacked column</p>
-    <p>- Tree map</p>
-    <p>- Sunburst</p>
-    <p>- Waterfall chart</p>
-    <p>- Grid plot</p>
-    <p>- Arc/pie chart</p>
-    <p>- Donut chart</p>
+<ul>
+    <li>Venn diagram</li>
+    <li>Stacked proportional bar</li>
+    <li>Stacked column</li>
+    <li>Tree map</li>
+    <li>Sunburst</li>
+    <li>Waterfall chart</li>
+    <li>Grid plot</li>
+    <li>Arc/pie chart</li>
+    <li>Donut chart</li>
+</ul>
 </div>
 
 ### Demonstrate magnitude
 ![Magnitude charts](images/demonstrate_magnitude.png){ data-title="Demonstrate magnitude" data-description=".custom-desc8" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc8">
-    <p>- Isotypes</p>
-    <p>- Paired bar graph</p>
-    <p>- Paired column graph</p>
-    <p>- Parallel coordinates</p>
-    <p>- Bar graph</p>
-    <p>- Column graph</p>
-    <p>- Lollipop chart</p>
-    <p>- Radar chart</p>
+<ul>
+    <li>Isotypes</li>
+    <li>Paired bar graph</li>
+    <li>Paired column graph</li>
+    <li>Parallel coordinates</li>
+    <li>Bar graph</li>
+    <li>Column graph</li>
+    <li>Lollipop chart</li>
+    <li>Radar chart</li>
+</ul>
 </div>
 
 ### Geographical patterns
 ![Geographical charts](images/geographical_patterns.png){ data-title="Geographical patterns" data-description=".custom-desc9" data-caption-position="left" data-gallery="charts"}
 <div class="glightbox-desc custom-desc9">
-    <p>- Flow map</p>
-    <p>- Basic choropleth</p>
-    <p>- Proportional symbol</p>
-    <p>- Contour map</p>
-    <p>- Heat map</p>
-    <p>- Dot density</p>
-    <p>- Scaled cartogram</p>
-    <p>- Equalized cartogram</p>
+<ul>
+    <li>Flow map</li>
+    <li>Basic choropleth</li>
+    <li>Proportional symbol</li>
+    <li>Contour map</li>
+    <li>Heat map</li>
+    <li>Dot density</li>
+    <li>Scaled cartogram</li>
+    <li>Equalized cartogram</li>
+</ul>
 </div>
 
 !!! note "Useful links"
@@ -186,6 +204,79 @@ Approaches popular in the NHS, such as red, amber, green (RAG) rating and two po
   ![RAG table](images/specialty_rtt_performance_table.png){data-gallery="rtt"}
   <figcaption>An example RAG table</figcaption>
 </figure>
+<!-- 
+Specialty RTT Performance (Target: 92.0%)
+<table border="1" style="font-size:50%;">
+    <tr>
+        <th>
+            Specialty Performance
+        </th>
+        <th>
+            Jul-18
+        </th>
+        <th>
+            Aug-18
+        </th>
+        <th>
+            Sep-18
+        </th>
+        <th>
+            Oct-18
+        </th>
+        <th>
+            Trend
+        </th>
+        <th>
+            Trend
+        </th>
+    </tr>
+    <tr>
+        <td>
+            General Surgery
+        </td>
+        <td bgcolor="#DA291C">
+            87.5%
+        </td>
+        <td bgcolor="#DA291C">
+            89.0%
+        </td>
+        <td bgcolor="#DA291C">
+            87.1%
+        </td>
+        <td bgcolor="#DA291C">
+            90.4%
+        </td>
+        <td bgcolor="#DA291C" style="text-align: center">
+            &#8595;
+        </td>
+        <td bgcolor="#DA291C">
+            -0.9%
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Rheumatology
+        </td>
+        <td bgcolor="#DA291C">
+            76.0%
+        </td>
+        <td bgcolor="#DA291C">
+            74.1%
+        </td>
+        <td bgcolor="#DA291C">
+            71.5%
+        </td>
+        <td bgcolor="#DA291C">
+            74.9%
+        </td>
+        <td bgcolor="#DA291C" style="text-align: center">
+            &#8595;
+        </td>
+        <td bgcolor="#DA291C">
+            -0.1%
+        </td>
+    </tr>
+</table> -->
 
 The table above contains a lot of data but key messages such as "Are we improving or declining?" are very hard to determine.
 These two specialities when viewed as an SPC chart with more data, show a more informative picture.
