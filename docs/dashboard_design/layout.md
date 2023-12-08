@@ -16,19 +16,23 @@ Our Tableau developers should build their dashboard pages from beneath the web w
 
 ## Navigation
 
-### Tabs as navigation
+
+**Tabs as navigation**
 
 Including default tabs is the quickest, easiest way to allow users to navigate the dashboard. They are used in many products so users will be accustomed to using them naturally and they maximise space simply. We would advise this method. It is ideal not to have more than eight tabs.
 
-### KPIs / Visualisation as navigation
+
+**KPIs / Visualisation as navigation**
 
 Users should be able to navigate through dashboards by clicking on the KPIs or on any areas within the visualisations.
 
-### Hyperlinks
+
+**Hyperlinks**
 
 Add hyperlinks to websites with more information (such as the HES Data Dictionary or published data on the NHS England website) or on the cover/about page.
 
-### Buttons as navigation
+
+**Buttons as navigation**
 
 Buttons could be used as a navigation, but we recommend using tabs wherever possible.
 
@@ -50,17 +54,80 @@ Buttons could be used as a navigation, but we recommend using tabs wherever poss
 [comment]: <> (need actual links to add in!!)
 
 
+
 ## Page layout
-### Heading & Intro
+
+Layout done perfectly, will be invisible to the user. Layout done badly may be the only thing they see.
+
+**Titles and subtitles**
+
+For easy identification and navigation, every tab should show the workbook title (NHS Grey1, 24pt, Arial, title case), and the subtitle which matches the tab name (Black, 24pt, Arial, sentence case), with a black hypen with spaces either side between the two names. A brief description of what the tab is showing can be added.
+
+**Data refresh date**
+
+The data refresh date should be shown on the right side of the title and subtitle
+
+**Margins**
+
+Left, top and right margins should be 32 pixels. The bottom of each page should show an NHS Blue line (height = 2 pixels) and contact information.
+Additional information on latest data available is an optional extra.
+
+**NHS identity**
+
+NHS logo should be 75 x 40 pixels, witha top and right hand side margin of 32 pixels.
+
+
+<figure markdown>
+  ![Page layout](images/page_layout.png){data-title="Page header layout" data-caption-position="top" data-gallery="page"}
+</figure>
+
+
+!!! note "Useful links"
+
+    - Tableau template download link
+[comment]: <> (need actual links to add in!!)
 
 
 
 ## Dashboard layout
 
+The following page template is used across the product, particularly for report pages. it is best practice to use a Z-formation, like how you would read a book.
+
+<figure markdown>
+  ![Z layout examples](images/z_layout.png){data-title="Z layout examples" data-caption-position="top" data-gallery="z"}
+</figure>
+
+!!! danger "General rules"
+
+    ![Finished layout](images/full_page_layout.png){: width="50%" data-title="Full page layout" data-caption-position="top" data-gallery="full" align=right}
+
+    - 32px margin on left and right sides of the dashboard.
+
+    - 16px padding on top, bottom, left and right of the card.
+
+    - 32px spacing between cards on the dashboard.
+
+    - Minimum font size 11px or 11pt.
+
+    - Utilise various weights to establish a hierarchy. Be consistent in size, boldness and colour.
+
+    - Workbook name should be in title case.
+
+    - Filters should be in sentence case.
+
+    - Place filters horizontally under the dashboard title if you only have a few.
+
+    - Dashboard background colour #F0F4F5 (NHS Grey 5).
+
+    - If we are using multiple cards in a single row (side by side) make sure they are of the same height.
+
+    - If the viz is going to show more data (more lines/bars) use the full wifth card so it helps the user to digest information quickly.
+
+
 
 ## Adaptive webview or fixed view
 
-### Fitting
+**Fitting**
 
 The sheet size that fits in a Tableau workbook during development is different from what it will look like once published, and may be different from how it will fit on screens with different resolutions.
 
@@ -71,7 +138,7 @@ The sheet size that fits in a Tableau workbook during development is different f
 | Greater than 800 pixels                | Desktop                       |
 
 
-### Scroll bars
+**Scroll bars**
 
 In general you should try to avoid scroll bars in your products. However, where the use of a scroll bar is necessary, ensure that there is only one scroll bar on your dashboard either vertical or horizontal.
 
@@ -84,7 +151,7 @@ Not two vertical scroll bars (one applied for the browser and the second one app
 
 ### Control overall dashboard size
 
-#### Fixed
+**Fixed**
 
 ![Fixed layout](images/fixed_layout.png){: height="100px" data-title="Fixed layout" data-caption-position="top" data-gallery="layout" align=right}
 
@@ -97,7 +164,7 @@ If the dashboard is larger than the window, it becomes scrollable.
 
 
 
-#### Range
+**Range**
 
 ![Range layout](images/range_layout.png){: height="100px" data-title="Range layout" data-caption-position="top" data-gallery="layout" align=right}
 
@@ -109,7 +176,7 @@ If it is larger than the maximum size, white space is displayed.
 - Use this setting when you are designing for two different display sizes that need the same content and have similar shapes - such as small and medium sized browser windows.
 
 
-#### Automatic
+**Automatic**
 
 ![Automatic layout](images/auto_layout.png){: height="100px" data-title="Automatic layout" data-caption-position="top" data-gallery="layout"  align=right}
 
@@ -121,7 +188,7 @@ If it is larger than the maximum size, white space is displayed.
 <br>
 
 
-### Different views on Tableau
+### Different device views on Tableau
 
 Tableau gives you the option to create different views based on a user's device.
 
