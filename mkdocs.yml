@@ -21,7 +21,7 @@ nav:
   - Dashboard design:
       - dashboard_design/index.md
       - Principles: dashboard_design/principles.md
-      - Layout & Navigation: dashboard_design/layout.md
+      - Layout & navigation: dashboard_design/layout.md
       - Typography: dashboard_design/typography.md
       - Colours: dashboard_design/colours.md
       - Icons & logos: dashboard_design/icons.md
