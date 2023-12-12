@@ -5,6 +5,27 @@
 ## Data-ink ratio
 [comment]: <> (merge section with white space section below once complete with pdf guide info)
 
+> Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
+
+> **Antoine de Saint-Exupery**
+
+
+**Definition**
+
+The data-ink ratio is a concept introduced by Edward Tufte.
+He refers to data-ink as the non-erasable ink used for the presentation of data.
+If data-ink would be removed from the image, the graphic would lose the content.
+The non-erasable portion of a graph is subjective, so Tufte follows up his principal of data-ink with the five laws of data-ink.
+
+!!! danger "Five laws of data-ink"
+
+        1. Above all else show the data
+        2. Maximise the data-ink ratio
+        3. Erase non-data ink
+        4. Erase redundant data-ink
+        5. Revise and edit
+
+![Reducing data-ink](https://images.squarespace-cdn.com/content/v1/56713bf4dc5cb41142f28d1f/1450306653111-70K5IT30R69NWPDIE1ZJ/data-ink.gif)
 
 ## Naming conventions
 
