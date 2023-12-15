@@ -59,13 +59,23 @@ Buttons could be used as a navigation, but we recommend using tabs wherever poss
 
 Layout done perfectly, will be invisible to the user. Layout done badly may be the only thing they see.
 
+The top of the page should be split into two main sections.
+In Tableau, these two sections would each be in a separate container sat within an overall top of page horizontal container.
+
+On the left should be the dashboard title, subtitle if used, a brief dashboard description and an alert/message banner if needed.
+This section should be no more than 1200px.
+
+On the right should be the NHS logo and any data refresh information. This section should be a fixed width of 300px.
+
+[comment]: <> (add in NHS App dashboard example pic + text aboce as caption!)
+
 **Titles and subtitles**
 
 For easy identification and navigation, every tab should show the workbook title (NHS Grey1, 24pt, Arial, title case), and the subtitle which matches the tab name (Black, 24pt, Arial, sentence case), with a black hypen with spaces either side between the two names. A brief description of what the tab is showing can be added.
 
 **Data refresh date**
 
-The data refresh date should be shown on the right side of the title and subtitle
+The data refresh date should be shown on the right side of the title and subtitle.
 
 **Margins**
 
@@ -199,7 +209,7 @@ Tableau gives you the option to create different views based on a user's device.
 
 ??? tip "Desktop (range above 800 pixels)"
 
-    - If the user is looking at the dashboard in a browser that is less than 12000 pixels width then a horizontal scroll bar should appear.
+    - If the user is looking at the dashboard in a browser that is less than 1200 pixels width then a horizontal scroll bar should appear.
 
     - If the user is viewing the dashboard in a browser that is wider than 1920 pixels, then the dashboard has to be centre aligned to the screen by leaving space on either side.
 
