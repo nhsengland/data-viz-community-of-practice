@@ -13,8 +13,7 @@ There are two primary [reading layouts](https://99designs.com/blog/tips/visual-h
 
 A [Z-pattern layout](https://thenextweb.com/news/designing-websites-that-mirror-how-our-eyes-work-part-2) draws attention to the top-left corner first before moving to the top right, then down to the bottom left, with the bottom-right corner as the last stop. Each corner has a visual cue (like a logo) or CTA (like a contact button).
 
-An [F-pattern layout](https://www.nngroup.com/articles/text-scanning-patterns-eyetracking/2), which follows a more crowded pattern leading visitors from left to right and back again, works well for text-heavy pages.
-[comment]: <> (link above is broken - replace with new link)
+An [F-pattern layout](https://digital-freelancer.org/blog/f-shaped-pattern-explained), which follows a more crowded pattern leading visitors from left to right and back again, works well for text-heavy pages.
 
 ![Diagram of Z and F reading patterns](images/reading-layouts.png "Diagram of Z and F reading patterns"){data-title="Diagram of Z and F reading patterns" data-caption-position="top"}
 
@@ -92,15 +91,6 @@ Size refers to the physical dimensions of an element, while scale defines its pr
 Manipulating the size and scale of your dashboard components creates a sense of perspective, guiding users to focus on the most important information first.
 
 
-??? info "_External Links Disclaimer_"
-
-    *NHS England makes every effort to ensure that external links are accurate, up to date and relevant, however we cannot take responsibility for pages maintained by external providers.*
-
-    *NHS England is not affiliated with any of the websites or companies in the links to external websites.*
-
-    *If you come across any external links that do not work, we would be grateful if you could report them by raising an issue on our [Data Viz Community of Practice GitHub](https://github.com/NHSDigital/data-viz-community-of-practice).*
-
-
 
 ## Naming conventions
 
@@ -168,3 +158,12 @@ Try adding information such as:
 
 The data quality page and metric descriptions page can be combined into one metric information page.
 
+
+
+??? info "_External Links Disclaimer_"
+
+    *NHS England makes every effort to ensure that external links are accurate, up to date and relevant, however we cannot take responsibility for pages maintained by external providers.*
+
+    *NHS England is not affiliated with any of the websites or companies in the links to external websites.*
+
+    *If you come across any external links that do not work, we would be grateful if you could report them by raising an issue on our [Data Viz Community of Practice GitHub](https://github.com/NHSDigital/data-viz-community-of-practice).*
