@@ -21,7 +21,7 @@ nav:
   - Dashboard design:
       - dashboard_design/index.md
       - Principles: dashboard_design/principles.md
-      - Layout & Navigation: dashboard_design/layout.md
+      - Layout & navigation: dashboard_design/layout.md
       - Typography: dashboard_design/typography.md
       - Colours: dashboard_design/colours.md
       - Icons & logos: dashboard_design/icons.md
@@ -106,6 +106,7 @@ markdown_extensions:
       custom_checkbox: true
   - tables
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
@@ -142,3 +143,5 @@ extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 watch:
   - overrides
+plugins:
+  - glightbox
