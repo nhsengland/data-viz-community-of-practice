@@ -67,6 +67,26 @@ code {
   margin: 1vh;
 }
 
+.colour-grid {
+  display:grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  justify-items: center;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.colour-div {
+  width:200px;
+  height:200px;
+}
+
+@media screen and (max-width: 600px) {
+  .colour-div {
+    width:150px; 
+    height:150px;
+  }
+}
+
 .legal {
   color: #999;
   font-size: 14px;

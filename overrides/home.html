@@ -24,7 +24,7 @@
 
   #hero-img {
     float: right;
-    object-fit: cover;
+    object-fit: scale-down;
     min-height: 600px;
   }
 
@@ -170,7 +170,7 @@
       <div class="hero-image">
         <img
           id="hero-img"
-          src="images/Staff_hot_desking_in_the_HUB_01.jpeg"
+          src="images/nhs-tableau-templates.png"
           draggable="false"
         />
       </div>
@@ -192,8 +192,8 @@
         </a>
 
         <a
-          href="https://github.com/NHSDigital/data-analytics-services"
-          title="data-analytics-services"
+          href="https://github.com/NHSDigital/data-viz-community-of-practice"
+          title="data-viz-community-of-practice"
           class="md-button"
         >
           See our work
@@ -205,7 +205,7 @@
 
 <!-- Main site box descriptions -->
 <div class="top-hr">
-  <a href="introduction_to_RAP/why_RAP_is_important" class="feature-item">
+  <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="feature-item">
     <h2>
       <svg
         viewBox="-2 -2 24.00 24.00"
@@ -228,13 +228,13 @@
         </g>
       </svg>
 
-      Introduction to RAP
+      Introduction to NHS Data Viz
     </h2>
 
-    <p>Why its important, the benefits and breaking it down into levels.</p>
+    <p>Why its important, the benefits and how you can support.</p>
   </a>
 
-  <a href="our_RAP_service" class="feature-item">
+  <a href="dashboard_lifecycle/index" class="feature-item">
     <h2>
       <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -257,13 +257,13 @@
         </g>
       </svg>
 
-      Our RAP service
+      Dashboard Design
     </h2>
 
-    <p>How we roll out the RAP Champion service in NHSE.</p>
+    <p>Check out our Style Guide for the latest best practice in dashboard design.</p>
   </a>
 
-  <a href="implementing_RAP/rap-readiness" class="feature-item">
+  <a href="dashboard_design/index" class="feature-item">
     <h2>
       <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
         <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
@@ -288,13 +288,13 @@
         </g>
       </svg>
 
-      Implementing RAP
+      NHS Tableau Templates
     </h2>
 
-    <p>Broad guidance on the elements of RAP and how to get ready for them.</p>
+    <p>Speed up your development by downloading our NHS Tableau Templates.</p>
   </a>
 
-  <a href="training_resources/git/intro-to-git" class="feature-item">
+  <a href="https://github.com/NHSDigital/data-viz-community-of-practice/blob/main/Dashboard%20Template%20Guidance.md" class="feature-item">
     <h2>
       <svg
         viewBox="-4 -4 28.00 28.00"
@@ -339,7 +339,7 @@
       Training Resources
     </h2>
 
-    <p>Our technical guidance on Git, Python and more!</p>
+    <p>Our technical guidance on Tableau, PowerBI and more!</p>
   </a>
 </div>
 
