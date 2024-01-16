@@ -60,6 +60,7 @@ Buttons could be used as a navigation, but we recommend using tabs wherever poss
 > Layout done perfectly, will be invisible to the user. Layout done badly may be the only thing they see.
 
 The following page template is used across the product, particularly for report pages. it is best practice to use a Z-formation, like how you would read a book.
+For more details see [here](principles.md#visual-hierarchy).
 
 <figure markdown>
   ![Z layout examples](images/z_layout.png){data-title="Z layout examples" data-caption-position="top" data-gallery="z"}
@@ -67,7 +68,6 @@ The following page template is used across the product, particularly for report 
 
 !!! danger "General rules"
 
-    ![Finished layout](images/full_page_layout.png){: width="50%" data-title="Full page layout" data-caption-position="top" data-gallery="full" align=right}
 
     - 32px margin on left and right sides of the dashboard.
 
@@ -91,6 +91,7 @@ The following page template is used across the product, particularly for report 
 
     - If the viz is going to show more data (more lines/bars) use the full wifth card so it helps the user to digest information quickly.
 
+    ![Finished layout](images/full_page_layout.png){data-title="Full page layout" data-caption-position="top" data-gallery="full"}
 
 ### Header section
 <!-- <figure markdown>
