@@ -31,6 +31,7 @@ nav:
       - Table design: dashboard_design/tables.md
       - Tooltips: dashboard_design/tooltips.md
       - Guidance & info page: dashboard_design/guidance.md
+      - Download templates: dashboard_design/download_templates.md
       
   - QA & Testing:
       - Are you ready for RAP?: implementing_RAP/rap-readiness.md

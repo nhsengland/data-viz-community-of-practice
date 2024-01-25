@@ -5,6 +5,21 @@
 
 The NHS logo should always be used in the NHS blue colour. For dashboards that use the web wrapper or are viewed directly on server the logo is to be located in the top right hand corner of the page. The logo is included within the templates at the correct size, placement and margins. Details of these are below.
 
+!!! tip "Dimensions"
+
+    - Height 40px
+
+    - Width 100px
+
+    - Margin of 30px (this should be handled by the page margins as implemented in the templates, see below)
+ 
+
+
+
+!!! note "Download NHS logo"
+
+    For further details and a link to the download refer to the <a href="https://www.england.nhs.uk/nhsidentity/identity-guidelines/nhs-logo/">NHS England identity guidelines page.</a>
+
 **Example in practice**
 
 ![NHS Logo](../../images/NHS_logo.png){ data-title="NHS logo" data-description=".custom-desc1" data-caption-position="left" data-gallery="icons"}
@@ -12,16 +27,6 @@ The NHS logo should always be used in the NHS blue colour. For dashboards that u
 NHS Logo as shown in the NHS England dashboard templates
 </div>
 
-
-!!! tip "Dimensions"
-
-    - Height 40px
-
-    - Width 100px
-
-    - Margin of 30px (this should be handled by the page margins as implemented in the temaplates)
- 
-For further details and a link to the download refer to the <a href="https://www.england.nhs.uk/nhsidentity/identity-guidelines/nhs-logo/">NHS England identity guidelines page.</a>
 
 ## Icons
 
@@ -38,11 +43,14 @@ Icons as shown in the NHS England dashboard templates
 
 !!! tip "To download and use this icon set please follow the below instructions:"
 
-    - Download the icons by clicking <a href="../../files/NHS_England_dashboard_icons.zip">here</a>:
+    - Download the icons using the link below
 
-    - Extract and copy to a folder names "NHS England dashboard icons" within the Shapes folder in "My Tableau Repository". This can be found by opening Tableau, selecting File and selecting 'Repository Location'
+    - Extract and copy to a folder named "NHS England dashboard icons" within the Shapes folder in "My Tableau Repository". This can be found by opening Tableau, selecting File and selecting 'Repository Location'
 
     - When using an icon as an image in a dashboard, find the relevant icon in the 'NHS England dashboard icons' folder you created above
 
-    - When using an icon as a worksheet for hover overs, the 'NHS England dashboard icons' folder you created above should appear when you select the 'Shapes' mark.
+    - When using an icon as a worksheet (for tooltip hover overs), the 'NHS England dashboard icons' folder you created above should appear when you select the 'Shapes' mark.
 
+!!! note "Download NHS England dashboard icons"
+
+    Download the icons by <a href="../../files/NHS_England_dashboard_icons.zip">clicking here</a>
