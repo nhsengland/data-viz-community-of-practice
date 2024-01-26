@@ -96,6 +96,9 @@ theme:
     - content.tabs.link
     - navigation.tabs
     - navigation.indexes
+    - navigation.path
+    - toc.integrate
+    - navigation.top
   icon:
     admonition:
       <type>: material/alert
@@ -145,4 +148,4 @@ extra_javascript:
 watch:
   - overrides
 plugins:
-  - glightbox
+   - glightbox:
