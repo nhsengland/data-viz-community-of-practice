@@ -3,7 +3,7 @@ KPIs are used to provide at a glance key information for the user.
 
 ## Best Practices
 
-???+ tip "Typography - Best practices"
+???+ tip "KPIs - Best practices"
     - [x] The width of the KPI slots should change based on the screen size (not the spacing between them). The space between each KPI slot should always be 8px.
     - [x] If there is any description available for the KPIs that has to be shown in a tooltip on rollover the KPI slot.
     - [x] There can be any number of KPIs shown on a dashboard (we suggest not more than 10) but a minimum of four and a maximum of five slots should be allocated per row to display the KPIs.
