@@ -60,3 +60,20 @@ Example of a wide table
 <div class="glightbox-desc custom-desc3">
 Example of a text table
 </div>
+
+## National standards
+National standards should be clearly labelled in a table or chart wherever applicable.
+
+ - If multiple metrics with multiple difference national standards are shown, label these in the table
+![National standards table](../../images/national_standards_table.png){ width="500px" data-title="National standards table" data-description=".custom-desc4" data-caption-position="left" data-gallery="tables"}
+<div class="glightbox-desc custom-desc4">
+Example of a national standards table
+</div>
+
+
+ - To highlight whether national standards are met in a table, colour the text in RAG colours or add a background 20% RAG colour. 
+RAG rating should only be used where there is a national standard being met or not met, otherwise it should not be used.
+![National standards table](../../images/rag_table.png){width="500px" data-title="National standards table" data-description=".custom-desc5" data-caption-position="left" data-gallery="tables"}
+<div class="glightbox-desc custom-desc5">
+Example of a RAG table
+</div>

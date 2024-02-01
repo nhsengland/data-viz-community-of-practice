@@ -22,6 +22,7 @@ nav:
       - dashboard_design/index.md
       - Principles: dashboard_design/principles.md
       - Layout & navigation: dashboard_design/layout.md
+      - Cards: dashboard_design/cards.md
       - Typography: dashboard_design/typography.md
       - Colours: dashboard_design/colours.md
       - Icons & logos: dashboard_design/icons.md
@@ -30,7 +31,7 @@ nav:
       - Chart types: dashboard_design/chart_types.md
       - Table design: dashboard_design/tables.md
       - Tooltips: dashboard_design/tooltips.md
-      - Guidance & info page: dashboard_design/guidance.md
+      - Information & metrics: dashboard_design/information.md
       - Download templates: dashboard_design/download_templates.md
       
   - QA & Testing:

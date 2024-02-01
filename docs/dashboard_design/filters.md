@@ -8,6 +8,12 @@ Filters example
 ## Filters
 
 !!! tip "Good practice"
+
+    ![Filters](../../images/all_dates_filter.png){ width="400px" align=right data-title="Filters" data-description=".custom-desc2" data-caption-position="left" data-gallery="filters"}
+    <div class="glightbox-desc custom-desc2">
+    Selecting all dates in filter settings
+    </div>
+
     - Try to apply filters to all the views in one dashboard unless there is a strong reason to have seperate filters for each view. Users should not have to search around the page to cancel previous choices.
 
     - Make sure the values in the quick filter are ordered in a way that makes sense for your data. You can specify the order of a quick filter by setting the default sort order for that field.
@@ -21,10 +27,7 @@ Filters example
     - If your users require start and end date on the slider filter, this will not automatically update when new data comes through. To avoid this, instead of filtering on a range of dates, choose 'all dates' on the 'special' tab and turn the filter into a slider, as per the image below.
     
 
-![Filters](../../images/all_dates_filter.png){ data-title="Filters" data-description=".custom-desc2" data-caption-position="left" data-gallery="filters"}
-<div class="glightbox-desc custom-desc2">
-Selecting all dates in filter settings
-</div>
+
 
 
 
@@ -39,7 +42,7 @@ Selecting all dates in filter settings
 ### Filters size, padding and colours
 
 - All filters should be in equal width
-- The filter card should be a white container with 16px inner padding and a 2px shadow (refer to <a href="dashboard_design"> cards page</a> for further details)
+- The filter card should be a white container with 16px inner padding and a 2px shadow (refer to <a href="../../dashboard_design/cards">cards page</a> for further details)
 - The filters should be in a horizontal container within the card with a background colour of #d8dbdc
 - The inner padding of each filter should be 16px left (apart from the further left filter) and 16px right
 - Each filter should have a white background
@@ -67,9 +70,9 @@ Example of filters with two rows
 </div>
 
 ### Filters with controls
-Dashboards may require extra Controls along with the filters. The purpose of the controls is to change the way the measures are being calculated. Eg: Absolute values, 7 day rolling average, Population rates.
+- Dashboards may require extra Controls along with the filters. The purpose of the controls is to change the way the measures are being calculated. Eg: Absolute values, 7 day rolling average, Population rates.
 
-Note: Controls and filters will both work in conjunction to refine the data.
+- Note: Controls and filters will both work in conjunction to refine the data.
 
 ![Filters with controls](../../images/filters_controls.png){ data-title="Filters with controls" data-description=".custom-desc5" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc5">
@@ -87,9 +90,14 @@ Example of filters with radio buttons & sliders
 ### Filters in context
 - If any filters are applicable only for a certain vizualisation then those filters should sit within its card layout, as shown below.
 
+![Filters in context](../../images/table_filter.png){ data-title="Filters in context" data-description=".custom-desc1" data-caption-position="left" data-gallery="filters"}
+<div class="glightbox-desc custom-desc6.5">
+Example of filters in context
+</div>
+
 
 ### Advanced filters  - No information required
-This set of advanced filters does not require any information to explain all/any advanced filter.
+- This set of advanced filters does not require any information to explain all/any advanced filter.
 
 ![Advanced filters - No information required](../../images/advanced_filters_no_info.png){ data-title="Advanced filters - No information required" data-description=".custom-desc7" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc7">
@@ -97,7 +105,7 @@ Example of advanced filters with no information required
 </div>
 
 ### Advanced filters  - Short information required
-This set of advanced filters requires short information to explain all/any filter. The info should be shown in a tooltip should be shown in a tooltip when user clicks on the (i) icon.
+- This set of advanced filters requires short information to explain all/any filter. The info should be shown in a tooltip should be shown in a tooltip when user clicks on the (i) icon.
 
 ![Advanced filters - Short information required](../../images/advanced_filters_short_info.png){ data-title="Advanced filters - Short information required" data-description=".custom-desc8" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc8">
@@ -105,7 +113,7 @@ Example of advanced filters with short information required
 </div>
 
 ### Advanced filters  - Long information required
-This set of advanced filters requires long information to explain all/any filter
+- This set of advanced filters requires long information to explain all/any filter
 
 ![Advanced filters - Long information required](../../images/advanced_filters_full_info.png){ data-title="Advanced filters - Long information required" data-description=".custom-desc9" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc9">
@@ -115,6 +123,10 @@ Example of advanced filters with long information required
 
 ## How to add a button on the dashboard
 
+![Button](../../images/dashboard_button.png){ width="300px" align=right data-title="Button" data-description=".custom-desc10" data-caption-position="left" data-gallery="filters"}
+<div class="glightbox-desc custom-desc10">
+Dashboard button
+</div>
 Tableau has an inbuilt button object used to navigate from one page to another within a dashboard.
 
 1. You can use the 'navigation' object on the bottom left hand side.
@@ -127,10 +139,7 @@ Tableau has an inbuilt button object used to navigate from one page to another w
 
 5. test it in the presentation mode to make sure it is working correctly.
 
-![Button](../../images/dashboard_button.png){ width="300px" data-title="Button" data-description=".custom-desc10" data-caption-position="left" data-gallery="filters"}
-<div class="glightbox-desc custom-desc10">
-Dashboard button
-</div>
+
 
 !!! warning "Note if you edit the background colour of the button it will appear unchanged unless in presentation mode or on server."
 
