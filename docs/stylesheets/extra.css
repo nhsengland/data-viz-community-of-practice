@@ -1,14 +1,14 @@
 :root>* {
   --md-primary-fg-color: #005eb8;
-  --md-default-bg-color: #f8f8f8;
+  --md-default-bg-color: #f0f4f5;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  background-color: #f8f8f8;
+  background-color: #f0f4f5;
   line-height: 1.5;
   margin: 0;
   min-height: 100%;
   color: black;
-  --md-footer-bg-color: #f8f8f8;
+  --md-footer-bg-color: #f0f4f5;
   --md-footer-fg-color: black;
   --md-footer-fg-color--light: black;
 }
