@@ -31,7 +31,7 @@ Example of the design of an individual element card
 
 
 ## Multiple element cards (such as filters and KPIs)
-The easiest way is to use and create cards is to start with the <a href="../../dashboard_design/download_templates">empty templates</a> and use the existing cards. Copy, paste and adjust if required
+The easiest way is to use and create cards is to start with the <a href="../../dashboard_design/download_templates">empty templates</a> and use the existing cards. Copy, paste and adjust if required.
 
 ???+ tip "Multiple element cards (such as filters and KPIs)"
     - [x] The card should be a white container with 16px inner padding
