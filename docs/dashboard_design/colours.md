@@ -392,4 +392,72 @@ Red indicates that a target is not going to be met and intervention is required.
 <div style="display: flex; color: white; background-color: #005EB8; width: 150px; height: 40px; align-items: center; justify-content: center;">#005EB8</div>
 </div>
 
-## Benchmarking
+## Colour tints for measures
+Important factors need to be considered when using tints:
+
+- 100% solid NHS blue (#005EB8) should always be the dominant colour over any tints
+
+- Tints should never obscure the legibility or accessibility of any communication
+
+- The colour emphasis should always be adhered to when using tints
+
+### Continuous scale
+For darker and lighter colour values, the inbetween colours will be inferred by Tableau automatically.
+e.g. Continuous scale: 1, 1.1, 1.2, 1.3, 1.4 etc
+
+<div style="display: flex; gap: 0.3125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background: #005EB8; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#005EB8</div>
+<div style="display: flex; color: white; background: #4C6272; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#4C6272</div>
+<div style="display: flex; color: white; background: #FFB81C; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#FFB81C</div>
+<div style="display: flex; color: white; background: #AE2573; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#AE2573</div>
+<div style="display: flex; color: white; background: #00A499; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#00A499</div>
+</div>
+
+<div style="display: flex; gap: 0.625rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background: linear-gradient(to bottom, #005EB8, #B3CFEA); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
+<div style="display: flex; color: white; background: linear-gradient(to bottom, #4C6272, #D1D6D9); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
+<div style="display: flex; color: white; background: linear-gradient(to bottom, #FFB81C, #F5E7C8); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
+<div style="display: flex; color: white; background: linear-gradient(to bottom, #AE2573, #E5C9D9); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
+<div style="display: flex; color: white; background: linear-gradient(to bottom, #00A499, #C2E3E1); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
+</div>
+
+<div style="display: flex; gap: 0.3125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background: #B3CFEA; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#B3CFEA</div>
+<div style="display: flex; color: white; background: #D1D6D9; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#D1D6D9</div>
+<div style="display: flex; color: white; background: #F5E7C8; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#F5E7C8</div>
+<div style="display: flex; color: white; background: #E5C9D9; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#E5C9D9</div>
+<div style="display: flex; color: white; background: #C2E3E1; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#C2E3E1</div>
+</div>
+
+### Discrete scale
+The top bar in each case shows the solid (100%) value of the colour and the bars below show decreasing values from 80% to 20%. It is acceptable to use tints of the colours. Any % value is accepted as long as it is visible, clear and accessible.
+e.g. Discrete scale: 10, 6, 5, 2 etc
+
+<div style="display: flex; gap: 0.3125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background: #005EB8; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#005EB8</div>
+<div style="display: flex; color: white; background: #4C6272; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#4C6272</div>
+<div style="display: flex; color: white; background: #FFB81C; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#FFB81C</div>
+<div style="display: flex; color: white; background: #AE2573; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#AE2573</div>
+<div style="display: flex; color: white; background: #00A499; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#00A499</div>
+</div>
+
+<div style="display: flex; gap: 0.625rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background: linear-gradient(to bottom, #005EB8 0, #005EB8 20%, #2D7AC5 20%, #2D7AC5 40%, #5A97D1 40%, #5A97D1 60%, #86B3DE 60%, #86B3DE 80%, #B3CFEA 80%, #B3CFEA 100%); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
+<div style="display: flex; color: white; background: linear-gradient(to bottom, #4C6272 0, #4C6272 20%, #6D7F8C 20%, #6D7F8C 40%, #8F9CA6 40%, #8F9CA6 60%, #B0B9BF 60%, #B0B9BF 80%, #D1D6D9 80%, #D1D6D9 100%); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
+<div style="display: flex; color: white; background: linear-gradient(to bottom, #FFB81C 0, #FFB81C 20%, #FDC447 20%, #FDC447 40%, #FAD072 40%, #FAD072 60%, #F8DB9D 60%, #F8DB9D 80%, #F5E7C8 80%, #F5E7C8 100%); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
+<div style="display: flex; color: white; background: linear-gradient(to bottom, #AE2573 0, #AE2573 20%, #BC4E8D 20%, #BC4E8D 40%, #CA77A6 40%, #CA77A6 60%, #D7A0C0 60%, #D7A0C0 80%, #E5C9D9 80%, #E5C9D9 100%); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
+<div style="display: flex; color: white; background: linear-gradient(to bottom, #00A499 0, #00A499 20%, #31B4AB 20%, #31B4AB 40%, #61C4BD 40%, #61C4BD 60%, #92D3CF 60%, #92D3CF 80%, #C2E3E1 80%, #C2E3E1 100%); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
+</div>
+
+<div style="display: flex; gap: 0.3125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background: #B3CFEA; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#B3CFEA</div>
+<div style="display: flex; color: white; background: #D1D6D9; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#D1D6D9</div>
+<div style="display: flex; color: white; background: #F5E7C8; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#F5E7C8</div>
+<div style="display: flex; color: white; background: #E5C9D9; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#E5C9D9</div>
+<div style="display: flex; color: white; background: #C2E3E1; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#C2E3E1</div>
+</div>
+
+### Charts with multiple measures
+Below are the set of gradients which should be used if the value of the measure needs to be displayed on the intensity of the colour.
+
+If multiple measures need to be displayed in the visualisation, use the listed colour options below:
