@@ -354,5 +354,42 @@ td {
 </table>
 
 ## RAG colours
+### National Targets (Red - Green)
+**Purpose:** Red - Green should be used when the viz shows whether a national target has been met or not met
+
+**Example:** A&E performance, Cancer performance
+
+<div style="display: flex; gap: 0.125rem; align-items: center;">
+<div style="display: flex; color: white; background-color: #DA291C; width: 150px; height: 40px; align-items: center; justify-content: center;">#DA291C</div>
+<div style="display: flex; color: white; background-color: #006747; width: 150px; height: 40px; align-items: center; justify-content: center;">#006747</div>
+</div>
+
+### Local Targets (Red - Amber - Green)
+**Purpose:** Red - Amber - Green should be used when the viz shows whether a local target is on track to be met or not met. 
+
+Green indicates that a target is on track to be met.
+Amber indicates that performance needs improvement.
+Red indicates that a target is not going to be met and intervention is required.
+
+**Example:** Digital & Interoperable Medicines
+
+<div style="display: flex; gap: 0.125rem; align-items: center;">
+<div style="display: flex; color: white; background-color: #DA291C; width: 150px; height: 40px; align-items: center; justify-content: center;">#DA291C</div>
+<div style="display: flex; color: white; background-color: #ED8B00; width: 150px; height: 40px; align-items: center; justify-content: center;">#ED8B00</div>
+<div style="display: flex; color: white; background-color: #006747; width: 150px; height: 40px; align-items: center; justify-content: center;">#006747</div>
+</div>
+
+### Divergence
+**Purpose:** Divergence should be used when there is a wide range of good, bad and neutral areas to be shown and a clear central value (e.g. 0). We can only define the far end colours (e.g. dark red, dark blue) but not the neutral colour in Tableau, it will be selected dynamically. 
+
+**Example:** Map showing of product uptake across England, Difference of year on year comparison
+
+<div style="background: linear-gradient(to right, #DA291C, #DFDFDF, #DFDFDF, #005EB8); height: 20px; width: 456px; padding-top: 10px; padding-bottom: 10px"></div>
+
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #DA291C; width: 150px; height: 40px; align-items: center; justify-content: center;">#DA291C</div>
+<div style="display: flex; color: black; background-color: #DFDFDF; width: 150px; height: 40px; align-items: center; justify-content: center;">#DFDFDF</div>
+<div style="display: flex; color: white; background-color: #005EB8; width: 150px; height: 40px; align-items: center; justify-content: center;">#005EB8</div>
+</div>
 
 ## Benchmarking
