@@ -113,8 +113,245 @@ Use these colours in boundary maps, or sparingly in charts where it would be use
 ## NHS ambulance
 Use these colours in maps, or sparingly in charts, wherever it would be useful to identify ambulance trusts.
 
+<div style="display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); justify-items: center; row-gap: 5rem; padding-top: 1.25rem; padding-bottom: 1.25rem">
+<div class="colour-div">
+<div style="background-color:#003087; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div><b>North East</b></div>
+<div><b>NHS Dark Blue</b></div>
+<div><b>#003087</b></div>
+</div>
+</div>
+<div class="colour-div">
+<div style="background-color:#005EB8; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div><b>Yorkshire</b></div>
+<div><b>NHS Blue</b></div>
+<div><b>#005EB8</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div style="background-color:#41B6E6; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div><b>North West</b></div>
+<div><b>NHS Light Blue</b></div>
+<div><b>#41B6E6</b></div>
+</div>
+</div>
+<div class="colour-div">
+<div style="background-color:#330072; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div><b>East of England</b></div>
+<div><b>NHS Purple</b></div>
+<div><b>#330072</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div style="background-color:#880FB8; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div><b>East Midlands</b></div>
+<div><b>NHS Light Purple</b></div>
+<div><b>#880FB8</b></div>
+</div>
+</div>
+<div class="colour-div">
+<div style="background-color:#AE2573; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div><b>West Midlands</b></div>
+<div><b>NHS Pink</b></div>
+<div><b>#AE2573</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div style="background-color:#78BE20; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div><b>London</b></div>
+<div><b>NHS Light Green</b></div>
+<div><b>#78BE20</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div style="background-color:#ECE354; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div><b>South Western</b></div>
+<div><b>#ECE354</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div style="background-color:#EE9F00; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div><b>South Central</b></div>
+<div><b>#EE9F00</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div style="background-color:#ED4F00; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div><b>South East</b></div>
+<div><b>#ED4F00</b></div>
+</div>
+</div>
+
+</div>
+<br>
+<br>
 
 ## Chart colours
+We recommend to stick to no more than five different variables on a graph. Otherwise your visualisation will be confusing. If you need to plot more than 5 variables, you should consider alternative ways to visualise this information.
+
+For any reaons, if we have to use more than five colours in a visualisation (to show multiple values on the same graph where no measure is more important than another e.g. plotting A&E attendances at different hospitals over time) please use the colours listed below. 
+
+Note: This colour palette is not applicable if you are visualising [Regional](#nhs-regions "NHS Region colours") or [Ambulance](#nhs-ambulance "Ambulance colours") data. Click the hyperlinks to view their colour set.
+
+
+<style>
+td {
+    font-weight: 500;
+    font-size: medium;
+    margin: 0px;
+
+}
+</style>
+
+<table style="border-radius: 10px; background-color: #f0f4f5;">
+  <colgroup>
+    <col style="background-color:#f0f4f5; width: 10%;">
+    <col style="background-color:#005EB8; width: 7.5%;">
+    <col style="background-color:#41B6E6; width: 7.5%;">
+    <col style="background-color:#4C6272; width: 7.5%;">
+    <col style="background-color:#FfB81C; width: 7.5%;">
+    <col style="background-color:#AE2573; width: 7.5%;">
+    <col style="background-color:#00A499; width: 7.5%;">
+    <col style="background-color:#E317AA; width: 7.5%;">
+    <col style="background-color:#007F3B; width: 7.5%;">
+    <col style="background-color:#9A6324; width: 7.5%;">
+    <col style="background-color:#78BE20; width: 7.5%;">
+    <col style="background-color:#ED4F00; width: 7.5%;">
+    <col style="background-color:#880FB8; width: 7.5%;">
+  </colgroup>
+<tbody>
+  <tr>
+    <td NOWRAP>One colour chart</td>
+    <td style="color: white; font-weight: 600; font-size: small;">#005EB8</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Two colour chart</td>
+    <td></td>
+    <td style="color: black; font-weight: 600; font-size: small;">#41B6E6</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Three colour chart</td>
+    <td></td>
+    <td></td>
+    <td style="color: white; font-weight: 600; font-size: small;">#4C6272</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Four colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="color: black; font-weight: 600; font-size: small;">#FFB81C</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Five colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="color: white; font-weight: 600; font-size: small;">#AE2573</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Six colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="color: white; font-weight: 600; font-size: small; margin: 0px">#00A499</td>
+  </tr>
+   <tr>
+    <td NOWRAP>Seven colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="color: white; font-weight: 600; font-size: small;">#E317AA</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Eight colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="color: white; font-weight: 600; font-size: small;">#007F3B</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Nine colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="color: white; font-weight: 600; font-size: small;">#9A6324</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Ten colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="color: black; font-weight: 600; font-size: small;">#78BE20</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Eleven colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="color: black; font-weight: 600; font-size: small;">#ED4F00</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Twelve colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td style="color: white; font-weight: 600; font-size: small;">#880FB8</td>
+  </tr>
+  </tbody>
+</table>
 
 ## RAG colours
 
