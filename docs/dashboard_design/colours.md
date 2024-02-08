@@ -461,3 +461,163 @@ e.g. Discrete scale: 10, 6, 5, 2 etc
 Below are the set of gradients which should be used if the value of the measure needs to be displayed on the intensity of the colour.
 
 If multiple measures need to be displayed in the visualisation, use the listed colour options below:
+<br><br>
+
+<!-- Parent container for all measure tints -->
+<div style="display: flex; flex-direction: column; gap: 1.75rem;">
+<!-- 1st row -->
+<div>
+<div style="display: flex; color: white; background: linear-gradient(to right, #005EB8, #B3CFEA); width: 1008px; height: 20px; align-items: center; justify-content: center;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #005EB8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
+<div style="display: flex; color: black; background-color: #B3CFEA; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+<div style="font-size: small;"> &#x2190; Chart with <b>one</b> measure</div>
+</div>
+</div>
+
+<!-- 2nd row -->
+<div style="display: flex; flex-direction: row; gap: 1rem;">
+
+<div>
+<div style="height: 20px;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #005EB8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
+<div style="display: flex; color: black; background-color: #B3CFEA; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+</div>
+</div>
+
+<div>
+<div style="display: flex; color: white; background: linear-gradient(to right, #4C6272, #D1D6D9); width: 803px; height: 20px; align-items: center; justify-content: center;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #4C6272; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
+<div style="display: flex; color: black; background-color: #D1D6D9; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+<div style="font-size: small;"> &#x2190; Chart with <b>two</b> measures</div>
+</div>
+</div>
+
+</div>
+
+<!-- 3rd row -->
+<div style="display: flex; flex-direction: row; gap: 1rem;">
+
+<div>
+<div style="height: 20px;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #005EB8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
+<div style="display: flex; color: black; background-color: #B3CFEA; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+</div>
+</div>
+
+<div>
+<div style="height: 20px;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #4C6272; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
+<div style="display: flex; color: black; background-color: #D1D6D9; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+</div>
+</div>
+
+<div>
+<div style="display: flex; color: white; background: linear-gradient(to right, #FFB81C, #F5E7C8); width: 597px; height: 20px; align-items: center; justify-content: center;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #FFB81C; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#FFB81C</div>
+<div style="display: flex; color: black; background-color: #F5E7C8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#F5E7C8</div>
+<div style="font-size: small;"> &#x2190; Chart with <b>three</b> measures</div>
+</div>
+</div>
+
+</div>
+
+<!-- 4th row -->
+<div style="display: flex; flex-direction: row; gap: 1rem;">
+
+<div>
+<div style="height: 20px;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #005EB8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
+<div style="display: flex; color: black; background-color: #B3CFEA; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+</div>
+</div>
+
+<div>
+<div style="height: 20px;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #4C6272; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
+<div style="display: flex; color: black; background-color: #D1D6D9; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+</div>
+</div>
+
+<div>
+<div style="height: 20px;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #FFB81C; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#FFB81C</div>
+<div style="display: flex; color: black; background-color: #F5E7C8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#F5E7C8</div>
+</div>
+</div>
+
+<div>
+<div style="display: flex; color: white; background: linear-gradient(to right, #AE2573, #E5C9D9); width: 392px; height: 20px; align-items: center; justify-content: center;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #AE2573; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#AE2573</div>
+<div style="display: flex; color: black; background-color: #E5C9D9; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#E5C9D9</div>
+<div style="font-size: small;"> &#x2190; Chart with <b>four</b> measures</div>
+</div>
+</div>
+
+</div>
+
+<!-- 5th row -->
+<div style="display: flex; flex-direction: row; gap: 1rem;">
+
+<div>
+<div style="height: 20px;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #005EB8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
+<div style="display: flex; color: black; background-color: #B3CFEA; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+</div>
+</div>
+
+<div>
+<div style="height: 20px;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #4C6272; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
+<div style="display: flex; color: black; background-color: #D1D6D9; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+</div>
+</div>
+
+<div>
+<div style="height: 20px;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #FFB81C; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#FFB81C</div>
+<div style="display: flex; color: black; background-color: #F5E7C8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#F5E7C8</div>
+</div>
+</div>
+
+<div>
+<div style="height: 20px; font-size: small; text-align: right;">Chart with <b>five</b> measures &#x2192;</div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #AE2573; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#AE2573</div>
+<div style="display: flex; color: black; background-color: #E5C9D9; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#E5C9D9</div>
+</div>
+</div>
+
+<div>
+<div style="display: flex; color: white; background: linear-gradient(to right, #00A499, #C2E3E1); width: 183px; height: 20px; align-items: center; justify-content: center;"></div>
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div style="display: flex; color: white; background-color: #00A499; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#00A499</div>
+<div style="display: flex; color: black; background-color: #C2E3E1; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#C2E3E1</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+## UI specs for visualisation
+
+![UI specs for visualisation](../../images/ui-colour-spec.png){ data-title="UI specs for visualisation" data-description=".ui-spec-viz" data-caption-position="left" data-gallery="icons"}
+<div class="glightbox-desc ui-spec-viz">
+Font: Arial
+Size: 10px
+Weight: Normal
+Colour: Chart colour hex
+</div>
