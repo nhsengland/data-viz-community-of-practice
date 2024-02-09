@@ -5,7 +5,7 @@ Colour is a key element of the National Health Service's identity. Research show
 ## Downloading colours directly into Tableau
 Having the NHS England default colours for charts can save time and this can be achieved by having the colour palette installed in 'My Tableau Repository' on your system:
 
-!!! note "Download .tps file"
+!!! download "Download .tps file"
 
     Download the Preferences.tps file by <a href="../../files/Preferences.tps">clicking here</a>
 

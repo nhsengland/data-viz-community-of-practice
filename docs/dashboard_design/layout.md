@@ -82,7 +82,7 @@ NHS logo should be 75 x 40 pixels, witha top and right hand side margin of 32 pi
 </figure>
 
 
-!!! note "Useful links"
+!!! download "Useful links"
 
     - Tableau template download link
 [comment]: <> (need actual links to add in!!)
