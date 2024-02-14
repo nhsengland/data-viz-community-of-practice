@@ -1,6 +1,19 @@
 # Colours
 Colour is a key element of the National Health Service's identity. Research shows that patients and the public strongly associate the NHS with the colours blue and white.
 
+
+## Downloading colours directly into Tableau
+Having the NHS England default colours for charts can save time and this can be achieved by having the colour palette installed in 'My Tableau Repository' on your system:
+
+!!! download "Download .tps file"
+
+    Download the Preferences.tps file by <a href="../../files/Preferences.tps">clicking here</a>
+
+- Download this custom "Preferences.tps"
+- Replace your "Preferences.tps" file in your 'My Tableau Repository' which can be found by clicking File > Repository Location
+- A number of NHS England specific colour palettes should now appear when using a discrete dimension (e.g regions)
+
+
 ## NHS blue and white
 87% of people spontaneously recall these two colours - white and NHS blue - when asked about the NHS identity. Therefore, NHS blue and white are the dominant colours in our colour palette. They also ensure that communications maximise the strong value of the NHS identity and the positive attributes that patients, the public and stakeholders attach to it. 
 
