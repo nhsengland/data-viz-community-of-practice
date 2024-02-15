@@ -1,0 +1,30 @@
+<svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<circle cx="12.5" cy="12.5" r="12.5" fill="url(#pattern0)" fill-opacity="0.3"/>
+<circle cx="12.5" cy="12.5" r="12.5" fill="#005EB8"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.4167 4V12.4812L16.625 9.83984L18 10.9719L12.5 15.5L7 10.9719L8.375 9.83984L11.5833 12.4812V4H13.4167Z" fill="url(#pattern1)" fill-opacity="0.3"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.4167 4V12.4812L16.625 9.83984L18 10.9719L12.5 15.5L7 10.9719L8.375 9.83984L11.5833 12.4812V4H13.4167Z" fill="white"/>
+<rect x="5" y="17.269" width="15" height="2" fill="url(#pattern2)" fill-opacity="0.3"/>
+<rect x="5" y="17.269" width="15" height="2" fill="white"/>
+<rect x="5" y="15" width="2" height="3" fill="url(#pattern3)" fill-opacity="0.3"/>
+<rect x="5" y="15" width="2" height="3" fill="white"/>
+<rect x="18" y="15" width="2" height="3" fill="url(#pattern4)" fill-opacity="0.3"/>
+<rect x="18" y="15" width="2" height="3" fill="white"/>
+<defs>
+<pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1.6" height="1.6">
+<use xlink:href="#image0_19177_3799" transform="scale(0.025)"/>
+</pattern>
+<pattern id="pattern1" patternContentUnits="objectBoundingBox" width="3.63636" height="3.47826">
+<use xlink:href="#image0_19177_3799" transform="scale(0.0568182 0.0543478)"/>
+</pattern>
+<pattern id="pattern2" patternContentUnits="objectBoundingBox" width="2.66667" height="20">
+<use xlink:href="#image0_19177_3799" transform="scale(0.0416667 0.3125)"/>
+</pattern>
+<pattern id="pattern3" patternContentUnits="objectBoundingBox" width="20" height="13.3333">
+<use xlink:href="#image0_19177_3799" transform="scale(0.3125 0.208333)"/>
+</pattern>
+<pattern id="pattern4" patternContentUnits="objectBoundingBox" width="20" height="13.3333">
+<use xlink:href="#image0_19177_3799" transform="scale(0.3125 0.208333)"/>
+</pattern>
+<image id="image0_19177_3799" width="64" height="64" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAA40lEQVR4Xu3bQQ6EQAhEUbj/oXsO8Sdh4XOvJAi/qkF3Zt6E6710++xuiD6T40uACtACqYlzD2IACFKBkoHcgmSQDJJBMngKIT6ADygF6DSYfcCLTzg/z0eGrASogDbT0gKxB2MB5pkiBoBgrEEMwIBjLx9fAAiCIAhygmkkRgYjhWMHditsL2AvYC+QIHjdwzk+BmAABmBAWc1kCF0bKRAEQRAEQRAMGaACbaCUz/P5BRiKxhQaiV07uRjfYgQDMKDpGAhGCMUCzD4CBEEw1iAGYIBPZMJh+g8/P8cKpAJfV4EfMee/sLtaEFIAAAAASUVORK5CYII="/>
+</defs>
+</svg>

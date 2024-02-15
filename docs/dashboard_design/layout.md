@@ -55,43 +55,12 @@ Buttons could be used as a navigation, but we recommend using tabs wherever poss
 
 
 
-## Page layout
-
-Layout done perfectly, will be invisible to the user. Layout done badly may be the only thing they see.
-
-**Titles and subtitles**
-
-For easy identification and navigation, every tab should show the workbook title (NHS Grey1, 24pt, Arial, title case), and the subtitle which matches the tab name (Black, 24pt, Arial, sentence case), with a black hypen with spaces either side between the two names. A brief description of what the tab is showing can be added.
-
-**Data refresh date**
-
-The data refresh date should be shown on the right side of the title and subtitle
-
-**Margins**
-
-Left, top and right margins should be 32 pixels. The bottom of each page should show an NHS Blue line (height = 2 pixels) and contact information.
-Additional information on latest data available is an optional extra.
-
-**NHS identity**
-
-NHS logo should be 75 x 40 pixels, witha top and right hand side margin of 32 pixels.
-
-
-<figure markdown>
-  ![Page layout](images/page_layout.png){data-title="Page header layout" data-caption-position="top" data-gallery="page"}
-</figure>
-
-
-!!! note "Useful links"
-
-    - Tableau template download link
-[comment]: <> (need actual links to add in!!)
-
-
-
 ## Dashboard layout
 
+> Layout done perfectly, will be invisible to the user. Layout done badly may be the only thing they see.
+
 The following page template is used across the product, particularly for report pages. it is best practice to use a Z-formation, like how you would read a book.
+For more details see [here](principles.md#visual-hierarchy).
 
 <figure markdown>
   ![Z layout examples](images/z_layout.png){data-title="Z layout examples" data-caption-position="top" data-gallery="z"}
@@ -99,7 +68,6 @@ The following page template is used across the product, particularly for report 
 
 !!! danger "General rules"
 
-    ![Finished layout](images/full_page_layout.png){: width="50%" data-title="Full page layout" data-caption-position="top" data-gallery="full" align=right}
 
     - 32px margin on left and right sides of the dashboard.
 
@@ -122,6 +90,88 @@ The following page template is used across the product, particularly for report 
     - If we are using multiple cards in a single row (side by side) make sure they are of the same height.
 
     - If the viz is going to show more data (more lines/bars) use the full wifth card so it helps the user to digest information quickly.
+
+    ![Finished layout](images/full_page_layout.png){data-title="Full page layout" data-caption-position="top" data-gallery="full"}
+
+### Header section
+<!-- <figure markdown>
+  ![Page layout](images/page_layout.png){data-title="Page header layout" data-caption-position="top" data-gallery="page"}
+</figure> -->
+
+The top of the page should be split into two main sections.
+In Tableau, these two sections would each be in a separate container sat within an overall top of page horizontal container.
+
+On the left should be the dashboard title, subtitle if used, a brief dashboard description and an alert/message banner if needed.
+This section should be no more than 1200px.
+
+On the right should be the NHS logo and any data refresh information. This section should be a fixed width of 300px.
+
+[comment]: <> (add in NHS App dashboard example pic + text above as caption!)
+
+<figure markdown>
+  ![Page layout dimension](images/page_layout_dimensions.png){ data-title="Page header example" data-description=".custom-desc-page" data-caption-position="left" data-gallery="page"}
+  <figcaption>Click image for more details</figcaption>
+</figure>
+<div class="glightbox-desc custom-desc-page">
+<ol>
+  <li>Entire horizontal container, contains two objects (1.1 & 1.2):
+    <ol>
+      <li>The date sheet should be of the fixed width of 300px.</li>
+      <li>A second horizontal container should be set to variable width. Inside this container is:
+        <ol>
+          <li>A variable width blank.</li>
+          <li>The heading area and the blurb on the left side should be set to the maximum width of 1200px.</li>
+          <li>Horizontal container with light yellow background (#FFFACA), 16px for top & bottom padding, containing:
+            <ol>
+              <li>Blank of 8px with dark yellow background (#FDDC31).</li>
+              <li>24px Bulb/exclamation icon.</li>
+              <li>Text box for message/alert.</li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+</ol>
+</div>
+
+**Titles and subtitles**
+
+For easy identification and navigation, every tab should show the workbook title (NHS Grey1, 24pt, Arial, title case), and the subtitle which matches the tab name (Black, 24pt, Arial, sentence case), with a black hypen with spaces either side between the two names. A brief description of what the tab is showing can be added.
+
+**Data refresh date**
+
+The data refresh date should be shown on the right side of the title and subtitle.
+
+**Margins**
+
+Left, top and right margins should be 32 pixels. The bottom of each page should show an NHS Blue line (height = 2 pixels) and contact information.
+Additional information on latest data available is an optional extra.
+
+**NHS identity**
+
+NHS logo should be 75 x 40 pixels, with a top and right hand side margin of 32 pixels.
+
+!!! note "Useful tips for header section"
+
+    1. Use either tabs or buttons for navigation purposes. Not both. This repetition makes the header look busy.
+
+    2. Do not use the 'Hide note' functionality in the header section.
+
+    3. Avoid using icons/images in the header area to redirect users to different dashboards.
+
+        - Clicking on icons without labels is not intuitive.
+
+        - Multiple icons increases visual clutter.
+
+        - Instead move the icons next to relevant / related visualisations outside of the header section.
+    
+    4. Add links to related dashboards and supporting webpages to an 'information & guidance' page or a 'related dashboards' page.
+
+    ![Header section tips](images/header_tips.png){ data-title="Page header example" data-gallery="header"}
+
+      Tableau template download link
+[comment]: <> (need actual links to add in!!)
 
 
 
@@ -199,7 +249,7 @@ Tableau gives you the option to create different views based on a user's device.
 
 ??? tip "Desktop (range above 800 pixels)"
 
-    - If the user is looking at the dashboard in a browser that is less than 12000 pixels width then a horizontal scroll bar should appear.
+    - If the user is looking at the dashboard in a browser that is less than 1200 pixels width then a horizontal scroll bar should appear.
 
     - If the user is viewing the dashboard in a browser that is wider than 1920 pixels, then the dashboard has to be centre aligned to the screen by leaving space on either side.
 

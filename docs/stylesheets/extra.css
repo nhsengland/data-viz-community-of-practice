@@ -131,3 +131,49 @@ table {
 html {
   scroll-behavior: smooth;
 }
+
+:root {
+  --md-admonition-icon--download: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 27 27" fill="none"><path fill-rule="evenodd" clip-rule="evenodd" d="M25 12.5C25 19.4036 19.4036 25 12.5 25C5.59644 25 0 19.4036 0 12.5C0 5.59644 5.59644 0 12.5 0C19.4036 0 25 5.59644 25 12.5ZM13.4167 4V12.4812L16.625 9.83984L18 10.9719L12.5 15.5L7 10.9719L8.375 9.83984L11.5833 12.4812V4H13.4167ZM7 15H5V17.269V18V19.269H20V18V17.269V15H18V17.269H7V15Z" fill="black"/></svg>')
+
+
+}
+.md-typeset .admonition.download,
+.md-typeset details.download {
+  border-color: #005eb8;
+}
+.md-typeset .download > .admonition-title,
+.md-typeset .download > summary {
+  background-color: #005fb82f;;
+}
+.md-typeset .download > .admonition-title::before,
+.md-typeset .download > summary::before {
+  background-color: #005eb8;;
+  -webkit-mask-image: var(--md-admonition-icon--download);
+          mask-image: var(--md-admonition-icon--download);
+}
+ol {
+  list-style-type: none;
+  counter-reset: item;
+  margin: 0;
+  padding: 0;
+}
+
+ol > li {
+  display: table;
+  counter-increment: item;
+  margin-bottom: 0.6em;
+}
+
+ol > li:before {
+  content: counters(item, ".") ". ";
+  display: table-cell;
+  padding-right: 0.6em;    
+}
+
+li ol > li {
+  margin: 0;
+}
+
+li ol > li:before {
+  content: counters(item, ".") " ";
+}
