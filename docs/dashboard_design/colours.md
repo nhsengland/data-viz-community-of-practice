@@ -17,10 +17,10 @@ Having the NHS England default colours for charts can save time and this can be 
 ## NHS blue and white
 87% of people spontaneously recall these two colours - white and NHS blue - when asked about the NHS identity. Therefore, NHS blue and white are the dominant colours in our colour palette. They also ensure that communications maximise the strong value of the NHS identity and the positive attributes that patients, the public and stakeholders attach to it. 
 
-<div style="display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); justify-items: center; row-gap: 5rem; padding-top: 1.25rem; padding-bottom: 1.25rem">
+<div class="colour-grid">
 <div class="colour-div">
-<div style="width:75%; height:75%; transform: translateX(15%); border-radius: 9999px; background-color:#005EB8;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle" style="--colour: #005eb8;"></div>
+<div class="colour-circle-text">
 <div><b>NHS Blue</b></div>
 <div><b>RGB: 0 / 94 / 184</b></div>
 <div><b>#005EB8</b></div>
@@ -28,8 +28,8 @@ Having the NHS England default colours for charts can save time and this can be 
 </div>
 
 <div class="colour-div">
-<div style="background-color:#FFFFFF; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle" style="--colour: #FFFFFF;"></div>
+<div class="colour-circle-text">
 <div><b>NHS White</b></div>
 <div><b>RGB: 255 / 255 / 255</b></div>
 <div><b>#FFFFFF</b></div>
@@ -45,17 +45,17 @@ For more information, see the [NHS Identity Guidelines - Colours](https://www.en
 ## NHS regions
 Use these colours in boundary maps, or sparingly in charts where it would be useful for identifying the separate regions.
 
-<div style="display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); justify-items: center; row-gap: 5rem; padding-top: 1.25rem; padding-bottom: 1.25rem">
+<div class="colour-grid">
 <div class="colour-div">
-<div style="background-color:#005eb8; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle" style="--colour: #005eb8;"></div>
+<div class="colour-circle-text">
 <div><b>North East</b></div>
 <div><b>NHS Blue</b></div>
 <div><b>#005EB8</b></div>
 </div>
 </div>
 <div class="colour-div">
-<div style="background-color:#41B6E6; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #41B6E6;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>North West</b></div>
 <div><b>NHS Light Blue</b></div>
@@ -395,7 +395,7 @@ Red indicates that a target is not going to be met and intervention is required.
 ## Colour tints for measures
 Important factors need to be considered when using tints:
 
-- 100% solid NHS blue (#005EB8) should always be the dominant colour over any tints
+- 100% solid NHS blue <span style="padding: 2px; background-color:#005EB8; color: white">(#005EB8)</span>.should always be the dominant colour over any tints
 
 - Tints should never obscure the legibility or accessibility of any communication
 

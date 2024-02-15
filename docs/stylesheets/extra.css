@@ -69,15 +69,31 @@ code {
 
 .colour-grid {
   display:grid;
-  grid-template-columns: repeat(5, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   justify-items: center;
+  row-gap: 5rem;
   padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+  padding-bottom: 1.25rem
 }
 
 .colour-div {
   width:200px;
   height:200px;
+}
+
+.colour-circle {
+  background-color: var(--colour);
+  width:75%;
+  height:75%;
+  transform: translateX(15%);
+  border-radius: 9999px;
+}
+
+.colour-circle-text {
+  text-align: center;
+  padding-top: 20px;
+  font-size: 0.625rem;
+  line-height: 1rem;
 }
 
 @media screen and (max-width: 600px) {
