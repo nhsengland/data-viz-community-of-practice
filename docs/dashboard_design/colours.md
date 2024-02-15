@@ -64,7 +64,7 @@ Use these colours in boundary maps, or sparingly in charts where it would be use
 </div>
 
 <div class="colour-div">
-<div style="background-color:#330072; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #330072;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>East of England</b></div>
 <div><b>NHS Purple</b></div>
@@ -72,7 +72,7 @@ Use these colours in boundary maps, or sparingly in charts where it would be use
 </div>
 </div>
 <div class="colour-div">
-<div style="background-color:#AE2573; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #AE2573;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>Midlands</b></div>
 <div><b>NHS Pink</b></div>
@@ -81,7 +81,7 @@ Use these colours in boundary maps, or sparingly in charts where it would be use
 </div>
 
 <div class="colour-div">
-<div style="background-color:#78BE20; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #78BE20;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>London</b></div>
 <div><b>NHS Light Green</b></div>
@@ -89,7 +89,7 @@ Use these colours in boundary maps, or sparingly in charts where it would be use
 </div>
 </div>
 <div class="colour-div">
-<div style="background-color:#FAE100; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #FAE100;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>South West</b></div>
 <div><b>NHS Yellow</b></div>
@@ -98,7 +98,7 @@ Use these colours in boundary maps, or sparingly in charts where it would be use
 </div>
 
 <div class="colour-div">
-<div style="background-color:#ED8B00; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #ED8B00;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>South East</b></div>
 <div><b>NHS Orange</b></div>
@@ -113,9 +113,9 @@ Use these colours in boundary maps, or sparingly in charts where it would be use
 ## NHS ambulance
 Use these colours in maps, or sparingly in charts, wherever it would be useful to identify ambulance trusts.
 
-<div style="display:grid; grid-template-columns: repeat(2, minmax(0, 1fr)); justify-items: center; row-gap: 5rem; padding-top: 1.25rem; padding-bottom: 1.25rem">
+<div class="colour-grid">
 <div class="colour-div">
-<div style="background-color:#003087; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #003087;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>North East</b></div>
 <div><b>NHS Dark Blue</b></div>
@@ -123,7 +123,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 </div>
 </div>
 <div class="colour-div">
-<div style="background-color:#005EB8; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #005EB8;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>Yorkshire</b></div>
 <div><b>NHS Blue</b></div>
@@ -132,7 +132,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 </div>
 
 <div class="colour-div">
-<div style="background-color:#41B6E6; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #41B6E6;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>North West</b></div>
 <div><b>NHS Light Blue</b></div>
@@ -140,7 +140,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 </div>
 </div>
 <div class="colour-div">
-<div style="background-color:#330072; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #330072;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>East of England</b></div>
 <div><b>NHS Purple</b></div>
@@ -149,7 +149,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 </div>
 
 <div class="colour-div">
-<div style="background-color:#880FB8; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #880FB8;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>East Midlands</b></div>
 <div><b>NHS Light Purple</b></div>
@@ -157,7 +157,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 </div>
 </div>
 <div class="colour-div">
-<div style="background-color:#AE2573; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #AE2573;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>West Midlands</b></div>
 <div><b>NHS Pink</b></div>
@@ -166,7 +166,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 </div>
 
 <div class="colour-div">
-<div style="background-color:#78BE20; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #78BE20;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>London</b></div>
 <div><b>NHS Light Green</b></div>
@@ -175,7 +175,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 </div>
 
 <div class="colour-div">
-<div style="background-color:#ECE354; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #ECE354;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>South Western</b></div>
 <div><b>#ECE354</b></div>
@@ -183,7 +183,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 </div>
 
 <div class="colour-div">
-<div style="background-color:#EE9F00; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #EE9F00;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>South Central</b></div>
 <div><b>#EE9F00</b></div>
@@ -191,7 +191,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 </div>
 
 <div class="colour-div">
-<div style="background-color:#ED4F00; width:75%; height:75%; transform: translateX(15%); border-radius: 9999px;"></div>
+<div class="colour-circle" style="--colour: #ED4F00;"></div>
 <div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
 <div><b>South East</b></div>
 <div><b>#ED4F00</b></div>
@@ -360,8 +360,8 @@ td {
 **Example:** A&E performance, Cancer performance
 
 <div style="display: flex; gap: 0.125rem; align-items: center;">
-<div style="display: flex; color: white; background-color: #DA291C; width: 150px; height: 40px; align-items: center; justify-content: center;">#DA291C</div>
-<div style="display: flex; color: white; background-color: #006747; width: 150px; height: 40px; align-items: center; justify-content: center;">#006747</div>
+<div class="colour-rect" style="--colour: #DA291C; --txt_clr: white">#DA291C</div>
+<div class="colour-rect" style="--colour: #006747; --txt_clr: white">#006747</div>
 </div>
 
 ### Local Targets (Red - Amber - Green)
@@ -374,9 +374,9 @@ Red indicates that a target is not going to be met and intervention is required.
 **Example:** Digital & Interoperable Medicines
 
 <div style="display: flex; gap: 0.125rem; align-items: center;">
-<div style="display: flex; color: white; background-color: #DA291C; width: 150px; height: 40px; align-items: center; justify-content: center;">#DA291C</div>
-<div style="display: flex; color: white; background-color: #ED8B00; width: 150px; height: 40px; align-items: center; justify-content: center;">#ED8B00</div>
-<div style="display: flex; color: white; background-color: #006747; width: 150px; height: 40px; align-items: center; justify-content: center;">#006747</div>
+<div class="colour-rect" style="--colour: #DA291C; --txt_clr: white">#DA291C</div>
+<div class="colour-rect" style="--colour: #ED8B00; --txt_clr: white">#ED8B00</div>
+<div class="colour-rect" style="--colour: #006747; --txt_clr: white">#006747</div>
 </div>
 
 ### Divergence
@@ -387,9 +387,9 @@ Red indicates that a target is not going to be met and intervention is required.
 <div style="background: linear-gradient(to right, #DA291C, #DFDFDF, #DFDFDF, #005EB8); height: 20px; width: 456px; padding-top: 10px; padding-bottom: 10px"></div>
 
 <div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #DA291C; width: 150px; height: 40px; align-items: center; justify-content: center;">#DA291C</div>
-<div style="display: flex; color: black; background-color: #DFDFDF; width: 150px; height: 40px; align-items: center; justify-content: center;">#DFDFDF</div>
-<div style="display: flex; color: white; background-color: #005EB8; width: 150px; height: 40px; align-items: center; justify-content: center;">#005EB8</div>
+<div class="colour-rect" style="--colour: #DA291C; --txt_clr: white">#DA291C</div>
+<div class="colour-rect" style="--colour: #DFDFDF; --txt_clr: black">#DFDFDF</div>
+<div class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</div>
 </div>
 
 ## Colour tints for measures
@@ -414,11 +414,11 @@ e.g. Continuous scale: 1, 1.1, 1.2, 1.3, 1.4 etc
 </div>
 
 <div style="display: flex; gap: 0.625rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background: linear-gradient(to bottom, #005EB8, #B3CFEA); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
-<div style="display: flex; color: white; background: linear-gradient(to bottom, #4C6272, #D1D6D9); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
-<div style="display: flex; color: white; background: linear-gradient(to bottom, #FFB81C, #F5E7C8); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
-<div style="display: flex; color: white; background: linear-gradient(to bottom, #AE2573, #E5C9D9); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
-<div style="display: flex; color: white; background: linear-gradient(to bottom, #00A499, #C2E3E1); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
+<div class="colour-gradient-square" style="--colour_top: #005EB8; --colour_bottom: #B3CFEA"></div>
+<div class="colour-gradient-square" style="--colour_top: #4C6272; --colour_bottom: #D1D6D9"></div>
+<div class="colour-gradient-square" style="--colour_top: #FFB81C; --colour_bottom: #F5E7C8"></div>
+<div class="colour-gradient-square" style="--colour_top: #AE2573; --colour_bottom: #E5C9D9"></div>
+<div class="colour-gradient-square" style="--colour_top: #00A499; --colour_bottom: #C2E3E1"></div>
 </div>
 
 <div style="display: flex; gap: 0.3125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">

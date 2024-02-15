@@ -96,6 +96,26 @@ code {
   line-height: 1rem;
 }
 
+.colour-rect {
+  display: flex;
+  color: var(--txt_clr);
+  background-color: var(--colour);
+  width: 150px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.colour-gradient-square {
+  display: flex;
+  color: white;
+  background: linear-gradient(to bottom, var(--colour_top), var(--colour_bottom));
+  width: 100px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 600px) {
   .colour-div {
     width:150px; 
