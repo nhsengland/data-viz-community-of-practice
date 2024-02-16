@@ -67,13 +67,51 @@ code {
   margin: 1vh;
 }
 
+.table-font {
+  color: white;
+  font-weight: 600;
+  font-size: small;
+}
+
+.inline-container {
+  display: flex;
+  gap: 0.3125rem;
+  align-items: center;
+}
+
+.inline-container-pill {
+  display: flex;
+  gap: 0.3125rem;
+  align-items: center;
+  border: solid;
+  border-color: var(--colour);
+  border-radius: 30px;
+  padding-left: 9px;
+  padding-right: 9px;
+}
+
 .colour-grid {
   display:grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-items: center;
   row-gap: 5rem;
   padding-top: 1.25rem;
   padding-bottom: 1.25rem
+}
+
+.colour-rect-grid {
+  display: flex;
+  gap: 0.125rem;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.colour-tint-grid {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding-bottom: 25px;
 }
 
 .colour-div {
@@ -106,6 +144,23 @@ code {
   justify-content: center;
 }
 
+.colour-tint-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.colour-tint-rect {
+  display: flex;
+  color: var(--txt_clr);
+  background-color: var(--colour);
+  width: 90px;
+  height: 25px;
+  font-size: small;
+  align-items: center;
+  justify-content: center;
+}
+
 .colour-gradient-square {
   display: flex;
   color: white;
@@ -116,10 +171,63 @@ code {
   justify-content: center;
 }
 
+.colour-gradient-rect {
+  display: flex;
+  background: linear-gradient(to right, var(--colour_left), var(--colour_right));
+  width: var(--width);
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.inline-colour-square {
+  display: flex;
+  color: white;
+  background: var(--colour);
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.inline-colour-square-text {
+  width: 80px;
+  font-size: small;
+}
+
 @media screen and (max-width: 600px) {
   .colour-div {
     width:150px; 
     height:150px;
+  }
+  .colour-grid {
+  display:grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  justify-items: center;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem
+  }
+  .colour-tint-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.35rem;
+  }
+  .colour-tint-rect {
+    display: flex;
+    color: var(--txt_clr);
+    background-color: var(--colour);
+    width: 45px;
+    height: 20px;
+    font-size: xx-small;
+    align-items: center;
+    justify-content: center;
+  }
+  .colour-rect-grid {
+    display: flex;
+    gap: 0.05rem;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px
   }
 }
 

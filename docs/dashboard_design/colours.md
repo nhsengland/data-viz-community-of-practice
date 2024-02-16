@@ -56,7 +56,7 @@ Use these colours in boundary maps, or sparingly in charts where it would be use
 </div>
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #41B6E6;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>North West</b></div>
 <div><b>NHS Light Blue</b></div>
 <div><b>#41B6E6</b></div>
@@ -65,7 +65,7 @@ Use these colours in boundary maps, or sparingly in charts where it would be use
 
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #330072;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>East of England</b></div>
 <div><b>NHS Purple</b></div>
 <div><b>#330072</b></div>
@@ -73,7 +73,7 @@ Use these colours in boundary maps, or sparingly in charts where it would be use
 </div>
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #AE2573;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>Midlands</b></div>
 <div><b>NHS Pink</b></div>
 <div><b>#AE2573</b></div>
@@ -82,7 +82,7 @@ Use these colours in boundary maps, or sparingly in charts where it would be use
 
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #78BE20;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>London</b></div>
 <div><b>NHS Light Green</b></div>
 <div><b>#78BE20</b></div>
@@ -90,7 +90,7 @@ Use these colours in boundary maps, or sparingly in charts where it would be use
 </div>
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #FAE100;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>South West</b></div>
 <div><b>NHS Yellow</b></div>
 <div><b>#FAE100</b></div>
@@ -99,7 +99,7 @@ Use these colours in boundary maps, or sparingly in charts where it would be use
 
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #ED8B00;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>South East</b></div>
 <div><b>NHS Orange</b></div>
 <div><b>#ED8B00</b></div>
@@ -116,7 +116,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 <div class="colour-grid">
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #003087;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>North East</b></div>
 <div><b>NHS Dark Blue</b></div>
 <div><b>#003087</b></div>
@@ -124,7 +124,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 </div>
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #005EB8;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>Yorkshire</b></div>
 <div><b>NHS Blue</b></div>
 <div><b>#005EB8</b></div>
@@ -133,7 +133,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #41B6E6;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>North West</b></div>
 <div><b>NHS Light Blue</b></div>
 <div><b>#41B6E6</b></div>
@@ -141,7 +141,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 </div>
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #330072;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>East of England</b></div>
 <div><b>NHS Purple</b></div>
 <div><b>#330072</b></div>
@@ -150,7 +150,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #880FB8;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>East Midlands</b></div>
 <div><b>NHS Light Purple</b></div>
 <div><b>#880FB8</b></div>
@@ -158,7 +158,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 </div>
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #AE2573;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>West Midlands</b></div>
 <div><b>NHS Pink</b></div>
 <div><b>#AE2573</b></div>
@@ -167,7 +167,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #78BE20;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>London</b></div>
 <div><b>NHS Light Green</b></div>
 <div><b>#78BE20</b></div>
@@ -176,7 +176,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #ECE354;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>South Western</b></div>
 <div><b>#ECE354</b></div>
 </div>
@@ -184,7 +184,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #EE9F00;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>South Central</b></div>
 <div><b>#EE9F00</b></div>
 </div>
@@ -192,7 +192,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 
 <div class="colour-div">
 <div class="colour-circle" style="--colour: #ED4F00;"></div>
-<div style="text-align: center; padding-top: 20px; font-size: 0.625rem; line-height: 1rem;">
+<div class="colour-circle-text">
 <div><b>South East</b></div>
 <div><b>#ED4F00</b></div>
 </div>
@@ -238,25 +238,25 @@ td {
 <tbody>
   <tr>
     <td NOWRAP>One colour chart</td>
-    <td style="color: white; font-weight: 600; font-size: small;">#005EB8</td>
+    <td class="table-font">#005EB8</td>
   </tr>
   <tr>
     <td NOWRAP>Two colour chart</td>
     <td></td>
-    <td style="color: black; font-weight: 600; font-size: small;">#41B6E6</td>
+    <td class="table-font" style="color: black">#41B6E6</td>
   </tr>
   <tr>
     <td NOWRAP>Three colour chart</td>
     <td></td>
     <td></td>
-    <td style="color: white; font-weight: 600; font-size: small;">#4C6272</td>
+    <td class="table-font">#4C6272</td>
   </tr>
   <tr>
     <td NOWRAP>Four colour chart</td>
     <td></td>
     <td></td>
     <td></td>
-    <td style="color: black; font-weight: 600; font-size: small;">#FFB81C</td>
+    <td class="table-font" style="color: black">#FFB81C</td>
   </tr>
   <tr>
     <td NOWRAP>Five colour chart</td>
@@ -264,7 +264,7 @@ td {
     <td></td>
     <td></td>
     <td></td>
-    <td style="color: white; font-weight: 600; font-size: small;">#AE2573</td>
+    <td class="table-font">#AE2573</td>
   </tr>
   <tr>
     <td NOWRAP>Six colour chart</td>
@@ -273,7 +273,7 @@ td {
     <td></td>
     <td></td>
     <td></td>
-    <td style="color: white; font-weight: 600; font-size: small; margin: 0px">#00A499</td>
+    <td class="table-font">#00A499</td>
   </tr>
    <tr>
     <td NOWRAP>Seven colour chart</td>
@@ -283,7 +283,7 @@ td {
     <td></td>
     <td></td>
     <td></td>
-    <td style="color: white; font-weight: 600; font-size: small;">#E317AA</td>
+    <td class="table-font">#E317AA</td>
   </tr>
   <tr>
     <td NOWRAP>Eight colour chart</td>
@@ -294,7 +294,7 @@ td {
     <td></td>
     <td></td>
     <td></td>
-    <td style="color: white; font-weight: 600; font-size: small;">#007F3B</td>
+    <td class="table-font">#007F3B</td>
   </tr>
   <tr>
     <td NOWRAP>Nine colour chart</td>
@@ -306,7 +306,7 @@ td {
     <td></td>
     <td></td>
     <td></td>
-    <td style="color: white; font-weight: 600; font-size: small;">#9A6324</td>
+    <td class="table-font">#9A6324</td>
   </tr>
   <tr>
     <td NOWRAP>Ten colour chart</td>
@@ -319,7 +319,7 @@ td {
     <td></td>
     <td></td>
     <td></td>
-    <td style="color: black; font-weight: 600; font-size: small;">#78BE20</td>
+    <td class="table-font">#78BE20</td>
   </tr>
   <tr>
     <td NOWRAP>Eleven colour chart</td>
@@ -333,7 +333,7 @@ td {
     <td></td>
     <td></td>
     <td></td>
-    <td style="color: black; font-weight: 600; font-size: small;">#ED4F00</td>
+    <td class="table-font">#ED4F00</td>
   </tr>
   <tr>
     <td NOWRAP>Twelve colour chart</td>
@@ -348,7 +348,7 @@ td {
     <td></td>
     <td></td>
     <td></td>
-    <td style="color: white; font-weight: 600; font-size: small;">#880FB8</td>
+    <td class="table-font">#880FB8</td>
   </tr>
   </tbody>
 </table>
@@ -384,7 +384,7 @@ Red indicates that a target is not going to be met and intervention is required.
 
 **Example:** Map showing of product uptake across England, Difference of year on year comparison
 
-<div style="background: linear-gradient(to right, #DA291C, #DFDFDF, #DFDFDF, #005EB8); height: 20px; width: 456px; padding-top: 10px; padding-bottom: 10px"></div>
+<div style="background: linear-gradient(to right, #DA291C, #DFDFDF, #DFDFDF, #005EB8); height: 20px; width: 100%; padding-top: 10px; padding-bottom: 10px"></div>
 
 <div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
 <div class="colour-rect" style="--colour: #DA291C; --txt_clr: white">#DA291C</div>
@@ -395,7 +395,7 @@ Red indicates that a target is not going to be met and intervention is required.
 ## Colour tints for measures
 Important factors need to be considered when using tints:
 
-- 100% solid NHS blue <span style="padding: 2px; background-color:#005EB8; color: white">(#005EB8)</span>.should always be the dominant colour over any tints
+- <p class="inline-container">100% solid NHS blue <span class="inline-container-pill" style="--colour: #005EB8;"><span class="inline-colour-square" style="--colour: #005EB8"></span>#005EB8</span> should always be the dominant colour over any tints</p>
 
 - Tints should never obscure the legibility or accessibility of any communication
 
@@ -405,12 +405,12 @@ Important factors need to be considered when using tints:
 For darker and lighter colour values, the inbetween colours will be inferred by Tableau automatically.
 e.g. Continuous scale: 1, 1.1, 1.2, 1.3, 1.4 etc
 
-<div style="display: flex; gap: 0.3125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background: #005EB8; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#005EB8</div>
-<div style="display: flex; color: white; background: #4C6272; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#4C6272</div>
-<div style="display: flex; color: white; background: #FFB81C; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#FFB81C</div>
-<div style="display: flex; color: white; background: #AE2573; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#AE2573</div>
-<div style="display: flex; color: white; background: #00A499; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#00A499</div>
+<div class="inline-container" style="padding-top: 10px; padding-bottom: 10px">
+<div class="inline-colour-square" style="--colour: #005EB8"></div><div class="inline-colour-square-text">#005EB8</div>
+<div class="inline-colour-square" style="--colour: #4C6272"></div><div class="inline-colour-square-text">#4C6272</div>
+<div class="inline-colour-square" style="--colour: #FFB81C"></div><div class="inline-colour-square-text">#FFB81C</div>
+<div class="inline-colour-square" style="--colour: #AE2573"></div><div class="inline-colour-square-text">#AE2573</div>
+<div class="inline-colour-square" style="--colour: #00A499"></div><div class="inline-colour-square-text">#00A499</div>
 </div>
 
 <div style="display: flex; gap: 0.625rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
@@ -421,40 +421,40 @@ e.g. Continuous scale: 1, 1.1, 1.2, 1.3, 1.4 etc
 <div class="colour-gradient-square" style="--colour_top: #00A499; --colour_bottom: #C2E3E1"></div>
 </div>
 
-<div style="display: flex; gap: 0.3125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background: #B3CFEA; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#B3CFEA</div>
-<div style="display: flex; color: white; background: #D1D6D9; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#D1D6D9</div>
-<div style="display: flex; color: white; background: #F5E7C8; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#F5E7C8</div>
-<div style="display: flex; color: white; background: #E5C9D9; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#E5C9D9</div>
-<div style="display: flex; color: white; background: #C2E3E1; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#C2E3E1</div>
+<div class="inline-container" style="padding-top: 10px; padding-bottom: 10px">
+<div class="inline-colour-square" style="--colour: #B3CFEA"></div><div class="inline-colour-square-text">#B3CFEA</div>
+<div class="inline-colour-square" style="--colour: #D1D6D9"></div><div class="inline-colour-square-text">#D1D6D9</div>
+<div class="inline-colour-square" style="--colour: #F5E7C8"></div><div class="inline-colour-square-text">#F5E7C8</div>
+<div class="inline-colour-square" style="--colour: #E5C9D9"></div><div class="inline-colour-square-text">#E5C9D9</div>
+<div class="inline-colour-square" style="--colour: #C2E3E1"></div><div class="inline-colour-square-text">#C2E3E1</div>
 </div>
 
 ### Discrete scale
 The top bar in each case shows the solid (100%) value of the colour and the bars below show decreasing values from 80% to 20%. It is acceptable to use tints of the colours. Any % value is accepted as long as it is visible, clear and accessible.
 e.g. Discrete scale: 10, 6, 5, 2 etc
 
-<div style="display: flex; gap: 0.3125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background: #005EB8; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#005EB8</div>
-<div style="display: flex; color: white; background: #4C6272; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#4C6272</div>
-<div style="display: flex; color: white; background: #FFB81C; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#FFB81C</div>
-<div style="display: flex; color: white; background: #AE2573; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#AE2573</div>
-<div style="display: flex; color: white; background: #00A499; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#00A499</div>
+<div class="inline-container" style="padding-top: 10px; padding-bottom: 10px">
+<div class="inline-colour-square" style="--colour: #005EB8"></div><div class="inline-colour-square-text">#005EB8</div>
+<div class="inline-colour-square" style="--colour: #4C6272"></div><div class="inline-colour-square-text">#4C6272</div>
+<div class="inline-colour-square" style="--colour: #FFB81C"></div><div class="inline-colour-square-text">#FFB81C</div>
+<div class="inline-colour-square" style="--colour: #AE2573"></div><div class="inline-colour-square-text">#AE2573</div>
+<div class="inline-colour-square" style="--colour: #00A499"></div><div class="inline-colour-square-text">#00A499</div>
 </div>
 
 <div style="display: flex; gap: 0.625rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background: linear-gradient(to bottom, #005EB8 0, #005EB8 20%, #2D7AC5 20%, #2D7AC5 40%, #5A97D1 40%, #5A97D1 60%, #86B3DE 60%, #86B3DE 80%, #B3CFEA 80%, #B3CFEA 100%); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
-<div style="display: flex; color: white; background: linear-gradient(to bottom, #4C6272 0, #4C6272 20%, #6D7F8C 20%, #6D7F8C 40%, #8F9CA6 40%, #8F9CA6 60%, #B0B9BF 60%, #B0B9BF 80%, #D1D6D9 80%, #D1D6D9 100%); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
-<div style="display: flex; color: white; background: linear-gradient(to bottom, #FFB81C 0, #FFB81C 20%, #FDC447 20%, #FDC447 40%, #FAD072 40%, #FAD072 60%, #F8DB9D 60%, #F8DB9D 80%, #F5E7C8 80%, #F5E7C8 100%); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
-<div style="display: flex; color: white; background: linear-gradient(to bottom, #AE2573 0, #AE2573 20%, #BC4E8D 20%, #BC4E8D 40%, #CA77A6 40%, #CA77A6 60%, #D7A0C0 60%, #D7A0C0 80%, #E5C9D9 80%, #E5C9D9 100%); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
-<div style="display: flex; color: white; background: linear-gradient(to bottom, #00A499 0, #00A499 20%, #31B4AB 20%, #31B4AB 40%, #61C4BD 40%, #61C4BD 60%, #92D3CF 60%, #92D3CF 80%, #C2E3E1 80%, #C2E3E1 100%); width: 100px; height: 100px; align-items: center; justify-content: center;"></div>
+<div class="colour-gradient-square" style="background: linear-gradient(to bottom, #005EB8 0, #005EB8 20%, #2D7AC5 20%, #2D7AC5 40%, #5A97D1 40%, #5A97D1 60%, #86B3DE 60%, #86B3DE 80%, #B3CFEA 80%, #B3CFEA 100%)"></div>
+<div class="colour-gradient-square" style="background: linear-gradient(to bottom, #4C6272 0, #4C6272 20%, #6D7F8C 20%, #6D7F8C 40%, #8F9CA6 40%, #8F9CA6 60%, #B0B9BF 60%, #B0B9BF 80%, #D1D6D9 80%, #D1D6D9 100%)"></div>
+<div class="colour-gradient-square" style="background: linear-gradient(to bottom, #FFB81C 0, #FFB81C 20%, #FDC447 20%, #FDC447 40%, #FAD072 40%, #FAD072 60%, #F8DB9D 60%, #F8DB9D 80%, #F5E7C8 80%, #F5E7C8 100%)"></div>
+<div class="colour-gradient-square" style="background: linear-gradient(to bottom, #AE2573 0, #AE2573 20%, #BC4E8D 20%, #BC4E8D 40%, #CA77A6 40%, #CA77A6 60%, #D7A0C0 60%, #D7A0C0 80%, #E5C9D9 80%, #E5C9D9 100%)"></div>
+<div class="colour-gradient-square" style="background: linear-gradient(to bottom, #00A499 0, #00A499 20%, #31B4AB 20%, #31B4AB 40%, #61C4BD 40%, #61C4BD 60%, #92D3CF 60%, #92D3CF 80%, #C2E3E1 80%, #C2E3E1 100%)"></div>
 </div>
 
-<div style="display: flex; gap: 0.3125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background: #B3CFEA; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#B3CFEA</div>
-<div style="display: flex; color: white; background: #D1D6D9; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#D1D6D9</div>
-<div style="display: flex; color: white; background: #F5E7C8; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#F5E7C8</div>
-<div style="display: flex; color: white; background: #E5C9D9; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#E5C9D9</div>
-<div style="display: flex; color: white; background: #C2E3E1; width: 20px; height: 20px; align-items: center; justify-content: center;"></div><div style="width: 80px; font-size: small;">#C2E3E1</div>
+<div class="inline-container" style="padding-top: 10px; padding-bottom: 10px">
+<div class="inline-colour-square" style="--colour: #B3CFEA"></div><div class="inline-colour-square-text">#B3CFEA</div>
+<div class="inline-colour-square" style="--colour: #D1D6D9"></div><div class="inline-colour-square-text">#D1D6D9</div>
+<div class="inline-colour-square" style="--colour: #F5E7C8"></div><div class="inline-colour-square-text">#F5E7C8</div>
+<div class="inline-colour-square" style="--colour: #E5C9D9"></div><div class="inline-colour-square-text">#E5C9D9</div>
+<div class="inline-colour-square" style="--colour: #C2E3E1"></div><div class="inline-colour-square-text">#C2E3E1</div>
 </div>
 
 ### Charts with multiple measures
@@ -464,147 +464,148 @@ If multiple measures need to be displayed in the visualisation, use the listed c
 <br><br>
 
 <!-- Parent container for all measure tints -->
-<div style="display: flex; flex-direction: column; gap: 1.75rem;">
+<p style="padding-bottom: 8px">Chart with <b>one</b> measure</p>
+<div class="colour-tint-container">
 <!-- 1st row -->
-<div>
-<div style="display: flex; color: white; background: linear-gradient(to right, #005EB8, #B3CFEA); width: 1008px; height: 20px; align-items: center; justify-content: center;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #005EB8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
-<div style="display: flex; color: black; background-color: #B3CFEA; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
-<div style="font-size: small;"> &#x2190; Chart with <b>one</b> measure</div>
+<div style="padding-bottom: 25px;">
+<div class="colour-gradient-rect" style="--colour_left: #005EB8; --colour_right: #B3CFEA; --width: 100%;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #005EB8; --txt_clr: white;">#005EB8</div>
+<div class="colour-tint-rect" style="--colour: #B3CFEA; --txt_clr: black;">#B3CFEA</div>
 </div>
 </div>
 
 <!-- 2nd row -->
-<div style="display: flex; flex-direction: row; gap: 1rem;">
+<p>Chart with <b>two</b> measures</p>
+<div class="colour-tint-grid">
 
 <div>
 <div style="height: 20px;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #005EB8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
-<div style="display: flex; color: black; background-color: #B3CFEA; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #005EB8; --txt_clr: white;">#005EB8</div>
+<div class="colour-tint-rect" style="--colour: #B3CFEA; --txt_clr: black;">#B3CFEA</div>
 </div>
 </div>
 
-<div>
-<div style="display: flex; color: white; background: linear-gradient(to right, #4C6272, #D1D6D9); width: 803px; height: 20px; align-items: center; justify-content: center;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #4C6272; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
-<div style="display: flex; color: black; background-color: #D1D6D9; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
-<div style="font-size: small;"> &#x2190; Chart with <b>two</b> measures</div>
+<div style="width:100%">
+<div class="colour-gradient-rect" style="--colour_left: #4C6272; --colour_right: #D1D6D9; --width: 100%;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #4C6272; --txt_clr: white;">#4C6272</div>
+<div class="colour-tint-rect" style="--colour: #D1D6D9; --txt_clr: black;">#D1D6D9</div>
 </div>
 </div>
 
 </div>
 
 <!-- 3rd row -->
-<div style="display: flex; flex-direction: row; gap: 1rem;">
+<p>Chart with <b>three</b> measures</p>
+<div class="colour-tint-grid">
 
 <div>
 <div style="height: 20px;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #005EB8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
-<div style="display: flex; color: black; background-color: #B3CFEA; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #005EB8; --txt_clr: white;">#005EB8</div>
+<div class="colour-tint-rect" style="--colour: #B3CFEA; --txt_clr: black;">#B3CFEA</div>
 </div>
 </div>
 
 <div>
 <div style="height: 20px;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #4C6272; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
-<div style="display: flex; color: black; background-color: #D1D6D9; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #4C6272; --txt_clr: white;">#4C6272</div>
+<div class="colour-tint-rect" style="--colour: #D1D6D9; --txt_clr: black;">#D1D6D9</div>
 </div>
 </div>
 
-<div>
-<div style="display: flex; color: white; background: linear-gradient(to right, #FFB81C, #F5E7C8); width: 597px; height: 20px; align-items: center; justify-content: center;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #FFB81C; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#FFB81C</div>
-<div style="display: flex; color: black; background-color: #F5E7C8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#F5E7C8</div>
-<div style="font-size: small;"> &#x2190; Chart with <b>three</b> measures</div>
+<div style="width: 100%;">
+<div class="colour-gradient-rect" style="--colour_left: #FFB81C; --colour_right: #F5E7C8; --width: 100%;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #FFB81C; --txt_clr: white;">#FFB81C</div>
+<div class="colour-tint-rect" style="--colour: #F5E7C8; --txt_clr: black;">#F5E7C8</div>
 </div>
 </div>
 
 </div>
 
 <!-- 4th row -->
-<div style="display: flex; flex-direction: row; gap: 1rem;">
+<p>Chart with <b>four</b> measures</p>
+<div class="colour-tint-grid">
 
 <div>
 <div style="height: 20px;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #005EB8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
-<div style="display: flex; color: black; background-color: #B3CFEA; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
-</div>
-</div>
-
-<div>
-<div style="height: 20px;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #4C6272; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
-<div style="display: flex; color: black; background-color: #D1D6D9; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #005EB8; --txt_clr: white;">#005EB8</div>
+<div class="colour-tint-rect" style="--colour: #B3CFEA; --txt_clr: black;">#B3CFEA</div>
 </div>
 </div>
 
 <div>
 <div style="height: 20px;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #FFB81C; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#FFB81C</div>
-<div style="display: flex; color: black; background-color: #F5E7C8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#F5E7C8</div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #4C6272; --txt_clr: white;">#4C6272</div>
+<div class="colour-tint-rect" style="--colour: #D1D6D9; --txt_clr: black;">#D1D6D9</div>
 </div>
 </div>
 
 <div>
-<div style="display: flex; color: white; background: linear-gradient(to right, #AE2573, #E5C9D9); width: 392px; height: 20px; align-items: center; justify-content: center;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #AE2573; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#AE2573</div>
-<div style="display: flex; color: black; background-color: #E5C9D9; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#E5C9D9</div>
-<div style="font-size: small;"> &#x2190; Chart with <b>four</b> measures</div>
+<div style="height: 20px;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #FFB81C; --txt_clr: white;">#FFB81C</div>
+<div class="colour-tint-rect" style="--colour: #F5E7C8; --txt_clr: black;">#F5E7C8</div>
+</div>
+</div>
+
+<div style="width: 100%;">
+<div class="colour-gradient-rect" style="--colour_left: #AE2573; --colour_right: #E5C9D9; --width: 100%;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #AE2573; --txt_clr: white;">#AE2573</div>
+<div class="colour-tint-rect" style="--colour: #E5C9D9; --txt_clr: black;">#E5C9D9</div>
 </div>
 </div>
 
 </div>
 
 <!-- 5th row -->
-<div style="display: flex; flex-direction: row; gap: 1rem;">
+<p>Chart with <b>five</b> measures</p>
+<div class="colour-tint-grid">
 
 <div>
 <div style="height: 20px;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #005EB8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
-<div style="display: flex; color: black; background-color: #B3CFEA; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
-</div>
-</div>
-
-<div>
-<div style="height: 20px;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #4C6272; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#005EB8</div>
-<div style="display: flex; color: black; background-color: #D1D6D9; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#B3CFEA</div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #005EB8; --txt_clr: white;">#005EB8</div>
+<div class="colour-tint-rect" style="--colour: #B3CFEA; --txt_clr: black;">#B3CFEA</div>
 </div>
 </div>
 
 <div>
 <div style="height: 20px;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #FFB81C; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#FFB81C</div>
-<div style="display: flex; color: black; background-color: #F5E7C8; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#F5E7C8</div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #4C6272; --txt_clr: white;">#4C6272</div>
+<div class="colour-tint-rect" style="--colour: #D1D6D9; --txt_clr: black;">#D1D6D9</div>
 </div>
 </div>
 
 <div>
-<div style="height: 20px; font-size: small; text-align: right;">Chart with <b>five</b> measures &#x2192;</div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #AE2573; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#AE2573</div>
-<div style="display: flex; color: black; background-color: #E5C9D9; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#E5C9D9</div>
+<div style="height: 20px;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #FFB81C; --txt_clr: white;">#FFB81C</div>
+<div class="colour-tint-rect" style="--colour: #F5E7C8; --txt_clr: black;">#F5E7C8</div>
 </div>
 </div>
 
 <div>
-<div style="display: flex; color: white; background: linear-gradient(to right, #00A499, #C2E3E1); width: 183px; height: 20px; align-items: center; justify-content: center;"></div>
-<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
-<div style="display: flex; color: white; background-color: #00A499; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#00A499</div>
-<div style="display: flex; color: black; background-color: #C2E3E1; font-size: small; width: 90px; height: 25px; align-items: center; justify-content: center;">#C2E3E1</div>
+<div style="height: 20px;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #AE2573; --txt_clr: white;">#AE2573</div>
+<div class="colour-tint-rect" style="--colour: #E5C9D9; --txt_clr: black;">#E5C9D9</div>
+</div>
+</div>
+
+<div style="width: 100%;">
+<div class="colour-gradient-rect" style="--colour_left: #00A499; --colour_right: #C2E3E1; --width: 100%;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #00A499; --txt_clr: white;">#00A499</div>
+<div class="colour-tint-rect" style="--colour: #C2E3E1; --txt_clr: black;">#C2E3E1</div>
 </div>
 </div>
 
