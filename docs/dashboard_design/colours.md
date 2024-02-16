@@ -618,7 +618,10 @@ If multiple measures need to be displayed in the visualisation, use the listed c
 ![UI specs for visualisation](../../images/ui-colour-spec.png){ data-title="UI specs for visualisation" data-description=".ui-spec-viz" data-caption-position="left" data-gallery="icons"}
 <div class="glightbox-desc ui-spec-viz">
 Font: Arial
+<br>
 Size: 10px
+<br>
 Weight: Normal
+<br>
 Colour: Chart colour hex
 </div>
