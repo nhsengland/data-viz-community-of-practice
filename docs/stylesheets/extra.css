@@ -313,7 +313,7 @@ li ol > li:before {
   height: 15px;
   background-color: #1EBB52;
   border-radius: .5rem;
-  margin: 0.2em 0 0 -4px;
+  margin: 0.2em 0 0 -0.8em;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -329,7 +329,7 @@ li ol > li:before {
   height: 15px;
   background-color: #DA291C;
   border-radius: .5rem;
-  margin: 0.2em 0 0 -4px;
+  margin: 0.2em 0 0 -0.8em;
   display: flex;
   align-items: center;
   justify-content: center;
