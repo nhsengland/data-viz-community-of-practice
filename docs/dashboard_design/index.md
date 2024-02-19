@@ -13,18 +13,18 @@ These guidelines are for developers, product owners and quality assurance tester
 
 These design guidelines are useful for:
 
-- [x] **Ensuring consistency**
+- [x] &nbsp;**Ensuring consistency**
 
 Creating a unified visual experience across the product and considering how this links across analytical products will ensure a strong, professional and positive perception
 
-- [x] **Sharing vocabulary**
+- [x] &nbsp;**Sharing vocabulary**
 
 Having one document for data visualisation development teams to refer to aids collaboration. These guidelines are a tool which can be relied upon for quicker interation times and consistent digital experiences for users.
 
-- [x] **Faster onboarding**
+- [x] &nbsp;**Faster onboarding**
 
 Having an agreed style guide will help new team members to get up to speed quickly and enable them to make design decisions, soon after joining us.
 
-- [x] **Standardisation**
+- [x] &nbsp;**Standardisation**
 
 Design guidelines specify the exact sizing and formatting requirements so that NHS front-end developers can follow the same standards.
