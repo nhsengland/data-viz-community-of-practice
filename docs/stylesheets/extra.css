@@ -311,7 +311,6 @@ li ol > li:before {
 .md-typeset [type="checkbox"]:checked + .task-list-indicator:before {
   width:  15px;
   height: 15px;
-  color: #1EBB52;
   background-color: #1EBB52;
   border-radius: .5rem;
   margin: 0.2em 0 0 -4px;
@@ -328,7 +327,6 @@ li ol > li:before {
 .md-typeset [type="checkbox"]:not(:checked) + .task-list-indicator:before {
   width:  15px;
   height: 15px;
-  color: #DA291C;
   background-color: #DA291C;
   border-radius: .5rem;
   margin: 0.2em 0 0 -4px;
