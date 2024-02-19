@@ -11,6 +11,8 @@
   --md-footer-bg-color: #f0f4f5;
   --md-footer-fg-color: black;
   --md-footer-fg-color--light: black;
+  --md-tasklist-icon: ;
+  --md-tasklist-icon--checked: ;
 }
 
 .md-typeset h1 {
@@ -304,4 +306,36 @@ li ol > li {
 
 li ol > li:before {
   content: counters(item, ".") " ";
+}
+
+.md-typeset [type="checkbox"]:checked + .task-list-indicator:before {
+  width:  15px;
+  height: 15px;
+  background-color: #1EBB52;
+  border-radius: .5rem;
+  margin: 0.2em 0 0 -0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  padding: 8px;
+  line-height: 1;
+  content: "✔";
+  color: #FFFFFF;
+}
+
+.md-typeset [type="checkbox"]:not(:checked) + .task-list-indicator:before {
+  width:  15px;
+  height: 15px;
+  background-color: #DA291C;
+  border-radius: .5rem;
+  margin: 0.2em 0 0 -0.8em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  padding: 8px;
+  line-height: 1;
+  content: "X";
+  color: #FFFFFF;
 }
