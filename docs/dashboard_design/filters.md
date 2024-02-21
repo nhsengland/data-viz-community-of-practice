@@ -137,7 +137,7 @@ Tableau has an inbuilt button object used to navigate from one page to another w
 
 4. You can add this button as an image or as a text box.
 
-5. test it in the presentation mode to make sure it is working correctly.
+5. Test it in the presentation mode to make sure it is working correctly.
 
 
 
@@ -147,27 +147,80 @@ Tableau has an inbuilt button object used to navigate from one page to another w
 
 ## To use buttons as filters
 
-This functionality is not part of the default tableau button above. To implement a custom button you must instead create a worksheet that looks like a button.
-For example you might want a button for each region to filter your visualisations.
+This functionality is not part of the default tableau button above.
+Generally, it is better to use inbuilt filters from columns, calculated fields or parameters as discussed above.
+However, if you need a button to apply a filter on your dashboard, this can be achieved by creating a worksheet to appear like a button.
 
-1. Create a new worksheet using the square mark eg named 'region button'.
+![buttons as filters](images/filter_buttons_overall.png){ width="70%" data-gallery="button_filters"}
 
-2. Format the square colour to what you want the button to be and increase size to the maximum. Fit to entire view.
 
-3. You must add the field you want to filter other worksheets by as a mark eg detail mark. You can create several buttons on one worksheet by also adding the field to columns (image 1). Alternatively if you are only having one button per worksheet you can add the field to the filters area and preselect the value you want the button to filter other worksheets to (image 2).
+1.	Create a new worksheet, this will become your button.
 
-4. To add text to your button use a label. This can be using the field or static text.
+2.	Use the square mark. (This stops the button highlighting as blue when the sheet is selected).
 
-5. Add your button worksheet to your dashboard.
+3.	Add the field you want to filter other worksheets by to the marks card e.g. as a detail.
 
-6. Create a filter dashboard action.
+4.	You can create several buttons on one worksheet by also adding the field to columns (left image).
+Alternatively, if you are only having one button per worksheet you can add the field to the filters area and preselect the value you want the button to filter other worksheets to (right image).
+
+    ![Multi button worksheet](images/button_filter_multiple.png){ width="55%" data-gallery="button_filters" align=left}
+    ![Single button worksheet](images/button_filter_single.png){ width="40%" data-gallery="button_filters" align=right}
+
+5.	If you have a field in the columns section, then ensure you untick show headers.
+
+6.	To add text to your button, use a label. This can be using the field or static text.
+
+7.	Format the square colour to what you want the button to be. Eg white square with a grey border.
+
+8.	Fit to entire view. You may need to increase the square size.
+
+9.	If the square still appears behind text even when the square size is maxed, you can add “1” to the marks card as a colour, then edit the colour to what you want.
+Now when the worksheet is selected the square will appear as a border instead.
+
+10.	Add your button worksheet to your dashboard.
+
+11.	Create a filter dashboard action.
+
+    ![Button filter action](images/button_filter_action.png){ width="70%" data-gallery="button_filters" align=left}
 
 
 ### Button to reset all filters in a dashboard
 
+![Finished reset button sheet](images/reset_button.png){: width="35% data-gallery="button_filters" align=right}
+
 The method to use buttons as filters can also be used as a 'reset button'.
 
-1. 
+
+1.	Create a new worksheet, this will become your button.
+
+2.	Use the square mark. (This stops the button highlighting as blue when the sheet is selected).
+
+3.	To add text to your button, use a label. This can be using the field or static text.
+
+4.	Fit to entire view.
+
+5.	If the square still appears behind text even when the square size is maxed, you can add “1” to the marks card as a colour, then edit the colour to what you want.
+Now when the worksheet is selected the square will appear as a border instead.
+
+    ![Before colour](images/reset_button_small_square.png){ width="45%" data-gallery="button_filters" align=left}
+    ![Using colour](images/reset_button_border_square.png){ width="45%" data-gallery="button_filters" align=right}
+
+6.	Add any default values (for resetting parameters) to the marks card eg as details.
+
+7.	Add your button worksheet to your dashboard.
+
+8.	Create a filter dashboard action. Ensure the filters you want to unfilter are named in the selected fields section.
+Ignore the missing field message. You can add as many filters as you want to reset to the single action.
+
+9.	To unfilter/reset parameters to a default, create a change parameter dashboard action.
+Ensure the default value you want to set the parameter to is placed in the source field and the clearing selection area.
+You will need a parameter action per parameter you want to reset.
+
+![Reset filters action](images/unfilter_action.png){ width="50%" data-gallery="button_filters" align=left}
+![Reset parameter action](images/reset_parameter.png){ width="45%" data-gallery="button_filters" align=right}
+
 
 
 ## Toggles (weighted data)
+
+placeholder text

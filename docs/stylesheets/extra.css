@@ -22,6 +22,12 @@
   margin: 0 0 1.25em;
 }
 
+/* stops inline objects making headers move to between objects*/
+.md-typeset h1,h2,h3,h4,h5,h6 {
+  width: 100%;
+  display: flex;
+}
+
 .md-footer {
   background-color: #f6f8f8 !important;
 }
@@ -281,6 +287,8 @@ html {
   -webkit-mask-image: var(--md-admonition-icon--download);
           mask-image: var(--md-admonition-icon--download);
 }
+
+/* allows numbered lists to have nested decial places eg 1 & 1.1 */
 ol {
   list-style-type: none;
   counter-reset: item;
@@ -308,6 +316,7 @@ li ol > li:before {
   content: counters(item, ".") " ";
 }
 
+/* for custom tasklist icons */
 .md-typeset [type="checkbox"]:checked + .task-list-indicator:before {
   width:  15px;
   height: 15px;
@@ -323,7 +332,7 @@ li ol > li:before {
   content: "✔";
   color: #FFFFFF;
 }
-
+/* for custom tasklist icons */
 .md-typeset [type="checkbox"]:not(:checked) + .task-list-indicator:before {
   width:  15px;
   height: 15px;
