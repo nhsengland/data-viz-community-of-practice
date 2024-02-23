@@ -192,8 +192,8 @@ code {
   display: flex;
   color: white;
   background: var(--colour);
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   align-items: center;
   justify-content: center;
 }

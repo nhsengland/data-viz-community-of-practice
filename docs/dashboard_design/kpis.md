@@ -8,8 +8,8 @@ KPIs are used to provide at a glance key information for the user.
     - [x] If there is any description available for the KPIs that has to be shown in a tooltip on rollover the KPI slot.
     - [x] There can be any number of KPIs shown on a dashboard (we suggest not more than 10) but a minimum of four and a maximum of five slots should be allocated per row to display the KPIs.
     - [x] If there are <5 KPIs then we use blank spaces for the remaining slots out of five.
-    - [x] If a KPI slot has a click-through, then its title should appear in <font color="#005EB8">**blue (#005EB8)**</font> along with an arrow
-    - [x] If a KPI slot does not have a click-through it should be in **black (#212B32)** without an arrow.
+    - [x] <p class="inline-container">If a KPI slot has a click-through, then its title should appear in NHS Blue <span class="inline-container-pill" style="--colour: #005EB8;"><span class="inline-colour-square" style="--colour: #005EB8; width: 15px; height: 15px"></span>#005EB8</span> along with an arrow</p>
+    - [x] <p class="inline-container">If a KPI slot does not have a click-through it should be in NHS Black <span class="inline-container-pill" style="--colour: #212B32;"><span class="inline-colour-square" style="--colour: #212B32; width: 15px; height: 15px"></span>#212B32</span> without an arrow</p>
     - [ ] There should not be a mix of interactive and non-interactive KPIs on the dashboard
     - [x] Titles for KPIs will be pulled dynamically from the data, so during the testing, if we notice the titles are long then increase the height of these KPI slots.
 
