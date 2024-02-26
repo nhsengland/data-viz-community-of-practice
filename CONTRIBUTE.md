@@ -4,7 +4,7 @@ Hi there! We're thrilled that you'd like to contribute to this landing page repo
 
 ## Creating an issue
 
-If you think of something worth including, improving, or want to contribute, please [raise an issue on GitHub](https://github.com/NHSDigital/rap-community-of-practice/issues).
+If you think of something worth including, improving, or want to contribute, please [raise an issue on GitHub](https://github.com/NHSDigital/data-viz-community-of-practice/issues).
 
 ## Submitting a pull request
 
@@ -14,7 +14,7 @@ If you want to contribute to our resources:
 2. Configure and install the dependencies if you want to run the page in your machine, otherwise none.
 3. Create a new branch: `git checkout -b my-branch-name`
 4. Make your change
-5. Check how your change looks on our website by hosting the website locally (follow [the steps below](#contribute-to-rap-community-of-practice-website) on how to do this)
+5. Check how your change looks on our website by hosting the website locally (follow [the steps below](#contribute-to-data-viz-community-of-practice-website) on how to do this)
 6. Push to your fork and [submit a pull request][pr]
 
 Your pull request will then be reviewed. You may receive some feedback and suggested changes before it can be approved and your pull request merged. 
@@ -26,7 +26,7 @@ To increase the likelihood of your pull request being accepted:
 - Keep your change as focussed as possible. If there are multiple changes you would like to make that are not dependent upon each other, consider submitting them as separate pull requests.
 - Write [good commit messages](http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html).
 
-## Contribute to RAP Community of Practice Website
+## Contribute to Data Viz Community of Practice Website
 
 ### Installing MkDocs
 
