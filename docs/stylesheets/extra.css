@@ -98,6 +98,12 @@ code {
   padding-right: 9px;
 }
 
+.inline-container-icon {
+  display: flex;
+  gap: 0.3125rem;
+  align-items: center;
+}
+
 .colour-grid {
   display:grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -192,8 +198,8 @@ code {
   display: flex;
   color: white;
   background: var(--colour);
-  width: 20px;
-  height: 20px;
+  width: 18px;
+  height: 18px;
   align-items: center;
   justify-content: center;
 }

@@ -41,9 +41,9 @@ Example of a thin table
 
 ## Wide tables
 - Shading allows the user to keep their eye on a specific row as they scan from left to right
-- Table header colour: #D8DDE0
-- Alternate row colour: #F0F4F5
-- Text colour: #212B32
+- <p class="inline-container">Table header colour: <span class="inline-container-pill" style="--colour: #D8DDE0; background-color: white"><span class="inline-colour-square" style="--colour: #D8DDE0"></span>#D8DDE0</span></p>
+- <p class="inline-container">Alternate row colour: <span class="inline-container-pill" style="--colour: #F0F4F5; background-color: white"><span class="inline-colour-square" style="--colour: #F0F4F5"></span>#F0F4F5</span></p>
+- <p class="inline-container">Text colour: <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32"></span>#212B32</span></p>
 
 ![Wide tables](../../images/wide_tables.png){ data-title="Wide tables" data-description=".custom-desc2" data-caption-position="left" data-gallery="tables"}
 <div class="glightbox-desc custom-desc1">
@@ -52,9 +52,9 @@ Example of a wide table
 
 ## Text tables
 - Text should be left-aligned, and the headers should be right-aligned for the column
-- Table header colour: #D8DDE0
-- Alternate row colour: #F0F4F5
-- Text colour: #212B32
+- <p class="inline-container">Table header colour: <span class="inline-container-pill" style="--colour: #D8DDE0; background-color: white"><span class="inline-colour-square" style="--colour: #D8DDE0"></span>#D8DDE0</span></p>
+- <p class="inline-container">Alternate row colour: <span class="inline-container-pill" style="--colour: #F0F4F5; background-color: white"><span class="inline-colour-square" style="--colour: #F0F4F5"></span>#F0F4F5</span></p>
+- <p class="inline-container">Text colour: <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32"></span>#212B32</span></p>
 
 ![Text tables](../../images/text_tables.png){ data-title="Text tables" data-description=".custom-desc3" data-caption-position="left" data-gallery="tables"}
 <div class="glightbox-desc custom-desc3">
