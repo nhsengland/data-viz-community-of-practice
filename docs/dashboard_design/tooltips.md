@@ -16,7 +16,7 @@ Where possible avoid acronyms in the product name, unless widely understood e.g.
 If an acronym needs to be included in the product title, ensure it is also written out in full e.g. Summary Emergency Department Indicator Table (SEDIT)
 
 ## Other tooltips
-<p>Some tooltips will have an information icon <span><img src="../../images/information_icon_blue.png" alt="information icon" height="20" width="20"></span> next to the title. Hovering over this <span><img src="../../images/information_icon_blue.png" alt="information icon" height="20" width="20"></span> will show a tooltip that provides details on how to use or interpret the visualisation. These tooltips can show supporting text, numbers, data, an image or annotation.</p>
+<p>Some tooltips will have an information icon <span style="display: inline-block; padding-left: 3px; padding-right: 3px;"><img src="../../images/information_icon_blue.png" alt="information icon" height="20" width="20"></span> next to the title. Hovering over this <span style="display: inline-block; padding-left: 3px; padding-right: 3px;"><img src="../../images/information_icon_blue.png" alt="information icon" height="20" width="20"></span> will show a tooltip that provides details on how to use or interpret the visualisation. These tooltips can show supporting text, numbers, data, an image or annotation.</p>
 
 ## Examples
 ### Without a heading
