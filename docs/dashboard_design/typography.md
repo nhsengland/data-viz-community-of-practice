@@ -7,7 +7,7 @@ Typefaces are an important element of the NHS identity. The consistent applicati
 !!! danger "You must use Arial font"
     - Set your default font to be Arial before starting development
     - Font size should not be smaller than size 10
-    - Use "<ins>T</ins>itle <ins>C</ins>ase" for dashboard titles. Else: use "<ins>S</ins>entence case" 
+    - Use "<ins>S</ins>entence case"  for dashboard titles
 
 
 ## Best Practices

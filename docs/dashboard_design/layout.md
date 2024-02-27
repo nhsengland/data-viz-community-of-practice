@@ -2,6 +2,7 @@
 
 
 Where NHS England dashboards are embedded into web pages it is best to make use of the existing web wrapper, this makes use of the 'showing sheets as tabs' Tableau navigation function.
+
 Where this web wrapper is not available, it is best to use Tableau navigation buttons instead.
 
 
@@ -54,7 +55,6 @@ Buttons could be used as a navigation, but we recommend using tabs wherever poss
 [comment]: <> (need actual links to add in!!)
 
 
-
 ## Dashboard layout
 
 > Layout done perfectly, will be invisible to the user. Layout done badly may be the only thing they see.
@@ -67,7 +67,6 @@ For more details see [here](principles.md#visual-hierarchy).
 </figure>
 
 !!! danger "General rules"
-
 
     - 32px margin on left and right sides of the dashboard.
 
@@ -92,6 +91,7 @@ For more details see [here](principles.md#visual-hierarchy).
     - If the viz is going to show more data (more lines/bars) use the full wifth card so it helps the user to digest information quickly.
 
     ![Finished layout](images/full_page_layout.png){data-title="Full page layout" data-caption-position="top" data-gallery="full"}
+
 
 ### Header section
 <!-- <figure markdown>
@@ -213,7 +213,6 @@ If the dashboard is larger than the window, it becomes scrollable.
 - These will load faster because they're more likely to use cached version on the server.
 
 
-
 **Range**
 
 ![Range layout](images/range_layout.png){: height="100px" data-title="Range layout" data-caption-position="top" data-gallery="layout" align=right}
@@ -233,7 +232,6 @@ If it is larger than the maximum size, white space is displayed.
 - The dashboard automatically resizes to fill the window used to display it.
 
 - Use this setting if you want Tableau to take care of resizing. For best results, use a tiled dashboard layout.
-
 
 <br>
 

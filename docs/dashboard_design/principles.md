@@ -58,16 +58,17 @@ The non-erasable portion of a graph is subjective, so Tufte follows up his princ
 The data-ink ratio on this chart can be reduced significantly by taking the following actions:
 
 ![Reducing data-ink](https://images.squarespace-cdn.com/content/v1/56713bf4dc5cb41142f28d1f/1450306653111-70K5IT30R69NWPDIE1ZJ/data-ink.gif){: width="70%" align=right}
-
-- remove backgrounds
-- remove redundant labels
-- remove broders
-- remove colours
-- remove special effects
-- remove bolding
-- lighten labels
-- lighten lines or remove lines
-- direct label
+<ul style="padding-top: 10px; padding-bottom: 10px;">
+<li style="padding-top: 6px; padding-bottom: 6px;">remove backgrounds</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">remove redundant labels</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">remove broders</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">remove colours</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">remove special effects</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">remove bolding</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">lighten labels</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">lighten lines or remove lines</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">direct label</li>
+</ul>
 
 Remember, 'less is more'
 

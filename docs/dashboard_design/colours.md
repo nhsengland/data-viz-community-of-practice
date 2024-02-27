@@ -205,7 +205,7 @@ Use these colours in maps, or sparingly in charts, wherever it would be useful t
 ## Chart colours
 We recommend to stick to no more than five different variables on a graph. Otherwise your visualisation will be confusing. If you need to plot more than 5 variables, you should consider alternative ways to visualise this information.
 
-For any reaons, if we have to use more than five colours in a visualisation (to show multiple values on the same graph where no measure is more important than another e.g. plotting A&E attendances at different hospitals over time) please use the colours listed below. 
+For any reasons, if we have to use more than five colours in a visualisation (to show multiple values on the same graph where no measure is more important than another e.g. plotting A&E attendances at different hospitals over time) then use the colours listed below. 
 
 Note: This colour palette is not applicable if you are visualising [Regional](#nhs-regions "NHS Region colours") or [Ambulance](#nhs-ambulance "Ambulance colours") data. Click the hyperlinks to view their colour set.
 

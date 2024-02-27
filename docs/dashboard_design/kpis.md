@@ -1,5 +1,5 @@
 # KPIs
-KPIs are used to provide at a glance key information for the user.
+KPIs provide key information to the user at a single glance.
 
 ## Best Practices
 
@@ -20,7 +20,7 @@ Annotated KPI
 
 
 ## KPIs per row
-There can be any number of KPIs appear on dashboards (we suggest not more than 10), but a maximum of five slots and a minimum of four should be allocated per row to display the KPIs
+There can be any number of KPIs appear on dashboards (we suggest not more than 10), but a maximum of five slots and a minimum of four should be allocated per row to display the KPIs.
 
 ![KPIs per row](../../images/KPI_row.png){ data-title="KPIs per row" data-description=".custom-desc2" data-caption-position="left" data-gallery="kpi"}
 <div class="glightbox-desc custom-desc2">
@@ -36,7 +36,7 @@ Example of KPIs with long titles
 
 ## KPIs per row - empty slots
 
-If there are <5 KPIs then the remaining slots out of five should be left as blank
+If there are <5 KPIs then the remaining slots out of five should be left as blank.
 
 ![KPIs per row - empty slots](../../images/KPI_row_empty.png){ data-title="KPIs per row" data-description=".custom-desc4" data-caption-position="left" data-gallery="kpi"}
 <div class="glightbox-desc custom-desc4">
@@ -46,7 +46,7 @@ Example of number of KPIs with empty slots
 ## KPIs variations
 
 ### Interactive KPIs
-If a KPI slot has a click-through, then its title should appear in <font color="#005EB8">**blue (#005EB8)**</font> along with an arrow
+If a KPI slot has a click-through, then its title should appear in <font color="#005EB8">**blue (#005EB8)**</font> along with an arrow.
 
 ![Interactive KPIs](../../images/KPI_row.png){ data-title="Interactive KPIs" data-description=".custom-desc5" data-caption-position="left" data-gallery="kpi"}
 <div class="glightbox-desc custom-desc5">
@@ -62,8 +62,8 @@ Example of non interactice KPIs
 </div>
 
 ## KPIs grouping
-5 KPIs should be spread across the screen. When there is a mixed scenario of grouped KPIs and individual KPIs then we have to leave an extra space on the top of the slot.
-If possible arrange the groups first followed by the individual KPIs
+5 KPIs should be spread across the screen. When there is a mixed scenario of grouped KPIs and individual KPIs then you must to leave an extra space on the top of the slot.
+If possible arrange the groups first followed by the individual KPIs.
 
 ![KPIs grouping](../../images/KPI_grouping.png){ data-title="KPIs grouping" data-description=".custom-desc7" data-caption-position="left" data-gallery="kpi"}
 <div class="glightbox-desc custom-desc7">

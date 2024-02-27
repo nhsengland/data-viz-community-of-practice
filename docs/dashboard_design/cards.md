@@ -1,5 +1,5 @@
 # Cards
-Cards are used to separate and highlight elements on dashboards. These are white boxes with a shadow underneath and can contain filters, KPIs, charts, tables and text. Cards can be full width as well as split into multiple cards across a page.
+Cards are used to separate and highlight elements on dashboards. These are white boxes with a shadow underneath and can contain filters, KPIs, charts, tables and text. Cards can be full width as well as split into multiple segments across a page.
 
 ![Cards](../../images/cards.png){ data-title="Cards" data-description=".custom-desc1" data-caption-position="left" data-gallery="cards"}
 <div class="glightbox-desc custom-desc1">
@@ -15,11 +15,11 @@ Example dividers within a card
 </div>
 
 ## Individual element cards
-The easiest way is to use and create cards is to start with the <a href="../../dashboard_design/download_templates">empty templates</a> and use the existing cards. Copy, paste and adjust if required
+The easiest way is to use and create cards is to start with the <a href="../../dashboard_design/download_templates">empty templates</a> and use the existing cards. Copy, paste and adjust if required.
 
 ???+ tip "Individual element cards"
     - [x] The card should be a white container with 16px inner padding
-    - [x] A 2px height container with background colour of #d8dbdc should be placed underneath to create the shadow
+    - [x] <p class="inline-container">A 2px height container with background colour of <span class="inline-container-pill" style="--colour: #D8DBDC; background-color: white"><span class="inline-colour-square" style="--colour: #D8DBDC"></span>#D8DBDC</span> should be placed underneath to create the shadow</p>
     - [x] A new vertical container should be placed within the card
     - [x] The elements can now be placed within this new vertical container
     - [x] The inner padding of each element should be 16px top (apart from the top element)
