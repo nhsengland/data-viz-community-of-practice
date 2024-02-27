@@ -81,6 +81,98 @@ code {
   font-size: small;
 }
 
+.layout-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  width: 100%;
+  grid-gap: 20px;
+}
+
+.z1-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  width: 240px;
+  grid-gap: 20px;
+}
+
+.z2-container {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 240px;
+  grid-gap: 15px;
+}
+
+.layout-square {
+  background-color: #4C6272;
+  color: white;
+  width: 100px;
+  height: 100px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+.layout-rect {
+  background-color: #4C6272;
+  color: white;
+  width: 96%;
+  height: 65px;
+  font-weight: bold;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+.arrow-right::after {
+  color: black;
+  content: '→';
+  font-size: 30px;
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow-down::after {
+  color: black;
+  content: '↓';
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translateX(-50%);
+}
+
+.arrow-up::after {
+  color: black;
+  content: '↑';
+  font-size: 16px;
+  position: absolute;
+  left: 50%;
+  bottom: 100%;
+  transform: translateX(-50%);
+}
+
+.arrow-left::after {
+  color: black;
+  content: '←';
+  font-size: 20px;
+  position: absolute;
+  right: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 .inline-container {
   display: flex;
   gap: 0.3125rem;
@@ -209,6 +301,8 @@ code {
   font-size: small;
 }
 
+
+
 @media screen and (max-width: 600px) {
   .colour-div {
     width:150px; 
@@ -243,8 +337,26 @@ code {
     padding-top: 10px;
     padding-bottom: 10px
   }
+  .layout-container {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 100%;
+    justify-items: center;
+    grid-gap: 40px;
+  }
 }
 
+@media screen and (min-width: 601px) and (max-width: 785px) {
+  .layout-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    width: 100%;
+    justify-items: center;
+    grid-gap: 35px;
+  
+}
 .legal {
   color: #999;
   font-size: 14px;
