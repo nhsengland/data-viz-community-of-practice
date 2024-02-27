@@ -20,7 +20,7 @@ nav:
       - Sketches, Wireframes and Prototypes: dashboard_lifecycle/sketches_wireframes_prototypes.md
   - Dashboard design:
       - dashboard_design/index.md
-      - Style Guide Rules: dashboard_design/quick_summary.md
+      - Style guide rules: dashboard_design/quick_summary.md
       - Principles: dashboard_design/principles.md
       - Layout & navigation: dashboard_design/layout.md
       - Cards: dashboard_design/cards.md

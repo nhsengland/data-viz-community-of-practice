@@ -30,6 +30,7 @@ For more information on dashboard layouts, [click here](/dashboard_design/princi
 
 
 ## NHS logo
+
 Always place the NHS logo in the top right hand corner of your dashboard with a 100px width and a 40px height. The padding around the logo is 30px. 
 
 For more information on how to implement the NHS logo in your dashboard, [click here](/dashboard_design/icons/#nhs-logo).
@@ -39,22 +40,237 @@ For more information on how to implement the NHS logo in your dashboard, [click 
 NHS Logo as shown in the NHS England dashboard templates
 </div>
 
-## Benefits
 
-These design guidelines are useful for:
+## Header and footer
 
-- [x] **Ensuring consistency**
+Add a short note below each title to explain what the title is showing. The whole tab should be relevant to your description. If the description is too long, add it to the tooltip in an information icon instead. 
 
-Creating a unified visual experience across the product and considering how this links across analytical products will ensure a strong, professional and positive perception
+Footers should include the contact information and, if useful, a last refreshed date/time.
 
-- [x] **Sharing vocabulary**
+For more information on what to include in your dashboard header, [click here](/dashboard_design/layout/#header-section).
 
-Having one document for data visualisation development teams to refer to aids collaboration. These guidelines are a tool which can be relied upon for quicker interation times and consistent digital experiences for users.
 
-- [x] **Faster onboarding**
+## Cover page or About page
 
-Having an agreed style guide will help new team members to get up to speed quickly and enable them to make design decisions, soon after joining us.
+![About page](../images/templates-about-page.png){ data-title="About page" data-description=".custom-desc1" data-caption-position="left" data-gallery="templates"}
+<div class="glightbox-desc custom-desc1">
+Screenshot of the About page from the NHS England Tableau Templates
+</div>
 
-- [x] **Standardisation**
+See the [NHS England Tableau Templates](https://tabanalytics.data.england.nhs.uk/t/Public/views/NHSEnglanddashboardtemplates-full/FAbout?%3Aembed=y&%3Aiid=2&%3AisGuestRedirectFromVizportal=y) for an example of this in practice. 
 
-Design guidelines specify the exact sizing and formatting requirements so that NHS front-end developers can follow the same standards.
+
+## Case
+
+Dashboard titles and Tabs should be in sentence case, which means only the first letter of each sentence should be capitalised. 
+
+Workbook names should be in title case, which means that the first letter of each key word should be capitalised. The small, minor words such as *in, of, with, at, and,* etc should be in lower case.
+
+For more information on typography, [click here](/dashboard_design/typography/).
+
+
+## Font
+
+Use Arial as your primary typeface, no smaller than 10pt. Utilise various weights to establish a visual hierarchy. Be consistent in size, boldness and colour.
+
+Here is a summary of the most important dashboard objects and their font specification that you must use in your dashboard:
+
+| **Objects**                  | **Font** | **Weight** | **Size**    | **Colour**     | **HEX**      | **Alignment** |
+|------------------------------|----------|------------|-------------|----------------|--------------|---------------|
+| Dashboard title              | Arial    | Bold       | 24px / 18pt | NHS Black      | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px""></span>#212B32</span>       | Left          |
+| Chart heading / Card heading                | Arial    | Bold       | 16px / 12pt | NHS Black      | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px""></span>#212B32</span>       | Left          |
+| Filter title                 | Arial    | Regular    | 15px / 11pt | NHS Grey 1     | <span class="inline-container-pill" style="--colour: #4C6272; background-color: white"><span class="inline-colour-square" style="--colour: #4C6272; height: 15px; width: 15px"></span>#4C6272</span>       | Left          |
+| Description / Paragraph      | Arial    | Regular    | 15px / 11pt | NHS Grey 1     | <span class="inline-container-pill" style="--colour: #4C6272; background-color: white"><span class="inline-colour-square" style="--colour: #4C6272; height: 15px; width: 15px""></span>#4C6272</span>       | Left          |
+
+To see the full font specification, please [click here](/dashboard_design/typography/#font-specification).
+
+## Alignment
+
+Right align numbers.
+
+Left align text.
+
+
+## Filters
+
+Place filters horizontally under the dashboard title and introduction.
+
+Filter titles should be in Arial black. They do not need to have a colon after the label and say 'Choose'.
+
+For more information on filters best practice, [click here](/dashboard_design/filters/).
+
+
+## Colours
+
+<div class="colour-grid">
+<div class="colour-div">
+<h3 style="display: flex; justify-content: center; align-items: center;">Use NHS Blue</h3>
+<div class="colour-circle" style="--colour: #005eb8;"></div>
+<div class="colour-circle-text">
+<div><b>NHS Blue</b></div>
+<div><b>RGB: 0 / 94 / 184</b></div>
+<div><b>#005EB8</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<h3 style="display: flex; justify-content: center; align-items: center;">Use lots of White</h3>
+<div class="colour-circle" style="--colour: #FFFFFF;"></div>
+<div class="colour-circle-text">
+<div><b>NHS White</b></div>
+<div><b>RGB: 255 / 255 / 255</b></div>
+<div><b>#FFFFFF</b></div>
+</div>
+</div>
+</div>
+<br><br>
+<br><br>
+
+When using colour to plot multiple variables on a chart, use these colours **strictly in this order**:
+<br>
+
+<style>
+td {
+    font-weight: 500;
+    font-size: medium;
+    margin: 0px;
+
+}
+</style>
+
+<table style="border-radius: 10px; background-color: #f0f4f5;">
+  <colgroup>
+    <col style="background-color:#f0f4f5; width: 10%;">
+    <col style="background-color:#005EB8; width: 7.5%;">
+    <col style="background-color:#41B6E6; width: 7.5%;">
+    <col style="background-color:#4C6272; width: 7.5%;">
+    <col style="background-color:#FfB81C; width: 7.5%;">
+    <col style="background-color:#AE2573; width: 7.5%;">
+    <col style="background-color:#00A499; width: 7.5%;">
+    <col style="background-color:#E317AA; width: 7.5%;">
+    <col style="background-color:#007F3B; width: 7.5%;">
+    <col style="background-color:#9A6324; width: 7.5%;">
+    <col style="background-color:#78BE20; width: 7.5%;">
+    <col style="background-color:#ED4F00; width: 7.5%;">
+    <col style="background-color:#880FB8; width: 7.5%;">
+  </colgroup>
+<tbody>
+  <tr>
+    <td NOWRAP>One colour chart</td>
+    <td class="table-font">#005EB8</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Two colour chart</td>
+    <td></td>
+    <td class="table-font" style="color: black">#41B6E6</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Three colour chart</td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#4C6272</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Four colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font" style="color: black">#FFB81C</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Five colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#AE2573</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Six colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#00A499</td>
+  </tr>
+   <tr>
+    <td NOWRAP>Seven colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#E317AA</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Eight colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#007F3B</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Nine colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#9A6324</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Ten colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#78BE20</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Eleven colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#ED4F00</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Twelve colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#880FB8</td>
+  </tr>
+  </tbody>
+</table>
+<br>
+
+For more information on which colours you should use and when, [click here](/dashboard_design/colours/).
