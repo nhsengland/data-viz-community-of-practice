@@ -54,7 +54,7 @@ Example of size of filters
 </div>
 
 **Filters - empty slot:**
-- If there are <5 filters on a dashbouard, then the rest of the filter container slots should be left as empty and set a variable width similar to the other filter containers
+- If there are <5 filters on a dashboard, then the rest of the filter container slots should be left as empty and set a variable width similar to the other filter containers
 
 
 ### Filter layout (two rows)
