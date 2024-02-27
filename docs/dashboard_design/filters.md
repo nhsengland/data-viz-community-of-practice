@@ -15,7 +15,7 @@ Filters example
     Selecting all dates in filter settings
     </div>
 
-    - Filters should be applied to all the views in one dashboard. You should avoid having separate filters for each view, unless there is a strong reason do so. Users should not have to search around the page to cancel previous choices.
+    - Filters should be applied to all the views in one dashboard. You should avoid having separate filters for each view, unless there is a strong reason to do so. Users should not have to search around the page to cancel previous choices.
 
     - Make sure the values in the quick filter are ordered in a way that makes sense for your data. You can specify the order of a quick filter by setting the default sort order for that field.
 
