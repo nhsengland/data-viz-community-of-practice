@@ -1,7 +1,7 @@
 # Download NHS England Tableau templates
 
 !!! warning "Start your dashboard journey here"
-    All dashboard development must start with the empty templates, this will save time as the structure, headers, colours and logos are already in the correct place.
+    All dashboard development must start with the empty templates, this will save time as the container structure, headers, chart titles, colours and logos are already in the correct place.
 
 ## Empty templates
 

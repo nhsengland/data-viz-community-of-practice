@@ -29,7 +29,7 @@ Always assess the information you are working with and display it in the cleares
     - [x] Use the lowest possible level of detail depending on the the intended audience
 
 ## Thin tables
-- Try to minimuse the data-ink ratio
+- Minimise the data-ink ratio
 - Right align column header and numerical values
 - Font sizes as in the <a href="../typography">typography list</a>.
 - Header text alignment should be vertical middle and right

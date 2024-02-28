@@ -1,9 +1,11 @@
 # Information and metric pages
-Text based pages are useful in dashboards to provide further context and an overview of the information being presented. These can be in the form of 'Information' or 'Metric' pages'
+
+For the user looking at your dashboard, context is everything. Information and metric pages provide context behind the dashboard's purpose and an overview of the information presented.
+
 
 ## Information / about page
 
-We should use an 'Information' or 'About' page to provide the user with details about what the dashboards objectives are, data sources and contact details for the author.
+'Information' or 'About' pages tell the user what the objectives of the dashboard are, which data sources it uses and the contact details for the team responsible.
 
 ???+ tip "Best practices"
     - [x] A brief description of the product
@@ -18,15 +20,13 @@ We should use an 'Information' or 'About' page to provide the user with details 
 
 ![Information / about page](../../images/information_page.png){ data-title="Information / about page" data-description=".custom-desc1" data-caption-position="left" data-gallery="information"}
 <div class="glightbox-desc custom-desc1">
-Example of an Information / about page
+Example of an Information / About page
 </div>
-
 
 
 ## Metric descriptions page
 
-For users to better understand the graphs and tables they are using, add a metric desciption tab.
-
+Analytical users want to better understand the data behind the graphs and tables they consume. For this purpose, it is best practice to add a metric desciption tab.
 
 ???+ tip "Table best practices"
     - [x] Include display name
@@ -36,7 +36,8 @@ For users to better understand the graphs and tables they are using, add a metri
     - [x] Include calculation details of each metric
     - [x] Use descriptions from the MIDAS* library
 
-*MIDAS is a centralised indicator governance service. It applies standardised approaches to improve the use and consistency of metrics and addresses the efficacy and quality of indicators in use. 
+    *MIDAS is a centralised indicator governance service. It applies standardised approaches to improve the use and consistency of metrics and addresses the efficacy and quality of indicators in use. 
+
 
 ### Example metric description page from the tableau templates:
 

@@ -299,5 +299,5 @@ Caution should also be taken with users, as interpreting an SPC chart not only r
 
 !!! note "Useful links"
 
-    - NHS England > Making data count
+    - [Making data count](https://www.england.nhs.uk/publication/making-data-count/ "Making data count")
 [comment]: <> (need actual links to add in!!)

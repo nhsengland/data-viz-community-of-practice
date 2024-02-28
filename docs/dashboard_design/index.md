@@ -5,10 +5,6 @@ We convey our visual identity through the products we build. Design guidelines h
 These guidelines are for developers, product owners and quality assurance testers working on data visualisation products in the NHS.
 
 
-## Quick Summary
-[comment]: <> (move section to below benefits once complete with pdf guide info)
-
-
 ## Benefits
 
 These design guidelines are useful for:
