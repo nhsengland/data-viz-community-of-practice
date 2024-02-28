@@ -227,4 +227,13 @@ You will need a parameter action per parameter you want to reset.
 
 ## Toggles (weighted data)
 
-placeholder text
+![toggle button](images/toggle.png){ data-gallery="toggle" align=right}
+
+Where it is helpful to show data by different groupings, for example a crude or weighted view, or if your view needs to switch between provider & commissioner, you can add a single value button toggle.
+Alternatively, a multiple value drop down could be used.
+
+Depending on your data source structure, this may be a filter or a parameter.
+If your data has one column consisting of text values “provider” or “commissioner”, then a filter toggle would be the best approach.
+If your data has one column with provider IDs and one with commissioner IDs, then a parameter toggle would be best.
+Combine the parameter with a calculated field to return the appropriate column name when each toggle option is selected.
+This calculated field would then be used in the view.
