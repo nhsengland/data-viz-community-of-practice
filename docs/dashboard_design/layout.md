@@ -9,7 +9,7 @@ For more details see the [principles page](principles.md#visual-hierarchy).
 !!! danger "General rules"
 
 
-    - 30px margin on all sides of the dashboard as per <a href="https://www.england.nhs.uk/nhsidentity/identity-guidelines/nhs-logo/">NHS England identity guidelines.</a>
+    - 32px margin on all sides of the dashboard as per <a href="https://www.england.nhs.uk/nhsidentity/identity-guidelines/nhs-logo/">NHS England identity guidelines.</a>
 
     - 16px padding on top, bottom, left and right of cards. For further information visit the [cards page](cards.md).
 
