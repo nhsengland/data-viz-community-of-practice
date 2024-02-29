@@ -72,7 +72,7 @@ The data refresh date should be shown to the left of the NHS logo in dashboards 
 
 ### Margins
 
-Left, top and right margins should be 30 pixels. The bottom of each page should show an NHS Blue line (height = 2 pixels) and contact information.
+Left, top and right margins should be 32 pixels. The bottom of each page should show an NHS Blue line (height = 2 pixels) and contact information.
 Additional information on latest data available is an optional extra.
 
 ### NHS identity 

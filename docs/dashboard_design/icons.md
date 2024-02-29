@@ -10,7 +10,7 @@ The NHS logo should always be used with the background colour as NHS blue. For d
 
 - Width: 100px
 
-- Margin of 30px (this should be handled by the page margins as implemented in the templates, see below)
+- Margin of 32px (this should be handled by the page margins as implemented in the templates, see below)
  
 
 
