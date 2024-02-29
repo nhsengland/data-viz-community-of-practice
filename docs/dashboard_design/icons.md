@@ -10,7 +10,7 @@ The NHS logo should always be used with the background colour as NHS blue. For d
 
 - Width: 100px
 
-- Margin of 30px (this should be handled by the page margins as implemented in the templates, see below)
+- Margin of 32px (this should be handled by the page margins as implemented in the templates, see below)
  
 
 
@@ -35,7 +35,7 @@ Blue is used to indicate the icon is 'interactive' i.e there is a hoverable or c
 
 A set of NHS England specific dashboard icons have been created and adapted from the official NHS England icon pack. These should cover most of your dashboard needs. If you require an additional icon please contact [England.AnalyticsProductsTeam@nhs.net](mailto:england.analyticsproductsteam@nhs.net). 
 
-![NHS England dashboard icons](../../images/Icons.png){ data-title="NHS England dashboard icons" data-description=".custom-desc2" data-caption-position="left" data-gallery="icons"}
+![NHS England dashboard icons](images/Icons.png){ data-title="NHS England dashboard icons" data-description=".custom-desc2" data-caption-position="left" data-gallery="icons"}
 <div class="glightbox-desc custom-desc2">
 Icons as shown in the NHS England dashboard templates
 </div>

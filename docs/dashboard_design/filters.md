@@ -1,6 +1,6 @@
 # Filters & buttons
 
-![Filters](../../images/filters.png){ data-title="Filters" data-description=".custom-desc1" data-caption-position="left" data-gallery="filters"}
+![Filters](images/filters.png){ data-title="Filters" data-description=".custom-desc1" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc1">
 Filters example
 </div>
@@ -10,7 +10,7 @@ Filters example
 
 !!! tip "Good practice"
 
-    ![Filters](../../images/all_dates_filter.png){ width="400px" align=right data-title="Filters" data-description=".custom-desc2" data-caption-position="left" data-gallery="filters"}
+    ![Filters](images/all_dates_filter.png){ width="400px" align=right data-title="Filters" data-description=".custom-desc2" data-caption-position="left" data-gallery="filters"}
     <div class="glightbox-desc custom-desc2">
     Selecting all dates in filter settings
     </div>
@@ -48,7 +48,7 @@ Filters example
 - The filter title should be arial, bold and size 11
 - There can be any number of filters on a dashboard but a maximum of five should display in a row.
 
-![Filters size](../../images/filters.png){ data-title="Filters size" data-description=".custom-desc3" data-caption-position="left" data-gallery="filters"}
+![Filters size](images/filters.png){ data-title="Filters size" data-description=".custom-desc3" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc3">
 Example of size of filters
 </div>
@@ -63,7 +63,7 @@ Example of size of filters
 - When adding filters to a dashboard do not change the font colour and the size on the worksheet. The font colour will be set in the template.
 - 'Advanced filters' button is optional and should only be added if there are more than 10 filters.
 
-![Filters two rows](../../images/filters_2_rows.png){ data-title="Filters two rows" data-description=".custom-desc4" data-caption-position="left" data-gallery="filters"}
+![Filters two rows](images/filters_2_rows.png){ data-title="Filters two rows" data-description=".custom-desc4" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc4">
 Example of filters with two rows
 </div>
@@ -74,7 +74,7 @@ Example of filters with two rows
 
 - Note: Controls and filters will both work in conjunction to refine the data.
 
-![Filters with controls](../../images/filters_controls.png){ data-title="Filters with controls" data-description=".custom-desc5" data-caption-position="left" data-gallery="filters"}
+![Filters with controls](images/filters_controls.png){ data-title="Filters with controls" data-description=".custom-desc5" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc5">
 Example of a filter with controls
 </div>
@@ -83,7 +83,7 @@ Example of a filter with controls
 ### Filters with radio buttons & sliders
 - Radio buttons and sliders can be used as filters which can be used to change the view of the data.
 
-![Filters with radio buttons & sliders](../../images/filters_radio.png){ data-title="Filters" data-description=".custom-desc6" data-caption-position="left" data-gallery="filters"}
+![Filters with radio buttons & sliders](images/filters_radio.png){ data-title="Filters" data-description=".custom-desc6" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc6">
 Example of filters with radio buttons & sliders
 </div>
@@ -92,7 +92,7 @@ Example of filters with radio buttons & sliders
 ### Filters in context
 - If any filters are only applicable for a certain vizualisation then those filters should be placed within its card layout, as shown below.
 
-![Filters in context](../../images/table_filter.png){ data-title="Filters in context" data-description=".custom-desc1" data-caption-position="left" data-gallery="filters"}
+![Filters in context](images/table_filter.png){ data-title="Filters in context" data-description=".custom-desc1" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc6.5">
 Example of filters in context
 </div>
@@ -101,7 +101,7 @@ Example of filters in context
 ### Advanced filters  - No information required
 - This set of advanced filters does not require any information to explain all/any advanced filters.
 
-![Advanced filters - No information required](../../images/advanced_filters_no_info.png){ data-title="Advanced filters - No information required" data-description=".custom-desc7" data-caption-position="left" data-gallery="filters"}
+![Advanced filters - No information required](images/advanced_filters_no_info.png){ data-title="Advanced filters - No information required" data-description=".custom-desc7" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc7">
 Example of advanced filters with no information required
 </div>
@@ -109,10 +109,10 @@ Example of advanced filters with no information required
 
 ### Advanced filters  - Short information required
 <ul>
-<li>This set of advanced filters requires short information to explain all/any filters. The info should be shown in a tooltip should be shown in a tooltip when user clicks on the information icon <span style="display: inline-block; padding-left: 3px; padding-right: 3px;"><img src="../../images/information_icon_blue.png" alt="information icon" height="20" width="20"></span>.</li>
+<li>This set of advanced filters requires short information to explain all/any filters. The info should be shown in a tooltip should be shown in a tooltip when user clicks on the information icon <span style="display: inline-block; padding-left: 3px; padding-right: 3px;"><img src="../images/information_icon_blue.png" alt="information icon" height="20" width="20"></span>.</li>
 </ul>
 
-![Advanced filters - Short information required](../../images/advanced_filters_short_info.png){ data-title="Advanced filters - Short information required" data-description=".custom-desc8" data-caption-position="left" data-gallery="filters"}
+![Advanced filters - Short information required](images/advanced_filters_short_info.png){ data-title="Advanced filters - Short information required" data-description=".custom-desc8" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc8">
 Example of advanced filters with short information required
 </div>
@@ -121,7 +121,7 @@ Example of advanced filters with short information required
 ### Advanced filters  - Long information required
 - This set of advanced filters requires long information to explain all/any filters.
 
-![Advanced filters - Long information required](../../images/advanced_filters_full_info.png){ data-title="Advanced filters - Long information required" data-description=".custom-desc9" data-caption-position="left" data-gallery="filters"}
+![Advanced filters - Long information required](images/advanced_filters_full_info.png){ data-title="Advanced filters - Long information required" data-description=".custom-desc9" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc9">
 Example of advanced filters with long information required
 </div>
@@ -129,7 +129,7 @@ Example of advanced filters with long information required
 
 ## How to add a button on the dashboard
 
-![Button](../../images/dashboard_button.png){ width="300px" align=right data-title="Button" data-description=".custom-desc10" data-caption-position="left" data-gallery="filters"}
+![Button](images/dashboard_button.png){ width="300px" align=right data-title="Button" data-description=".custom-desc10" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc10">
 Dashboard button
 </div>

@@ -13,7 +13,7 @@ There are two primary [reading layouts](https://99designs.com/blog/tips/visual-h
 
 A [Z-pattern layout](https://thenextweb.com/news/designing-websites-that-mirror-how-our-eyes-work-part-2) draws attention to the top-left corner first before moving to the top right, then down to the bottom left, with the bottom-right corner as the last stop. Each corner has a visual cue (like a logo) or CTA (like a contact button).
 
-An [F-pattern layout](https://digital-freelancer.org/blog/f-shaped-pattern-explained), which follows a more crowded pattern leading visitors from left to right and back again, works well for text-heavy pages.
+An [F-pattern layout](https://uxmag.com/articles/the-f-pattern-understanding-how-users-scan-content), which follows a more crowded pattern leading visitors from left to right and back again, works well for text-heavy pages.
 
 ![Diagram of Z and F reading patterns](images/reading-layouts.png "Diagram of Z and F reading patterns"){data-title="Diagram of Z and F reading patterns" data-caption-position="top"}
 

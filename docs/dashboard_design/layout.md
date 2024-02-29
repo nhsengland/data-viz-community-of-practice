@@ -9,7 +9,7 @@ For more details see the [principles page](principles.md#visual-hierarchy).
 !!! danger "General rules"
 
 
-    - 30px margin on all sides of the dashboard as per <a href="https://www.england.nhs.uk/nhsidentity/identity-guidelines/nhs-logo/">NHS England identity guidelines.</a>
+    - 32px margin on all sides of the dashboard as per <a href="https://www.england.nhs.uk/nhsidentity/identity-guidelines/nhs-logo/">NHS England identity guidelines.</a>
 
     - 16px padding on top, bottom, left and right of cards. For further information visit the [cards page](cards.md).
 
@@ -72,7 +72,7 @@ The data refresh date should be shown to the left of the NHS logo in dashboards 
 
 ### Margins
 
-Left, top and right margins should be 30 pixels. The bottom of each page should show an NHS Blue line (height = 2 pixels) and contact information.
+Left, top and right margins should be 32 pixels. The bottom of each page should show an NHS Blue line (height = 2 pixels) and contact information.
 Additional information on latest data available is an optional extra.
 
 ### NHS identity 
