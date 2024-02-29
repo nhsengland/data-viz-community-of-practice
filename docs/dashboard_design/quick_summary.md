@@ -26,14 +26,14 @@ Visual Hierarchy is the organisation of design elements by importance. It is bes
 </div>
 </div>
 
-For more information on dashboard layouts, [click here](/dashboard_design/principles/#visual-hierarchy).
+For more information on dashboard layouts, [click here](../dashboard_design/principles.md#visual-hierarchy).
 
 
 ## NHS logo
 
 Always place the NHS logo in the top right hand corner of your dashboard with a 100px width and a 40px height. The padding around the logo is 30px. 
 
-For more information on how to implement the NHS logo in your dashboard, [click here](/dashboard_design/icons/#nhs-logo).
+For more information on how to implement the NHS logo in your dashboard, [click here](../dashboard_design/icons.md#nhs-logo).
 
 ![NHS Logo](../../images/NHS_logo.png){ data-title="NHS logo" data-description=".custom-desc1" data-caption-position="left" data-gallery="icons"}
 <div class="glightbox-desc custom-desc1">
@@ -47,7 +47,7 @@ Add a short note below each title to explain what the title is showing. The whol
 
 Footers should include the contact information and, if useful, a last refreshed date/time.
 
-For more information on what to include in your dashboard header, [click here](/dashboard_design/layout/#header-section).
+For more information on what to include in your dashboard header, [click here](../dashboard_design/layout.md#header-section).
 
 
 ## Cover page or About page
@@ -66,7 +66,7 @@ Dashboard titles and Tabs should be in sentence case, which means only the first
 
 Workbook names should be in title case, which means that the first letter of each key word should be capitalised. The small, minor words such as *in, of, with, at, and,* etc should be in lower case.
 
-For more information on typography, [click here](/dashboard_design/typography/).
+For more information on typography, [click here](../dashboard_design/typography.md).
 
 
 ## Font
@@ -82,7 +82,7 @@ Here is a summary of the most important dashboard objects and their font specifi
 | Filter title                 | Arial    | Regular    | 15px / 11pt | NHS Grey 1     | <span class="inline-container-pill" style="--colour: #4C6272; background-color: white"><span class="inline-colour-square" style="--colour: #4C6272; height: 15px; width: 15px"></span>#4C6272</span>       | Left          |
 | Description / Paragraph      | Arial    | Regular    | 15px / 11pt | NHS Grey 1     | <span class="inline-container-pill" style="--colour: #4C6272; background-color: white"><span class="inline-colour-square" style="--colour: #4C6272; height: 15px; width: 15px""></span>#4C6272</span>       | Left          |
 
-To see the full font specification, please [click here](/dashboard_design/typography/#font-specification).
+To see the full font specification, please [click here](../dashboard_design/typography.md#font-specification).
 
 ## Alignment
 
@@ -97,7 +97,7 @@ Place filters horizontally under the dashboard title and introduction.
 
 Filter titles should be in Arial black. They do not need to have a colon after the label and say 'Choose'.
 
-For more information on filters best practice, [click here](/dashboard_design/filters/).
+For more information on filters best practice, [click here](../dashboard_design/filters.md).
 
 
 ## Colours
@@ -273,4 +273,4 @@ td {
 </table>
 <br>
 
-For more information on which colours you should use and when, [click here](/dashboard_design/colours/).
+For more information on which colours you should use and when, [click here](../dashboard_design/colours.md).
