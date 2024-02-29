@@ -34,7 +34,7 @@ Always assess the information you are working with and display it in the cleares
 - Font sizes as in the <a href="../typography">typography list</a>.
 - Header text alignment should be vertical middle and right
 
-![Thin tables](../../images/thin_tables.png){ data-title="Thin tables" data-description=".custom-desc1" data-caption-position="left" data-gallery="tables"}
+![Thin tables](images/thin_tables.png){ data-title="Thin tables" data-description=".custom-desc1" data-caption-position="left" data-gallery="tables"}
 <div class="glightbox-desc custom-desc1">
 Example of a thin table
 </div>
@@ -45,7 +45,7 @@ Example of a thin table
 - <p class="inline-container">Alternate row colour: <span class="inline-container-pill" style="--colour: #F0F4F5; background-color: white"><span class="inline-colour-square" style="--colour: #F0F4F5"></span>#F0F4F5</span></p>
 - <p class="inline-container">Text colour: <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32"></span>#212B32</span></p>
 
-![Wide tables](../../images/wide_tables.png){ data-title="Wide tables" data-description=".custom-desc2" data-caption-position="left" data-gallery="tables"}
+![Wide tables](images/wide_tables.png){ data-title="Wide tables" data-description=".custom-desc2" data-caption-position="left" data-gallery="tables"}
 <div class="glightbox-desc custom-desc1">
 Example of a wide table
 </div>
@@ -56,7 +56,7 @@ Example of a wide table
 - <p class="inline-container">Alternate row colour: <span class="inline-container-pill" style="--colour: #F0F4F5; background-color: white"><span class="inline-colour-square" style="--colour: #F0F4F5"></span>#F0F4F5</span></p>
 - <p class="inline-container">Text colour: <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32"></span>#212B32</span></p>
 
-![Text tables](../../images/text_tables.png){ data-title="Text tables" data-description=".custom-desc3" data-caption-position="left" data-gallery="tables"}
+![Text tables](images/text_tables.png){ data-title="Text tables" data-description=".custom-desc3" data-caption-position="left" data-gallery="tables"}
 <div class="glightbox-desc custom-desc3">
 Example of a text table
 </div>
@@ -65,7 +65,7 @@ Example of a text table
 National standards should be clearly labelled in a table or chart wherever applicable.
 
  - If multiple metrics with multiple difference national standards are shown, label these in the table
-![National standards table](../../images/national_standards_table.png){ width="500px" data-title="National standards table" data-description=".custom-desc4" data-caption-position="left" data-gallery="tables"}
+![National standards table](images/national_standards_table.png){ width="500px" data-title="National standards table" data-description=".custom-desc4" data-caption-position="left" data-gallery="tables"}
 <div class="glightbox-desc custom-desc4">
 Example of a national standards table
 </div>
@@ -73,7 +73,7 @@ Example of a national standards table
 
  - To highlight whether national standards are met in a table, colour the text in RAG colours or add a background 20% RAG colour. 
 RAG rating should only be used where there is a national standard being met or not met, otherwise it should not be used.
-![National standards table](../../images/rag_table.png){width="500px" data-title="National standards table" data-description=".custom-desc5" data-caption-position="left" data-gallery="tables"}
+![National standards table](images/rag_table.png){width="500px" data-title="National standards table" data-description=".custom-desc5" data-caption-position="left" data-gallery="tables"}
 <div class="glightbox-desc custom-desc5">
 Example of a RAG table
 </div>

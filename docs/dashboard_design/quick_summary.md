@@ -52,7 +52,7 @@ For more information on what to include in your dashboard header, [click here](/
 
 ## Cover page or About page
 
-![About page](../images/templates-about-page.png){ data-title="About page" data-description=".custom-desc1" data-caption-position="left" data-gallery="templates"}
+![About page](images/templates-about-page.png){ data-title="About page" data-description=".custom-desc1" data-caption-position="left" data-gallery="templates"}
 <div class="glightbox-desc custom-desc1">
 Screenshot of the About page from the NHS England Tableau Templates
 </div>

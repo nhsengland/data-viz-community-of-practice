@@ -25,7 +25,7 @@ These empty templates should be used when starting the development of your dashb
 
 Example of the empty template
 
-![Empty templates](../../images/Empty_template.png){ data-title="Empty templates" data-description=".custom-desc2" data-caption-position="left" data-gallery="templates"}
+![Empty templates](images/Empty_template.png){ data-title="Empty templates" data-description=".custom-desc2" data-caption-position="left" data-gallery="templates"}
 <div class="glightbox-desc custom-desc2">
 Screenshot of the empty NHS England dashboard templates
 </div>
@@ -56,7 +56,7 @@ These populated templates should be used as a guide as to how your dashboard cou
 
 Example of the populated template
 
-![Populated templates](../../images/Full_template.png){ data-title="Populated templates" data-description=".custom-desc1" data-caption-position="left" data-gallery="templates"}
+![Populated templates](images/Full_template.png){ data-title="Populated templates" data-description=".custom-desc1" data-caption-position="left" data-gallery="templates"}
 <div class="glightbox-desc custom-desc1">
 Screenshot of the populated NHS England dashboard templates
 </div>
