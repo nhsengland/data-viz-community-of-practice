@@ -12,7 +12,7 @@ Typefaces are an important element of the NHS identity. The consistent applicati
 
 ## Best Practices
 
-???+ tip "Typography - Best practices"
+???+ success "Typography - Best practices"
     - [x] Use concise language, which is to the point and easy to understand
     - [ ] Avoid abbreviations, technical jargon and acronyms where possible
     - [x] If using acronyms, explain them the first time they appear (or in a tooltip)

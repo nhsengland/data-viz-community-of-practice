@@ -22,7 +22,8 @@ nav:
       - dashboard_design/index.md
       - Style guide rules: dashboard_design/quick_summary.md
       - Principles: dashboard_design/principles.md
-      - Layout & navigation: dashboard_design/layout.md
+      - Navigation: dashboard_design/navigation.md
+      - Layout: dashboard_design/layout.md
       - Cards: dashboard_design/cards.md
       - Typography: dashboard_design/typography.md
       - Colours: dashboard_design/colours.md
