@@ -31,7 +31,7 @@ For more information on dashboard layouts, [click here](principles.md#visual-hie
 
 ## NHS logo
 
-Always place the NHS logo in the top right hand corner of your dashboard with a 100px width and a 40px height. The padding around the logo is 30px. 
+Always place the NHS logo in the top right hand corner of your dashboard with a 100px width and a 40px height. The padding around the logo is 32px. 
 
 For more information on how to implement the NHS logo in your dashboard, [click here](icons.md#nhs-logo).
 
