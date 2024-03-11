@@ -15,8 +15,9 @@ For the user looking at your dashboard, context is everything. Information and m
     - [x] Release number and year of creation
     - [x] Information on how to share the dashboard with colleagues should be included on this page
 
+***
 
-### Example information page from the tableau templates:
+Example information page from the tableau templates:
 
 ![Information / about page](images/information_page.png){ data-title="Information / about page" data-description=".custom-desc1" data-caption-position="left" data-gallery="information"}
 <div class="glightbox-desc custom-desc1">
@@ -34,12 +35,11 @@ Analytical users want to better understand the data behind the graphs and tables
     - [x] Include numerator
     - [x] Include denominator
     - [x] Include calculation details of each metric
-    - [x] Use descriptions from the MIDAS* library
-
-    *MIDAS is a centralised indicator governance service. It applies standardised approaches to improve the use and consistency of metrics and addresses the efficacy and quality of indicators in use. 
 
 
-### Example metric description page from the tableau templates:
+***
+
+Example metric description page from the tableau templates:
 
 ![Metric descriptions page](images/metrics_page.png){ data-title="Metric descriptions page" data-description=".custom-desc1" data-caption-position="left" data-gallery="information"}
 <div class="glightbox-desc custom-desc1">
