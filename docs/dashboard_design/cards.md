@@ -44,6 +44,6 @@ The easiest way is to use and create cards is to start with the <a href="../../d
     - [x] All elements within the card should be in equal width
 
 ![Multiple element card](images/cards_multiple.png){ data-title="Multiple element card" data-description=".custom-desc4" data-caption-position="left" data-gallery="cards"}
-<div class="glightbox-desc custom-desc4>
+<div class="glightbox-desc custom-desc4">
 Example of the design of a multiple element card
 </div>
