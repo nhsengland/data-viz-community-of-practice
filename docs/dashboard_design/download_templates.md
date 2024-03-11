@@ -7,7 +7,9 @@
 
 !!! download "Empty templates download link"
 
-    Download the empty templates by <a href="../../files/NHS_England_dashboard_templates_empty.twbx">clicking here</a>
+    [Download the empty templates](../../files/NHS_England_dashboard_templates_empty.twbx) directly or [view the empty templates](https://tabanalytics.data.england.nhs.uk/#/site/Public/workbooks/10724/views) on the NHS England public server.
+
+    
 
 
 **How to use the empty templates:**
@@ -40,8 +42,7 @@ Screenshot of the empty NHS England dashboard templates
 
 !!! download "Populated templates download link"
 
-    Download the populated templates by <a href="../../files/NHS_England_dashboard_templates.twbx">clicking here</a>
-
+    [Download the populated templates](../../files/NHS_England_dashboard_templates.twbx) directly or [view the populated templates](https://tabanalytics.data.england.nhs.uk/#/site/Public/workbooks/10723/views) on the NHS England public server.
 
 **How to use the populated templates:**
 

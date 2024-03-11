@@ -10,7 +10,7 @@ Typefaces are an important element of the NHS identity. The consistent applicati
     - Use "<ins>S</ins>entence case"  for dashboard titles
 
 
-## Best Practices
+## Best practices
 
 ???+ success "Typography - Best practices"
     - [x] Use concise language, which is to the point and easy to understand
@@ -24,7 +24,7 @@ Typefaces are an important element of the NHS identity. The consistent applicati
 
 ![example dashboard layout with font specification](images/font-specification-example.PNG "Example dashboard layout with NHS Font specification applied")
 
-## Font Specification
+## Font specification
 
 Here is a summary of the most important dashboard objects and their font specification that you must use in your dashboard:
 

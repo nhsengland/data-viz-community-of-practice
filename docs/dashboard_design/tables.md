@@ -2,7 +2,7 @@
 Always assess the information you are working with and display it in the clearest style possible. This section demonstrates a number of ways to present information.
 
 ## Best practices
-???- tip "Simplicity"
+???+ tip "Simplicity"
     - [x] Minimal use of borders, with a few line rules to distinguis column headings and totals.
     - [x] White space is used to separate columns.
     - [x] Title and subheadings are in bold so that they stand out.
@@ -31,7 +31,7 @@ Always assess the information you are working with and display it in the cleares
 ## Thin tables
 - Minimise the data-ink ratio
 - Right align column header and numerical values
-- Font sizes as in the <a href="../typography">typography list</a>.
+- Font sizes as in the [typography list](../typography/#font-specification)
 - Header text alignment should be vertical middle and right
 
 ![Thin tables](images/thin_tables.png){ data-title="Thin tables" data-description=".custom-desc1" data-caption-position="left" data-gallery="tables"}
@@ -65,6 +65,7 @@ Example of a text table
 National standards should be clearly labelled in a table or chart wherever applicable.
 
  - If multiple metrics with multiple difference national standards are shown, label these in the table
+
 ![National standards table](images/national_standards_table.png){ width="500px" data-title="National standards table" data-description=".custom-desc4" data-caption-position="left" data-gallery="tables"}
 <div class="glightbox-desc custom-desc4">
 Example of a national standards table
@@ -73,6 +74,7 @@ Example of a national standards table
 
  - To highlight whether national standards are met in a table, colour the text in RAG colours or add a background 20% RAG colour. 
 RAG rating should only be used where there is a national standard being met or not met, otherwise it should not be used.
+
 ![National standards table](images/rag_table.png){width="500px" data-title="National standards table" data-description=".custom-desc5" data-caption-position="left" data-gallery="tables"}
 <div class="glightbox-desc custom-desc5">
 Example of a RAG table
