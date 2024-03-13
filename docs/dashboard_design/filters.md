@@ -149,7 +149,7 @@ Tableau has an in-built button object used to navigate from one page to another 
 !!! warning "Note if you edit the background colour of the button it will appear unchanged unless in presentation mode or on server."
 
 
-## To use buttons as filters
+<!-- ## To use buttons as filters
 
 This functionality is not part of the default tableau button above.
 Generally, it is better to use in-built filters from columns, calculated fields or parameters as discussed above.
@@ -185,7 +185,7 @@ Now when the worksheet is selected the square will appear as a border instead.
 
 11.	Create a filter dashboard action.
 
-    ![Button filter action](images/button_filter_action.png){ width="70%" data-gallery="button_filters" align=left}
+    ![Button filter action](images/button_filter_action.png){ width="70%" data-gallery="button_filters" align=left} -->
 
 
 ### Button to reset all filters in a dashboard
