@@ -72,7 +72,7 @@ Example of a national standards table
 </div>
 
 
- - To highlight whether national standards are met in a table, colour the text in RAG colours or add a background 20% RAG colour. 
+ - To highlight whether national standards are met in a table, colour the text in [RAG colours](colours.md#rag-colours) or add a background 20% RAG colour. 
 RAG rating should only be used where there is a national standard being met or not met, otherwise it should not be used.
 
 ![National standards table](images/rag_table.png){width="500px" data-title="National standards table" data-description=".custom-desc5" data-caption-position="left" data-gallery="tables"}
