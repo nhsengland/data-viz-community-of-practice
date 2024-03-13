@@ -1,4 +1,4 @@
-# Website control information
+# Acknowledgements
 
 Please help maintain the accuracy of this styleguide by keeping the details up to date.
 
@@ -12,3 +12,11 @@ Please help maintain the accuracy of this styleguide by keeping the details up t
 |                                    |             | Patricia Jacques |               |              |
 |                                    |             | Samantha Khor    |               |              |
 |                                    |             | Tanbir Miah      |               |              |
+
+
+
+# Release History
+
+| Release number | Release date | Release type | Main changes                                             |
+| -------------- | ------------ | ------------ | -------------------------------------------------------- |
+| 1.0            |              | Launch       | - Launched community website <br> - Dashboard style guide|
