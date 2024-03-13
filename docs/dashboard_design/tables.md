@@ -21,7 +21,7 @@ Always assess the information you are working with and display it in the cleares
 
 ???- tip "Numbers"
     - [x] Always use commas to indicate thousands, millions, billion: £1,234,567.89
-    - [x] Always start with zero for values less than 1 (Example: 0.756 not .756)
+    - [x] Always start with zero for values less than 1 (Example: 0.75 not .75)
     - [x] Always use a consistent level of precision within a table
     - [x] Ensure negative values are indicated by a minus sign (Example: -65)
     - [x] Round data in a way to sufficiently convey value and add context to data, but don't oversell confidence in data quality through being too acurate. For example £123,234.59 implies a confidence in the data quality to the nearest penny. Whereas if the data quality is lower, or submitted data is unvalidated, a lower significance level should be give, eg £123,230.
