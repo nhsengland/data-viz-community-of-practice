@@ -10,7 +10,7 @@ For the user looking at your dashboard, context is everything. Information and m
 ???+ tip "Best practices"
     - [x] A brief description of the product
     - [x] A data source table showing data frequency, latest available data, refresh frequency, most recent refresh, and whether the data requires IG approval
-    - [x] Auther: Team name. e.g. Analytics Product Development Team.
+    - [x] Author: Team name. e.g. Analytics Product Development Team.
     - [x] Contact details: contact email of the relevant ream, e.g. england.analyticsproductsteam@nhs.net (add this as a URL link)
     - [x] Release number and year of creation
     - [x] Information on how to share the dashboard with colleagues should be included on this page

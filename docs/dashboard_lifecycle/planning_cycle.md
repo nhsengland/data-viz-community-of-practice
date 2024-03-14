@@ -8,7 +8,7 @@
 
       >  Think about your customer base and stakeholders in detail and how their requirements may differ.
 
-3. **Develop use cases:**
+3. **Develop use cases and gather requirements:**
    
       >  Develop use cases and questions the dashboard should be answering.
 
@@ -27,3 +27,7 @@
 7. **Testing:**
    
       >  Test the dashboard.
+
+8. **Deployment:**
+   
+      >  Deploy the dashboard.
