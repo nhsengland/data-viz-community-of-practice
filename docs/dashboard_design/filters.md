@@ -69,17 +69,6 @@ Example of filters with two rows
 </div>
 
 
-### Filters with controls
-- Dashboards may require extra controls alongside the filters. The purpose of controls is to change the way the measures are being calculated. Eg: Absolute values, 7 day rolling average, Population rates.
-
-- Note: Controls and filters will both work in conjunction to refine the data.
-
-![Filters with controls](images/filters_controls.png){ data-title="Filters with controls" data-description=".custom-desc5" data-caption-position="left" data-gallery="filters"}
-<div class="glightbox-desc custom-desc5">
-Example of a filter with controls
-</div>
-
-
 ### Filters with radio buttons & sliders
 - Radio buttons and sliders can be used as filters which can be used to change the view of the data.
 - Radio buttons should have maximum 2 options, else use a dropdown filter.
@@ -128,7 +117,9 @@ Example of advanced filters with long information required
 </div>
 
 
-## How to add a button on the dashboard
+## Buttons
+
+### How to add a button on the dashboard
 
 ![Button](images/dashboard_button.png){ width="300px" align=right data-title="Button" data-description=".custom-desc10" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc10">
@@ -225,8 +216,19 @@ You will need a parameter action per parameter you want to reset.
 ![Reset parameter action](images/reset_parameter.png){ width="45%" data-gallery="button_filters" align=right}
 
 
+## Controls
 
-## Toggles (weighted data)
+### Filters with controls
+- Dashboards may require extra controls alongside the filters. The purpose of controls is to change the way the measures are being calculated rather than removing data. Eg: Absolute values, 7 day rolling average, population rates.
+
+- Note: Controls and filters will both work in conjunction to refine the data.
+
+![Filters with controls](images/filters_controls.png){ data-title="Filters with controls" data-description=".custom-desc5" data-caption-position="left" data-gallery="filters"}
+<div class="glightbox-desc custom-desc5">
+Example of a filter with controls
+</div>
+
+### Toggles (weighted data)
 
 ![toggle button](images/toggle.png){ data-gallery="toggle" align=right}
 
