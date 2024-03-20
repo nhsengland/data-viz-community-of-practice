@@ -19,6 +19,7 @@ Tableau developers should build their dashboard pages from beneath the web wrapp
 ## Navigation buttons
 
 Where the web wrapper is not available or a two tier navigation is required, use the navigation buttons.
+We recommend no more than 5 navigation buttons in a single row.
 
 **Single tier navigation:**
 
@@ -28,6 +29,17 @@ Where the web wrapper is not available or a two tier navigation is required, use
 **Double tier navigation:**
 
 ![Double tier navigation](images/navigation_double_tier.png){data-title="Double tier navigation" data-caption-position="top" data-gallery="wrapper"}
+
+**Font**
+
+In Tableau, the in-built navigation buttons have a restricted colour palette for text fonts, therefore non NHS colours have been used.
+
+| **Objects**                      | **Font** | **Weight** | **Size**    | **Colour**     | **Palette selection**                                          | **Alignment** |
+|----------------------------------|----------|------------|-------------|----------------|----------------------------------------------------------------|---------------|
+| Selected primary row text        | Arial    | Bold       | 16px / 12pt | Tableau Black  | ![](images/nav_button_text_black.png){width="90px"}            | Centre        |
+| Non selected primary row text    | Arial    | Regular    | 16px / 12pt | Tableau Blue   | ![](images/nav_button_text_blue.png){width="90px"}             | Centre        |
+| Selected secondary row text      | Arial    | Bold       | 15px / 11pt | Tableau Blue   | ![](images/nav_button_text_blue_11_bold.png){width="90px"}     | Centre        |
+| Non selected secondary row text  | Arial    | Regular    | 15px / 11pt | Tableau Blue   | ![](images/nav_button_text_blue_11_regular.png){width="90px"}  | Centre        |
 
 
 !!! warning "Use the templates examples to create navigation buttons"
