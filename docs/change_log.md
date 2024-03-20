@@ -9,10 +9,6 @@ Please help maintain the accuracy of this styleguide by keeping the details up t
 |                                    |             | Neil Thompson    | John-Henry Barac  |               |
 |                                    |             | Patricia Jacques | Tom Inkelaar      |               |
 |                                    |             | Tanbir Miah      |                   |               |
-|                                    |             |                  |                   |               |
-|                                    |             |                  |                   |               |
-|                                    |             |                  |                   |               |
-
 
 
 # Release History
