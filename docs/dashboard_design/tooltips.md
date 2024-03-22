@@ -27,7 +27,7 @@ If an acronym needs to be included in the product title, ensure it is also writt
 
 ### Visualisations within a tooltip
 Example 1<br><br>
-![A visualisation within a tooltip](images/viz-within-tooltip.png "A visualisation within a tooltip")
+![A visualisation within a tooltip](images/tooltip-example-1.png "A visualisation within a tooltip")
 
 Example 2<br><br>
-![Another visualisation within a tooltip](images/viz-within-tooltip-2.png "Another visualisation within a tooltip")
+![Another visualisation within a tooltip](images/tooltip-example-2.png "Another visualisation within a tooltip")
