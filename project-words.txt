@@ -1,0 +1,36 @@
+# Names
+# as in Antoine de Saint-Exupéry
+Exupéry
+Frutiger
+Goldacre
+Infogram
+# as in Edward Tufte
+Tufte
+
+
+# chart type names
+cartogram
+choropleth
+Donut
+
+
+# code commands
+glightbox
+govcookiecutter
+mkdocs
+.twbx
+
+
+# other words
+#as in hot desking
+desking
+hoverable
+KPIs
+unfilter
+Wireframing
+
+
+# NHS anagrams!
+SEDIT
+
+
