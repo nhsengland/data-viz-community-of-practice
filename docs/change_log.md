@@ -1,6 +1,8 @@
 # Acknowledgements
 
-Please help maintain the accuracy of this styleguide by keeping the details up to date.
+Please help maintain the accuracy of this style guide by keeping the details up to date.
+
+<!-- // cSpell:disable -->
 
 | Website owner                      | Author      | Contributors     | Reviewers         | Approver      |
 | ---------------------------------- | ----------- | ---------------- | ----------------- | ------------- |
@@ -10,6 +12,7 @@ Please help maintain the accuracy of this styleguide by keeping the details up t
 |                                    |             | Patricia Jacques | Tom Inkelaar      |               |
 |                                    |             | Tanbir Miah      |                   |               |
 
+<!-- /* cSpell:enable */ -->
 
 # Release History
 

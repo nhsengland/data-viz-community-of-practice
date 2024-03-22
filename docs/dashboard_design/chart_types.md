@@ -198,7 +198,7 @@ National standards should be clearly labelled in charts wherever applicable. The
 
 ## SPC charts
 
-Approaches popular in the NHS, such as red, amber, green (RAG) rating and two point comparisions, have limitations for good decision-making.
+Approaches popular in the NHS, such as red, amber, green (RAG) rating and two point comparisons, have limitations for good decision-making.
 
 <figure markdown>
   ![RAG table](images/specialty_rtt_performance_table.png){data-gallery="rtt"}
@@ -280,7 +280,7 @@ Specialty RTT Performance (Target: 92.0%)
 
 The table above contains a lot of data but key messages such as "Are we improving or declining?" are very hard to determine.
 These two specialities when viewed as an SPC chart with more data, show a more informative picture.
-Clearly, conversations with these two specialties should be different, something the RAG table would not have suggested.
+Clearly, conversations with these two specialities should be different, something the RAG table would not have suggested.
 
 <figure markdown>
   ![SPC chart](images/spc_chart.png){data-gallery="rtt"}

@@ -7,6 +7,7 @@ Typefaces are an important element of the NHS identity. The consistent applicati
 !!! danger "You must use Arial font"
     - Set your default font to be Arial before starting development
     - Font size should not be smaller than size 10
+    <!-- /* cspell:disable-next-line */ -->
     - Use "<ins>S</ins>entence case"  for dashboard titles
 
 
@@ -17,7 +18,7 @@ Typefaces are an important element of the NHS identity. The consistent applicati
     - [ ] Avoid abbreviations, technical jargon and acronyms where possible
     - [x] If using acronyms, explain them the first time they appear (or in a tooltip)
     - [ ] Avoid using large blocks of text, especially when used in combination with charts
-    - [x] Use contrast to **emphasise key information** and deemphasise what is less important
+    - [x] Use contrast to **emphasise key information** and de-emphasise what is less important
     - [ ] don't go into details of the methods, but perhaps highlight some of the key approaches described below
 
 ### Example dashboard with typography specification

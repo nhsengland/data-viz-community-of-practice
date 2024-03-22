@@ -80,7 +80,7 @@ Example of filters with radio buttons & sliders
 
 
 ### Filters in context
-- If any filters are only applicable for a certain vizualisation then those filters should be placed within its card layout, as shown below.
+- If any filters are only applicable for a certain visualisation then those filters should be placed within its card layout, as shown below.
 
 ![Filters in context](images/table_filter.png){ data-title="Filters in context" data-description=".custom-desc1" data-caption-position="left" data-gallery="filters"}
 <div class="glightbox-desc custom-desc6.5">

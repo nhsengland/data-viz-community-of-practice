@@ -27,7 +27,7 @@ Example of an Information / About page
 
 ## Metric descriptions page
 
-Analytical users want to better understand the data behind the graphs and tables they consume. For this purpose, it is best practice to add a metric desciption tab.
+Analytical users want to better understand the data behind the graphs and tables they consume. For this purpose, it is best practice to add a metric description tab.
 
 ???+ tip "Table best practices"
     - [x] Include display name

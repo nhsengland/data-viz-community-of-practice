@@ -3,7 +3,7 @@ Always assess the information you are working with and display it in the cleares
 
 ## Best practices
 ???+ tip "Simplicity"
-    - [x] Minimal use of borders, with a few line rules to distinguis column headings and totals.
+    - [x] Minimal use of borders, with a few line rules to distinguish column headings and totals.
     - [x] White space is used to separate columns.
     - [x] Title and subheadings are in bold so that they stand out.
     - [x] Please ensure there are consistent colours across tabs for tables and charts by using NHS blues, tints and highlight colours.
@@ -24,7 +24,7 @@ Always assess the information you are working with and display it in the cleares
     - [x] Always start with zero for values less than 1 (Example: 0.75 not .75)
     - [x] Always use a consistent level of precision within a table
     - [x] Ensure negative values are indicated by a minus sign (Example: -65)
-    - [x] Round data in a way to sufficiently convey value and add context to data, but don't oversell confidence in data quality through being too acurate. For example £123,234.59 implies a confidence in the data quality to the nearest penny. Whereas if the data quality is lower, or submitted data is unvalidated, a lower significance level should be give, eg £123,230.
+    - [x] Round data in a way to sufficiently convey value and add context to data, but don't oversell confidence in data quality through being too accurate. For example £123,234.59 implies a confidence in the data quality to the nearest penny. Whereas if the data quality is lower, or submitted data is unvalidated, a lower significance level should be give, eg £123,230.
     - [x] Percentages shouldn't be at a greater detail than 1dp unless specifically required
     - [x] Use the lowest possible level of detail depending on the the intended audience
 

@@ -15,7 +15,7 @@ Creating a unified visual experience across the product and considering how this
 
 - [x] **Sharing vocabulary**
 
-Having one document for data visualisation development teams to refer to aids collaboration. These guidelines are a tool which can be relied upon for quicker interation times and consistent digital experiences for users.
+Having one document for data visualisation development teams to refer to aids collaboration. These guidelines are a tool which can be relied upon for quicker interaction times and consistent digital experiences for users.
 
 - [x] **Faster onboarding**
 
