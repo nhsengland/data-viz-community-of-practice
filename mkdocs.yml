@@ -105,7 +105,7 @@ extra:
       link: https://github.com/NHSDigital/data-viz-community-of-practice
       name: NHS Data Viz Community of Practice
   generator: false
-copyright: Copyright &copy; 2022 Crown Copyright (NHS Digital)
+copyright: Copyright &copy; 2024 Crown Copyright (NHS England)
 extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
