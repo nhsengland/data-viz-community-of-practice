@@ -34,7 +34,7 @@ Click [here](https://www.creatopy.com/blog/white-space-in-graphic-design/) for m
 
 > Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.
 
-> **Antoine de Saint-Exupery**
+> **Antoine de Saint-Exupéry**
 
 
 **Definition**
@@ -61,7 +61,7 @@ The data-ink ratio on this chart can be reduced significantly by taking the foll
 <ul style="padding-top: 10px; padding-bottom: 10px;">
 <li style="padding-top: 6px; padding-bottom: 6px;">remove backgrounds</li>
 <li style="padding-top: 6px; padding-bottom: 6px;">remove redundant labels</li>
-<li style="padding-top: 6px; padding-bottom: 6px;">remove broders</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">remove borders</li>
 <li style="padding-top: 6px; padding-bottom: 6px;">remove colours</li>
 <li style="padding-top: 6px; padding-bottom: 6px;">remove special effects</li>
 <li style="padding-top: 6px; padding-bottom: 6px;">remove bolding</li>
@@ -80,7 +80,7 @@ Contrast directs the user's attention to focal point in your dashboard, highligh
 
 It is also crucial for practical reasons. For instance, text should have a [contrast ratio of at least 3:1](https://www.w3.org/TR/WCAG20-TECHS/G183.html) to ensure your dashboard is accessible to all users.
 
-Contrast in size, shape and colour are all important to ensure your dashboard is successful in achieving its specific goal. With no contrast all, you'd just end up with a single colored block for a dashboard!
+Contrast in size, shape and colour are all important to ensure your dashboard is successful in achieving its specific goal. With no contrast all, you'd just end up with a single coloured block for a dashboard!
 
 
 ## Size and Scale
@@ -133,7 +133,7 @@ Titles should use sentence case as per the NHS England style [guidelines](https:
 
 
 !!! tip "Managing versions"
-        If an updated version of a dashboard is released it should ideally replace the previous version and use the exisiting name.
+        If an updated version of a dashboard is released it should ideally replace the previous version and use the existing name.
         However if it is required for a new version to be added and the previous version to be still available then it should be clearly distinguishable
         eg 'A&E daily performance (new)' and 'A&E daily performance (2021).
 
@@ -152,7 +152,7 @@ Try adding information such as:
 
 - Missing submissions
 - Known missing or incorrect data
-- Dates highlighting when new metrics were introduced or methodolgies were changed
+- Dates highlighting when new metrics were introduced or methodologies were changed
 - Known data quality issues
 
 

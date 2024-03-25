@@ -64,7 +64,7 @@ This section should be no more than 1200px.
 
 ### Titles and subtitles
 
-For easy identification and navigation, every tab should show the workbook title (NHS Grey1, 24pt, Arial, sentance case), and the subtitle which matches the tab name (Black, 24pt, Arial, sentence case), with a black hypen with spaces either side between the two names. A brief description of what the tab is showing can be added.
+For easy identification and navigation, every tab should show the workbook title (NHS Grey1, 24pt, Arial, sentence case), and the subtitle which matches the tab name (Black, 24pt, Arial, sentence case), with a black hyphen with spaces either side between the two names. A brief description of what the tab is showing can be added.
 
 ### Data refresh date
 
@@ -150,7 +150,7 @@ These different views are created in Tableau using the device preview button.
  - The default view is the full sized view that is designed by default. 
  - Adding in tablet and phone views will allow your dashboard to be viewed correctly by those devices. 
  - The templates have default (desktop), tablet and phone views included already. 
- - Anything created or ammended in the default view should be checked in the tablet and phone views afterwards before publishing
+ - Anything created or amended in the default view should be checked in the tablet and phone views afterwards before publishing
  - This is recommended to be done at the end of the development process to avoid rework across all three views.
 
 
@@ -218,7 +218,7 @@ These different views are created in Tableau using the device preview button.
 
     <br style="clear:both; mso-break-type:section-break" />
 
-    - The example below, shows how complex tabular data can be simplified for mobile devices. Rather than showing mulitple days in the table, we could give an option for the user to select a day in additional filters.
+    - The example below, shows how complex tabular data can be simplified for mobile devices. Rather than showing multiple days in the table, we could give an option for the user to select a day in additional filters.
 
     ![A desktop table](images/desktop_table.png){: width="43%" data-title="An example desktop complex table" data-caption-position="top" data-gallery="visualisation" align=left}
     <span style="font-size:900%;">&#8594;</span>

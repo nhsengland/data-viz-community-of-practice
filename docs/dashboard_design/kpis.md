@@ -54,12 +54,12 @@ Example of number of KPIs with empty slots
 Example of interactive KPIs
 </div>
 
-### Non-interactice KPIs
+### Non-interactive KPIs
 <p class="inline-container">If a KPI slot does not have a click-through it should be in NHS Dark Grey <span class="inline-container-pill" style="--colour: #425563;"><span class="inline-colour-square" style="--colour: #425563; width: 15px; height: 15px"></span>#425563</span> without an arrow.</p>
 
-![Non interactice KPIs](images/KPI_variations_black.png){ data-title="Non interactice KPIs" data-description=".custom-desc6" data-caption-position="left" data-gallery="kpi"}
+![Non interactive KPIs](images/KPI_variations_black.png){ data-title="Non interactive KPIs" data-description=".custom-desc6" data-caption-position="left" data-gallery="kpi"}
 <div class="glightbox-desc custom-desc6">
-Example of non interactice KPIs
+Example of non interactive KPIs
 </div>
 
 ## KPIs grouping

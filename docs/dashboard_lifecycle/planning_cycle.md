@@ -18,7 +18,7 @@
 
 5. **Develop wireframes:**
    
-     >  Plan out your report layout. This may be an excercise on paper or in a tool.
+     >  Plan out your report layout. This may be an exercise on paper or in a tool.
 
 6. **Develop dashboard:**
    

@@ -18,8 +18,8 @@ These empty templates should be used when starting the development of your dashb
 
 1. Download the empty templates using the link above
 2.  Open the .twbx file
-3.  Connect to your datasource
-4.  Remove the dummy datesource 
+3.  Connect to your data source
+4.  Remove the dummy data source 
 5.  Start developing!
 
 

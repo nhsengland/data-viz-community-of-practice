@@ -402,7 +402,7 @@ Important factors need to be considered when using tints:
 - The colour emphasis should always be adhered to when using tints
 
 ### Continuous scale
-For darker and lighter colour values, the inbetween colours will be inferred by Tableau automatically.
+For darker and lighter colour values, the in-between colours will be inferred by Tableau automatically.
 e.g. Continuous scale: 1, 1.1, 1.2, 1.3, 1.4 etc
 
 <div class="inline-container" style="padding-top: 10px; padding-bottom: 10px">
