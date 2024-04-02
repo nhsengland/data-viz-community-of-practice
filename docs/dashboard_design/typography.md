@@ -57,7 +57,7 @@ Here is a summary of the most important dashboard objects and their font specifi
 
 | **Objects**                  | **Font** | **Weight** | **Size**    | **Colour**     | **HEX**      | **Alignment** |
 |------------------------------|----------|------------|-------------|----------------|--------------|---------------|
-| Info / Warning Message       | Arial    | Regular    | 11pt / 15px | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px""></span>#212B32</span>       | Left          |
+| Alert / important update       | Arial    | Regular    | 11pt / 15px | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px""></span>#212B32</span>       | Left          |
 
 
 
