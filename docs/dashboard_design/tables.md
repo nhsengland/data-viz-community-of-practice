@@ -10,7 +10,9 @@ Always assess the information you are working with and display it in the cleares
 
 ???- tip "Alignment"
     - [x] Right align column headings and the numbers in the column (the exception being the first column category title which is left aligned)
+    - [x] Right align numbers & figures to better highlight the difference in values at the same level of precision.
     - [ ] Don't use centred of variable alignments. Right align to better highlight the difference in values at the same level of precision.
+    - [x] Left align text in text tables to allow ease of reading.
 
 ???- tip "Date formats"
     - [x] Use "FY 2017/18" format for financial year. You can bring this from the date dimension during data preparation/

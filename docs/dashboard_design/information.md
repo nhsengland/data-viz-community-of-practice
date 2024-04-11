@@ -19,7 +19,7 @@ For the user looking at your dashboard, context is everything. Information and m
 
 Example information page from the tableau templates:
 
-![Information / about page](images/information_page.png){ data-title="Information / about page" data-description=".custom-desc1" data-caption-position="left" data-gallery="information"}
+![Information / about page](images/templates_about_page.png){ data-title="Information / about page" data-description=".custom-desc1" data-caption-position="left" data-gallery="information"}
 <div class="glightbox-desc custom-desc1">
 Example of an Information / About page
 </div>

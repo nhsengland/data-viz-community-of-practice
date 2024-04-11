@@ -16,7 +16,7 @@
 
 These empty templates should be used when starting the development of your dashboard. 
 
-1. Download the empty templates using the link above
+1.  Download the empty templates using the link above
 2.  Open the .twbx file
 3.  Connect to your data source
 4.  Remove the dummy data source 
@@ -42,7 +42,7 @@ Screenshot of the empty NHS England dashboard templates
 
 !!! download "Populated templates download link"
 
-    [Download the populated templates](../../files/NHS_England_dashboard_templates.twbx) directly or [view the populated templates](https://tabanalytics.data.england.nhs.uk/#/site/Public/workbooks/10723/views) on the NHS England public server.
+    [Download the populated templates](../../files/NHS_England_dashboard_templates_full.twbx) directly or [view the populated templates](https://tabanalytics.data.england.nhs.uk/#/site/Public/workbooks/10723/views) on the NHS England public server.
 
 **How to use the populated templates:**
 

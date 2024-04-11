@@ -35,7 +35,7 @@ Always place the NHS logo in the top right hand corner of your dashboard with a 
 
 For more information on how to implement the NHS logo in your dashboard, [click here](icons.md#nhs-logo).
 
-![NHS Logo](../../images/NHS_logo.png){ data-title="NHS logo" data-description=".custom-desc1" data-caption-position="left" data-gallery="icons"}
+![NHS Logo](images/NHS_logo.png){ data-title="NHS logo" data-description=".custom-desc1" data-caption-position="left" data-gallery="icons"}
 <div class="glightbox-desc custom-desc1">
 NHS Logo as shown in the NHS England dashboard templates
 </div>
@@ -52,7 +52,7 @@ For more information on what to include in your dashboard header, [click here](l
 
 ## Cover page or About page
 
-![About page](images/templates-about-page.png){ data-title="About page" data-description=".custom-desc1" data-caption-position="left" data-gallery="templates"}
+![About page](images/templates_about_page.png){ data-title="About page" data-description=".custom-desc1" data-caption-position="left" data-gallery="templates"}
 <div class="glightbox-desc custom-desc1">
 Screenshot of the About page from the NHS England Tableau Templates
 </div>
@@ -77,10 +77,11 @@ Here is a summary of the most important dashboard objects and their font specifi
 
 | **Objects**                  | **Font** | **Weight** | **Size**    | **Colour**     | **HEX**      | **Alignment** |
 |------------------------------|----------|------------|-------------|----------------|--------------|---------------|
-| Dashboard title              | Arial    | Bold       | 24px / 18pt | NHS Black      | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px""></span>#212B32</span>       | Left          |
-| Chart heading / Card heading                | Arial    | Bold       | 16px / 12pt | NHS Black      | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px""></span>#212B32</span>       | Left          |
-| Filter title                 | Arial    | Regular    | 15px / 11pt | NHS Grey 1     | <span class="inline-container-pill" style="--colour: #4C6272; background-color: white"><span class="inline-colour-square" style="--colour: #4C6272; height: 15px; width: 15px"></span>#4C6272</span>       | Left          |
-| Description / Paragraph      | Arial    | Regular    | 15px / 11pt | NHS Grey 1     | <span class="inline-container-pill" style="--colour: #4C6272; background-color: white"><span class="inline-colour-square" style="--colour: #4C6272; height: 15px; width: 15px""></span>#4C6272</span>       | Left          |
+| Dashboard title              | Arial    | Bold       | 18pt / 24px | NHS Black      | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px""></span>#212B32</span>       | Left          |
+| Chart / card heading                | Arial    | Bold       | 12pt / 16px | NHS Black      | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px""></span>#212B32</span>       | Left          |
+| Filter title                 | Arial    | Bold    | 11pt / 15px | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px"></span>#212B32</span>       | Left          |
+| Description / paragraph      | Arial    | Regular    | 11pt / 15px | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px""></span>#212B32</span>       | Left          |
+
 
 To see the full font specification, please [click here](typography.md#font-specification).
 
