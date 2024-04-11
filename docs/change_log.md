@@ -1,7 +1,5 @@
 # Acknowledgements
 
-Please help maintain the accuracy of this style guide by keeping the details up to date.
-
 <!-- // cSpell:disable -->
 
 | Release number        | Website owner                      | Author      | Contributors     | Reviewers         | Approver      |
