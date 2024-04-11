@@ -115,7 +115,7 @@ Here is a summary of the most important dashboard objects and their font specifi
 
 ![Tables](images/typography_tables.png "Typography for tables")
 
-| **Objects**                  | <div align="right">**Font**</div>  | <div align="right">**Weight**</div>  | <div align="right">**Size**</div>     | <div align="right">**Colour**</div>     | <div align="right">**HEX**</div>      | <div align="right">**Alignment**</div>|
+| **Objects**                  | **Font** | **Weight** | **Size**    | **Colour**     | **HEX**      | **Alignment** |
 |------------------------------|----------|------------|-------------|----------------|--------------|---------------|
 | Heading                | Arial    | Bold       | 12pt / 16px  | NHS Black      | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px""></span>#212B32</span>       | Left          |
 | Description            | Arial    | Regular    | 11pt / 15px | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px"></span>#212B32</span>       | Left          |
