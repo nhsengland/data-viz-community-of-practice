@@ -21,7 +21,7 @@ The NHS logo should always be used with the background colour as NHS blue. For d
 
 **Example in practice**
 
-![NHS Logo](../../images/NHS_logo.png){ data-title="NHS logo" data-description=".custom-desc1" data-caption-position="left" data-gallery="icons"}
+![NHS Logo](images/NHS_logo.png){ data-title="NHS logo" data-description=".custom-desc1" data-caption-position="left" data-gallery="icons"}
 <div class="glightbox-desc custom-desc1">
 NHS Logo as shown in the NHS England dashboard templates
 </div>

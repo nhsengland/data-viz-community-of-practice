@@ -23,7 +23,7 @@ If an acronym needs to be included in the product title, ensure it is also writt
 ![Example of a tooltip without a heading](images/regular-tooltip.png "Example of a tooltip without a heading")
 
 ### With a heading
-![Example of a tooltip with a heading](images/tooltip-example.png "Example of a tooltip with a heading")
+![Example of a tooltip with a heading](images/tooltip_example.png "Example of a tooltip with a heading")
 
 ### Visualisations within a tooltip
 Example 1<br><br>
