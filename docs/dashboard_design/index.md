@@ -4,7 +4,7 @@ We convey our visual identity through the products we build. Design guidelines h
 
 The NHS Identity is one of the most recognised and cherished brands in the world. It evokes trust and reassurance.
 
-> Branding is the art of becoming knowable, likable, and trustable.
+> Branding is the art of becoming knowable, likeable, and trustable.
 
 > **John Jantsch**
 
