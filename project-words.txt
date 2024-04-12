@@ -6,6 +6,8 @@ Goldacre
 Infogram
 # as in Edward Tufte
 Tufte
+# as in John Jantsch
+Jantsch
 
 
 # chart type names
