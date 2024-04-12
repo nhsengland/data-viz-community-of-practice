@@ -15,15 +15,15 @@ Starting your development with the empty templates will benefit you by:
 
 - [x] **Saving development time**
 
-Drag and drop your visualisations into empty containers. Headers, colours and logos follow NHS identity specifications and are pre-populated in the correct location.
+    Drag and drop your visualisations into empty containers. Headers, colours and logos follow NHS identity specifications and are pre-populated in the correct location.
 
 - [x] **Delivering a consistent user experience**
 
-Using the empty templates will allow you to create products that are instantly recognisable as NHS products.
+    Using the empty templates will allow you to create products that are instantly recognisable as NHS products.
 
 - [x] **Aligning to standards**
 
-The templates have been co-designed with User-Centred Design colleagues to meet cross-government standards. They are regularly updated in accordance with latest best practice.
+    The templates have been co-designed with User-Centred Design colleagues to meet cross-government standards. They are regularly updated in accordance with latest best practice.
     
 <br>
 
