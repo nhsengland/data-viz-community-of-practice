@@ -4,6 +4,10 @@ We convey our visual identity through the products we build. Design guidelines h
 
 The NHS Identity is one of the most recognised and cherished brands in the world. It evokes trust and reassurance.
 
+> Branding is the art of becoming knowable, likable, and trustable.
+
+> **John Jantsch**
+
 A style guide helps us to ensure a continuous brand experience for our users. When style is applied consistently across NHS products, it fosters loyalty and trust across all user touch-points.
 
 These guidelines are for developers, product owners and quality assurance testers working on data visualisation products in the NHS.
