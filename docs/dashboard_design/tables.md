@@ -9,9 +9,9 @@ Always assess the information you are working with and display it in the cleares
     - [x] Please ensure there are consistent colours across tabs for tables and charts by using NHS blues, tints and highlight colours.
 
 ???- tip "Alignment"
-    - [x] Right align column headings and the numbers in the column (the exception being the first column category title which is left aligned).
+    - [x] **Right align** column headings and numbers in **data tables** (the exception being the first column category title which is left aligned).
     - [x] Right align numbers & figures to better highlight the difference in values at the same level of precision.
-    - [x] Left align text in text tables for ease of reading.
+    - [x] **Left align** column headings and text in **text tables** for ease of reading.
     - [ ] Don't use centred of variable alignments. Right align to better highlight the difference in values at the same level of precision.
 
 
@@ -31,35 +31,37 @@ Always assess the information you are working with and display it in the cleares
     - [x] Percentages shouldn't be at a greater detail than 1dp unless specifically required
     - [x] Use the lowest possible level of detail depending on the the intended audience
 
-## Thin tables
+## Thin data tables
 - Minimise the data-ink ratio
 - Right align column header and numerical values
 - Font sizes as in the [typography list](../typography/#font-specification)
 - Header text alignment should be vertical middle and right
 
-![Thin tables](images/thin_tables.png){ data-title="Thin tables" data-description=".custom-desc1" data-caption-position="left" data-gallery="tables"}
+![Thin tables](images/thin_tables.png){ data-title="Thin data tables" data-description=".custom-desc1" data-caption-position="left" data-gallery="tables"}
 <div class="glightbox-desc custom-desc1">
-Example of a thin table
+Example of a thin data table
 </div>
 
-## Wide tables
+## Wide data tables
 - Shading allows the user to keep their eye on a specific row as they scan from left to right
-- <p class="inline-container">Table header colour: <span class="inline-container-pill" style="--colour: #D8DDE0; background-color: white"><span class="inline-colour-square" style="--colour: #D8DDE0"></span>#D8DDE0</span></p>
+- Right align column header and numerical values
+- <p class="inline-container">Table header colour: <span class="inline-container-pill" style="--colour: #F0F4F5; background-color: white"><span class="inline-colour-square" style="--colour: #F0F4F5"></span>#F0F4F5</span></p>
 - <p class="inline-container">Alternate row colour: <span class="inline-container-pill" style="--colour: #F0F4F5; background-color: white"><span class="inline-colour-square" style="--colour: #F0F4F5"></span>#F0F4F5</span></p>
 - <p class="inline-container">Text colour: <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32"></span>#212B32</span></p>
 
-![Wide tables](images/wide_tables.png){ data-title="Wide tables" data-description=".custom-desc2" data-caption-position="left" data-gallery="tables"}
+![Wide tables](images/wide_tables.png){ data-title="Wide data tables" data-description=".custom-desc2" data-caption-position="left" data-gallery="tables"}
 <div class="glightbox-desc custom-desc1">
-Example of a wide table
+Example of a wide data table
 </div>
 
 ## Text tables
-- Text should be left-aligned, and the headers should be right-aligned for the column
-- <p class="inline-container">Table header colour: <span class="inline-container-pill" style="--colour: #D8DDE0; background-color: white"><span class="inline-colour-square" style="--colour: #D8DDE0"></span>#D8DDE0</span></p>
+- Headers should be left-aligned for the column
+- Text in tables should also be left-aligned
+- <p class="inline-container">Table header colour: <span class="inline-container-pill" style="--colour: #F0F4F5; background-color: white"><span class="inline-colour-square" style="--colour: #F0F4F5"></span>#F0F4F5</span></p>
 - <p class="inline-container">Alternate row colour: <span class="inline-container-pill" style="--colour: #F0F4F5; background-color: white"><span class="inline-colour-square" style="--colour: #F0F4F5"></span>#F0F4F5</span></p>
 - <p class="inline-container">Text colour: <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32"></span>#212B32</span></p>
 
-![Text tables](images/text_tables.png){ data-title="Text tables" data-description=".custom-desc3" data-caption-position="left" data-gallery="tables"}
+![Text tables](images/text_table.png){ data-title="Text tables" data-description=".custom-desc3" data-caption-position="left" data-gallery="tables"}
 <div class="glightbox-desc custom-desc3">
 Example of a text table
 </div>

@@ -111,9 +111,9 @@ Here is a summary of the most important dashboard objects and their font specifi
 
 
 
-### Tables
+### Data Tables
 
-![Tables](images/typography_tables.png "Typography for tables")
+![Data Tables](images/typography_data_table.png "Typography for data tables")
 
 | **Objects**                  | **Font** | **Weight** | **Size**    | **Colour**     | **HEX**      | **Alignment** |
 |------------------------------|----------|------------|-------------|----------------|--------------|---------------|
@@ -121,6 +121,19 @@ Here is a summary of the most important dashboard objects and their font specifi
 | Description            | Arial    | Regular    | 11pt / 15px | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px"></span>#212B32</span>       | Left          |
 | Column heading         | Arial    | Bold       | 11pt / 15px | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px"></span>#212B32</span>       | Right (the exception being the first column category title which is left aligned)          |
 | Column sub-heading     | Arial    | Bold       | 11pt / 15px  | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px"></span>#212B32</span>       | Right (the exception being the first column category title which is left aligned          |
+| Row heading            | Arial    | Bold       | 11pt / 15px  | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px"></span>#212B32</span>       | Left          |
+| Body / rows            | Arial    | Regular    | 11pt / 15px  | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px"></span>#212B32</span>       | Right         |
+
+### Text Tables
+
+![Text Tables](images/typography_text_table.png "Typography for text tables")
+
+| **Objects**                  | **Font** | **Weight** | **Size**    | **Colour**     | **HEX**      | **Alignment** |
+|------------------------------|----------|------------|-------------|----------------|--------------|---------------|
+| Heading                | Arial    | Bold       | 12pt / 16px  | NHS Black      | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px""></span>#212B32</span>       | Left          |
+| Description            | Arial    | Regular    | 11pt / 15px | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px"></span>#212B32</span>       | Left          |
+| Column heading         | Arial    | Bold       | 11pt / 15px | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px"></span>#212B32</span>       | Left          |
+| Column sub-heading     | Arial    | Bold       | 11pt / 15px  | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px"></span>#212B32</span>       | Left          |
 | Row heading            | Arial    | Bold       | 11pt / 15px  | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px"></span>#212B32</span>       | Left          |
 | Body / rows            | Arial    | Regular    | 11pt / 15px  | NHS Black     | <span class="inline-container-pill" style="--colour: #212B32; background-color: white"><span class="inline-colour-square" style="--colour: #212B32; height: 15px; width: 15px"></span>#212B32</span>       | Left          |
 
