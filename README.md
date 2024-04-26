@@ -1,4 +1,4 @@
-# [RAP Community of Practice](https://NHSDigital.github.io/rap-community-of-practice/)
+# [Data Visualisation Community of Practice](https://p-jacques.github.io/data-viz-community-of-practice/)
 ![CI](https://github.com/NHSDigital/rap-community-of-practice/actions/workflows/pages-build-deployment.yml/badge.svg "CI badge indicating passing or failing status")
 [![Release Version](https://img.shields.io/github/v/release/nhsdigital/rap-community-of-practice "Release version")](https://github.com/NHSDigital/rap-community-of-practice/releases)
 [![MkDocs Material](https://img.shields.io/badge/style-MkDocs%20Material-darkblue "Markdown Style: MkDocs")](https://squidfunk.github.io/mkdocs-material/reference/)
@@ -6,15 +6,15 @@
 [![licence: OGL3](https://img.shields.io/badge/Licence-OGL3-darkgrey "licence: Open Government Licence 3")](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
 
 
-> **This material is maintained by the [NHS Digital Data Science team](mailto:datascience@nhs.net)**.
+> **This material is maintained by the [NHS England Analytical Products Development team](mailto:England.AnalyticsProductsTeam@nhs.net)**.
 >
-> See our other work here: [NHS Digital Analytical Services](https://github.com/NHSDigital/data-analytics-services).
+> See our other work here: [NHS England Analytical Services](https://github.com/NHSDigital/data-analytics-services).
 
 <br>
 
-**Welcome to the landing page for the RAP Community of Practice repository.**
+**Welcome to the landing page for the NHS England Data Visualisation Community of Practice repository.**
 
-Visit our [website](https://NHSDigital.github.io/rap-community-of-practice/) for more information about RAP or look in the docs folder!
+Visit our [website](https://p-jacques.github.io/data-viz-community-of-practice/) for more information about Data Visualisation or look in the docs folder!
 
 Please see our [contributing instructions][1] if you'd like to suggest a change, or develop our resources.
 
