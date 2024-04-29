@@ -1,4 +1,4 @@
-# [Data Visualisation Community of Practice](https://p-jacques.github.io/data-viz-community-of-practice/)
+# [Data Visualisation Community of Practice]()
 ![CI](https://github.com/NHSDigital/rap-community-of-practice/actions/workflows/pages-build-deployment.yml/badge.svg "CI badge indicating passing or failing status")
 [![Release Version](https://img.shields.io/github/v/release/nhsdigital/rap-community-of-practice "Release version")](https://github.com/NHSDigital/rap-community-of-practice/releases)
 [![MkDocs Material](https://img.shields.io/badge/style-MkDocs%20Material-darkblue "Markdown Style: MkDocs")](https://squidfunk.github.io/mkdocs-material/reference/)
@@ -14,7 +14,7 @@
 
 **Welcome to the landing page for the NHS England Data Visualisation Community of Practice repository.**
 
-Visit our [website](https://p-jacques.github.io/data-viz-community-of-practice/) for more information about Data Visualisation or look in the docs folder!
+Visit our [website]() for more information about Data Visualisation or look in the docs folder!
 
 Please see our [contributing instructions][1] if you'd like to suggest a change, or develop our resources.
 
