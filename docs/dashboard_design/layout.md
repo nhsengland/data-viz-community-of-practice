@@ -85,7 +85,7 @@ All text and images should be left aligned to improve accessibility.
 
 
 
-
+## Section for which to choose....
 
 
 ## Dashboard sizing & device layouts
