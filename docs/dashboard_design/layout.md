@@ -85,9 +85,6 @@ All text and images should be left aligned to improve accessibility.
 
 
 
-## Section for which to choose....
-
-
 ## Dashboard sizing & device layouts
 
 - Tableau provides different types of **sizing** for dashboards which are fixed, range and automatic. 
@@ -96,39 +93,71 @@ All text and images should be left aligned to improve accessibility.
 
 ### Fixed, range & automatic sizing
 
-???+ tip "Fixed"
+???+ tip "Fixed sizing (Default recommended option)"
     ![Fixed layout](images/fixed_layout.png){: height="100px" data-title="Fixed layout" data-caption-position="top" data-gallery="layout" align=right}
 
-    - The dashboard remains the same size, regardless of the size of the window used to display it.
+    - [x] The dashboard remains the same size, regardless of the size of the window used to display it.
     If the dashboard is larger than the window, it becomes scrollable.
 
-    - These dashboards let you specify the exact location and position of objects, which can be useful if there are floating objects.
+    - [x] These dashboards let you specify the exact location and position of objects, which can be useful if there are floating objects which are often used for "show/hide" implementations where dynamic zones are not suitable.
 
-    - These will load faster because they're more likely to use cached version on the server.
+    - [x] These will load faster because they're more likely to use cached version on the server.
 
+    - [x] These require less development work and testing as you do not have to test multiple sizes and monitors to ensure the dashboard appears as expected.
 
+    - [x] When using the recommended 1200px width, there will be no horizontal scroll bar for the vast majority of common screen sizes.
 
-???+ tip "Range"
+???- tip "Range sizing (Valid use case under the right conditions)"
 
     ![Range layout](images/range_layout.png){: height="100px" data-title="Range layout" data-caption-position="top" data-gallery="layout" align=right}
 
-    - The dashboard scales between minimum and maximum sizes that you specify.
+    - [x] The dashboard scales between minimum and maximum sizes that you specify.
 
-    - If the window used to display the dashboard is smaller than the minimum size, scroll bars are displayed.
+    - [x] If the window used to display the dashboard is smaller than the minimum size, scroll bars are displayed.
     If it is larger than the maximum size, white space is displayed.
 
-    - Use this setting when you are designing for two different display sizes that need the same content and have similar shapes - such as small and medium sized browser windows.
+    - [x] Use this setting when you are designing for two different display sizes that need the same content and have similar shapes - such as small and medium sized browser windows. 1200 to 1920px range width is recommended in these use cases. For larger monitors certain charts will be wider and be easier to read and interpret.
 
+    - [ ] Developers must ensure the dashboard displays correctly at all sizes, this requires more development work and testing.
 
-???- tip "Automatic (not recommended)"
+    - [ ] These will load slower as they are unable to use a cached version on the server.
+
+    - [ ] Floating containers cannot be used effectively, restricting certain features for users.
+
+???- tip "Automatic sizing (not recommended)"
 
     ![Automatic layout](images/auto_layout.png){: height="100px" data-title="Automatic layout" data-caption-position="top" data-gallery="layout"  align=right}
 
-    - The dashboard automatically resizes to fill the window used to display it.
+    - [x] The dashboard automatically resizes to fill the window used to display it.
 
-    - Use this setting if you want Tableau to take care of resizing. For best results, use a tiled dashboard layout.
+    - [x] Use this setting if you want Tableau to take care of resizing. For best results, use a tiled dashboard layout.
 
-    - This setting is not recommended
+    - [ ] This setting is not recommended
+
+
+
+### NHS England recommendation on which sizing to use
+
+
+???+ success "Default recommended option: 1200px fixed width dashboard"
+    - [x] Suitable for wide user range (eg. from analysts to admininstrators)
+    - [x] Suitable for wide range of screen sizes used by different users
+    - [x] Allows for better features for users (e.g floating containers for show/hide)
+    - [x] Allows for speed/performance improvements
+    - [x] Less development and testing required
+
+???- warning "Valid use case under the right conditions: 1920px fixed width dashboard"
+    - [x] Where all users are analysts
+    - [x] Where all screen sizes are known or dashboard is designed for a permenant screen (e.g a control room)
+    - Note that users accessing dashboards with smaller monitors will have a horizontal scroll bar and may miss elements of the screen. It is recommended to add an information note on the dashboard to explain that it is best viewed on a wide screen monitor (i.e 1920px width at 100% display scaling).
+
+
+???- warning "Valid use case under the right conditions: 1200px to 1920px width range dashboard"
+    - [x] Where all users are analysts
+    - [x] Where a wide range of screen sizes used by different users
+    - This will allow certain visuals such as line charts and bar charts to expand to monitors that are wider. This benefit must be considered against the trade off of slower performance, more development/testing and reduced functionality of ranged dashboards 
+
+
 
 
 
