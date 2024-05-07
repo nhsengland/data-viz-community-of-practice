@@ -99,11 +99,11 @@ All text and images should be left aligned to improve accessibility.
     - [x] The dashboard remains the same size, regardless of the size of the window used to display it.
     If the dashboard is larger than the window, it becomes scrollable.
 
-    - [x] These dashboards let you specify the exact location and position of objects, which can be useful if there are floating objects which are often used for "show/hide" implementations where dynamic zones are not suitable.
+    - [x] Lets you specify the exact location and position of objects, which can be useful if there are floating objects which are often used for "show/hide" implementations where dynamic zones are not suitable.
 
-    - [x] These will load faster because they're more likely to use cached version on the server.
+    - [x] These will load faster because a fixed width dashboard can be cached on Tableau server.
 
-    - [x] These require less development work and testing as you do not have to test multiple sizes and monitors to ensure the dashboard appears as expected.
+    - [x] Less development work and testing is required as you do not have to test multiple screen sizes and monitors to ensure the dashboard appears and functions as expected.
 
     - [x] When using the recommended 1200px width, there will be no horizontal scroll bar for the vast majority of common screen sizes.
 
@@ -113,12 +113,12 @@ All text and images should be left aligned to improve accessibility.
 
     - [x] The dashboard scales between minimum and maximum sizes that you specify.
 
-    - [x] If the window used to display the dashboard is smaller than the minimum size, scroll bars are displayed.
+    - [x] If the window displaying the dashboard is smaller than the minimum size, scroll bars are displayed.
     If it is larger than the maximum size, white space is displayed.
 
     - [x] Use this setting when you are designing for two different display sizes that need the same content and have similar shapes - such as small and medium sized browser windows. 1200 to 1920px range width is recommended in these use cases. For larger monitors certain charts will be wider and be easier to read and interpret.
 
-    - [ ] Developers must ensure the dashboard displays correctly at all sizes, this requires more development work and testing.
+    - [ ] Developers must ensure that the dashboard displays correctly at all screen sizes, this requires more development work and testing.
 
     - [ ] These will load slower as they are unable to use a cached version on the server.
 
@@ -140,22 +140,21 @@ All text and images should be left aligned to improve accessibility.
 
 
 ???+ success "Default recommended option: 1200px fixed width dashboard"
-    - [x] Suitable for wide user range (eg. from analysts to admininstrators)
-    - [x] Suitable for wide range of screen sizes used by different users
-    - [x] Allows for better features for users (e.g floating containers for show/hide)
-    - [x] Allows for speed/performance improvements
+    - [x] Suitable for wide range of screen sizes used by a diverse user base
+    - [x] Enables better feature development using a full range of Tableau functionality (e.g floating containers for show/hide)
+    - [x] Speed improvements in dashboard performance
     - [x] Less development and testing required
 
 ???- warning "Valid use case under the right conditions: 1920px fixed width dashboard"
-    - [x] Where all users are analysts
-    - [x] Where all screen sizes are known or dashboard is designed for a permenant screen (e.g a control room)
-    - Note that users accessing dashboards with smaller monitors will have a horizontal scroll bar and may miss elements of the screen. It is recommended to add an information note on the dashboard to explain that it is best viewed on a wide screen monitor (i.e 1920px width at 100% display scaling).
+    - [x] Where the user base is entirely analytical
+    - [x] Where all screen sizes are known or dashboard is designed for a permanent screen (e.g a control room)
+    - Note that users accessing dashboards with smaller monitors will have a horizontal scroll bar and may omit elements of the dashboard. It is recommended to add an information note on the dashboard to explain that it is best viewed on a wide screen monitor (i.e 1920px width at 100% display scaling).
 
 
 ???- warning "Valid use case under the right conditions: 1200px to 1920px width range dashboard"
-    - [x] Where all users are analysts
-    - [x] Where a wide range of screen sizes used by different users
-    - This will allow certain visuals such as line charts and bar charts to expand to monitors that are wider. This benefit must be considered against the trade off of slower performance, more development/testing and reduced functionality of ranged dashboards 
+    - [x] Where the user base is entirely analytical
+    - [x] Where a wide range of screen sizes is used by different users
+    - This will allow certain visuals such as line charts and bar charts to expand to monitors that are wider. This benefit must be weighed against the performance trade off of slower load times, more development/testing and reduced Tableau functionality in responsive range dashboards 
 
 
 

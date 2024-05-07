@@ -64,22 +64,21 @@ See the [NHS England Tableau Templates](https://tabanalytics.data.england.nhs.uk
 
 
 ???+ success "Default recommended option: 1200px fixed width dashboard"
-    - [x] Suitable for wide user range (eg. from analysts to admininstrators)
-    - [x] Suitable for wide range of screen sizes used by different users
-    - [x] Allows for better features for users (e.g floating containers for show/hide)
-    - [x] Allows for speed/performance improvements
+    - [x] Suitable for wide range of screen sizes used by a diverse user base
+    - [x] Enables better feature development using a full range of Tableau functionality (e.g floating containers for show/hide)
+    - [x] Speed improvements in dashboard performance
     - [x] Less development and testing required
 
 ???- warning "Valid use case under the right conditions: 1920px fixed width dashboard"
-    - [x] Where all users are analysts
-    - [x] Where all screen sizes are known or dashboard is designed for a permenant screen (e.g a control room)
-    - Note that users accessing dashboards with smaller monitors will have a horizontal scroll bar and may miss elements of the screen. It is recommended to add an information note on the dashboard to explain that it is best viewed on a wide screen monitor (i.e 1920px width at 100% display scaling).
+    - [x] Where the user base is entirely analytical
+    - [x] Where all screen sizes are known or dashboard is designed for a permanent screen (e.g a control room)
+    - Note that users accessing dashboards with smaller monitors will have a horizontal scroll bar and may omit elements of the dashboard. It is recommended to add an information note on the dashboard to explain that it is best viewed on a wide screen monitor (i.e 1920px width at 100% display scaling).
 
 
 ???- warning "Valid use case under the right conditions: 1200px to 1920px width range dashboard"
-    - [x] Where all users are analysts
-    - [x] Where a wide range of screen sizes used by different users
-    - This will allow certain visuals such as line charts and bar charts to expand to monitors that are wider. This benefit must be considered against the trade off of slower performance, more development/testing and reduced functionality of ranged dashboards 
+    - [x] Where the user base is entirely analytical
+    - [x] Where a wide range of screen sizes is used by different users
+    - This will allow certain visuals such as line charts and bar charts to expand to monitors that are wider. This benefit must be weighed against the performance trade off of slower load times, more development/testing and reduced Tableau functionality in responsive range dashboards 
 
 For more information on sizing, [click here](layout.md#dashboard-sizing-device-layouts).
 
