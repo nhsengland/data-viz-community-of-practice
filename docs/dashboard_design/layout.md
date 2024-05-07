@@ -140,7 +140,7 @@ All text and images should be left aligned to improve accessibility.
 
 
 ???+ success "Default recommended option: 1200px fixed width dashboard"
-    - [x] Suitable for wide range of screen sizes used by a diverse user base
+    - [x] Suitable for a wide range of screen sizes used by a diverse user base
     - [x] Enables better feature development using a full range of Tableau functionality (e.g floating containers for show/hide)
     - [x] Speed improvements in dashboard performance
     - [x] Less development and testing required
