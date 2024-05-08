@@ -148,7 +148,7 @@ All text and images should be left aligned to improve accessibility.
 ???- warning "Valid use case under the right conditions: 1840px fixed width dashboard"
     - [x] Where the user base is entirely analytical
     - [x] Where all screen sizes are known or dashboard is designed for a permanent screen (e.g a control room)
-    - Note that users accessing dashboards with smaller monitors will have a horizontal scroll bar and may omit elements of the dashboard. It is recommended to add an information note on the dashboard to explain that it is best viewed on a wide screen monitor (i.e 1840px width at 100% display scaling).
+    - Note that users accessing dashboards with smaller monitors will have a horizontal scroll bar and may omit elements of the dashboard. It is recommended to add an information note on the dashboard to explain that it is best viewed on a wide screen monitor (i.e 1920px width at 100% display scaling).
 
 
 ???- warning "Valid use case under the right conditions: 1200px to 1840px width range dashboard"
