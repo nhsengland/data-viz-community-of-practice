@@ -30,16 +30,13 @@ For more details see the [principles page](principles.md#visual-hierarchy).
     ![Finished layout](images/full_page_layout.png){data-title="Full page layout" data-caption-position="top" data-gallery="full"}
 
 ### Header
-- The top of the page should be split into two main sections.
-- In Tableau, these two sections would each be in a separate container sat within an overall top of page horizontal container.
+
 - On the left should be the dashboard title, subtitle if used, a brief dashboard description and an alert/message banner if needed.
-This section should be no more than 1200px.
-- On the right should be the NHS logo and any data refresh information. This section should be a fixed width of 300px.
+- On the right should be the NHS logo and any data refresh information. 
+
+![Page layout dimension](images/page_layout_dimensions_fixed.png){ data-title="Page header example" data-description=".custom-desc-page" data-caption-position="left" data-gallery="page"}
 
 
-![Page layout dimension](images/page_layout_dimensions.png){ data-title="Page header example" data-description=".custom-desc-page" data-caption-position="left" data-gallery="page"}
-
-<div class="glightbox-desc custom-desc-page">Header example</div>
 
 !!! tip "Useful tips for header section"
 
@@ -60,6 +57,19 @@ This section should be no more than 1200px.
     ![Header section tips](images/header_tips.png){ data-title="Page header example" data-gallery="header"}
 
       See the [Download templates page](download_templates.md) for details on how to download and use the templates.
+
+
+???- tip "Header design for 1200px to 1840px width range dashboards"
+    - The top of the page should be split into two main sections.
+    - In Tableau, these two sections would each be in a separate container sat within an overall top of page horizontal container.
+    - On the left should be the dashboard title, subtitle if used, a brief dashboard description and an alert/message banner if needed.
+    This section should be no more than 1200px.
+    - On the right should be the NHS logo and any data refresh information. This section should be a fixed width of 300px.
+
+
+    ![Page layout dimension](images/page_layout_dimensions.png){ data-title="Page header example" data-description=".custom-desc-page" data-caption-position="left" data-gallery="page"}
+
+    <div class="glightbox-desc custom-desc-page">Header example</div>
 
 
 ### Titles and subtitles
