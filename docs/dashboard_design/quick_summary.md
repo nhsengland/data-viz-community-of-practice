@@ -60,6 +60,28 @@ Screenshot of the About page from the NHS England Tableau Templates
 See the [NHS England Tableau Templates](https://tabanalytics.data.england.nhs.uk/t/Public/views/NHSEnglanddashboardtemplates-full/FAbout?%3Aembed=y&%3Aiid=2&%3AisGuestRedirectFromVizportal=y) for an example of this in practice. 
 
 
+## Dashboard sizing
+
+
+???+ success "Default recommended option: 1200px fixed width dashboard"
+    - [x] Suitable for a wide range of screen sizes used by a diverse user base
+    - [x] Enables better feature development using a full range of Tableau functionality (e.g floating containers for show/hide)
+    - [x] Speed improvements in dashboard performance
+    - [x] Less development and testing required
+
+???- warning "Valid use case under the right conditions: 1840px fixed width dashboard"
+    - [x] Where the user base is entirely analytical
+    - [x] Where all screen sizes are known or dashboard is designed for a permanent screen (e.g a control room)
+    - Note that users accessing dashboards with smaller monitors will have a horizontal scroll bar and may omit elements of the dashboard. It is recommended to add an information note on the dashboard to explain that it is best viewed on a wide screen monitor (i.e 1920px width at 100% display scaling).
+
+
+???- warning "Valid use case under the right conditions: 1200px to 1840px width range dashboard"
+    - [x] Where the user base is entirely analytical
+    - [x] Where a wide range of screen sizes is used by different users
+    - This will allow certain visuals such as line charts and bar charts to expand to monitors that are wider. This benefit must be weighed against the performance trade off of slower load times, more development/testing and reduced Tableau functionality in responsive range dashboards 
+
+For more information on sizing, [click here](layout.md#dashboard-sizing-device-layouts).
+
 ## Case
 
 Dashboard titles and Tabs should be in sentence case, which means only the first letter of each sentence should be capitalised. 
