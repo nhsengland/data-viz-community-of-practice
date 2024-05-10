@@ -1,6 +1,6 @@
 # [Data Visualisation Community of Practice](https://nhsengland.github.io/data-viz-community-of-practice/)
-![CI](https://github.com/NHSDigital/rap-community-of-practice/actions/workflows/pages-build-deployment.yml/badge.svg "CI badge indicating passing or failing status")
-[![Release Version](https://img.shields.io/github/v/release/nhsdigital/rap-community-of-practice "Release version")](https://github.com/NHSDigital/rap-community-of-practice/releases)
+![CI](https://github.com/nhsengland/data-viz-community-of-practice/actions/workflows/pages-build-deployment.yml/badge.svg "CI badge indicating passing or failing status")
+[![Release Version](https://img.shields.io/github/v/release/nhsengland/data-viz-community-of-practice "Release version")](https://github.com/nhsengland/data-viz-community-of-practice/releases)
 [![MkDocs Material](https://img.shields.io/badge/style-MkDocs%20Material-darkblue "Markdown Style: MkDocs")](https://squidfunk.github.io/mkdocs-material/reference/)
 [![licence: MIT](https://img.shields.io/badge/Licence-MIT-yellow.svg)](https://opensource.org/licenses/MIT "MIT License")
 [![licence: OGL3](https://img.shields.io/badge/Licence-OGL3-darkgrey "licence: Open Government Licence 3")](https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/)
