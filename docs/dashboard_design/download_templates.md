@@ -7,7 +7,7 @@
 
 !!! download "Empty templates download link"
 
-    [Download the empty templates](../../files/NHS_England_dashboard_templates_empty.twbx) directly or [view the empty templates](https://tabanalytics.data.england.nhs.uk/#/site/Public/workbooks/10724/views) on the NHS England public server.
+    [Download the empty templates](../../files/NHS_England_dashboard_templates_empty.twbx) directly or [view the empty templates](https://tabanalytics.data.england.nhs.uk/t/Public/views/NHSEnglanddashboardtemplates-empty/ATypical?%3Aembed=y.%20&%3AisGuestRedirectFromVizportal=y) on the NHS England public server.
 
 **All Tableau dashboard development must start with the empty templates**
 
@@ -57,7 +57,7 @@ Screenshot of the empty NHS England dashboard templates
 
 !!! download "Populated templates download link"
 
-    [Download the populated templates](../../files/NHS_England_dashboard_templates_full.twbx) directly or [view the populated templates](https://tabanalytics.data.england.nhs.uk/#/site/Public/workbooks/10723/views) on the NHS England public server.
+    [Download the populated templates](../../files/NHS_England_dashboard_templates_full.twbx) directly or [view the populated templates](https://tabanalytics.data.england.nhs.uk/t/Public/views/NHSEnglanddashboardtemplates-full/Allitems?%3Aembed=y.%20&%3AisGuestRedirectFromVizportal=y) on the NHS England public server.
 
 **How to use the populated templates:**
 
