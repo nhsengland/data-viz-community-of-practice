@@ -1,0 +1,1287 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../images/favicon/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Chart types - Data Viz Community of Practice</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4051b5">
+        
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--<type>:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2 1 21Z"/></svg>');}</style>
+
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Arial";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#chart-types" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!--
+  Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine class according to configuration -->
+
+
+
+<!-- Header -->
+<header class="md-header" data-md-component="header">
+  <nav
+    class="md-header__inner md-grid"
+    aria-label="Header"
+  >
+
+<!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+
+    <!-- Link to home -->
+    <a
+      href="../.."
+      title="Data Viz Community of Practice"
+      class="md-header__button md-logo-nhs"
+      aria-label="Data Viz Community of Practice"
+      data-md-component="logo"
+    >
+      
+  <img src="../../images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Data Viz Community of Practice
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Chart types
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Color palette -->
+    
+
+    <!-- Site language selector -->
+    
+
+    <!-- Button to open search modal -->
+    
+
+    <!-- Repository information -->
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NHSDigital/data-viz-community-of-practice" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Data Viz Community of Practice
+  </div>
+</a>
+      </div>
+    
+  </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../dashboard_lifecycle/" class="md-tabs__link">
+        Dashboard lifecycle
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../" class="md-tabs__link md-tabs__link--active">
+        Dashboard design
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Data Viz Community of Practice" class="md-nav__button md-logo" aria-label="Data Viz Community of Practice" data-md-component="logo">
+      
+  <img src="../../images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+    Data Viz Community of Practice
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NHSDigital/data-viz-community-of-practice" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Data Viz Community of Practice
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../dashboard_lifecycle/">Dashboard lifecycle</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Dashboard lifecycle" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Dashboard lifecycle
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboard_lifecycle/planning_cycle/" class="md-nav__link">
+        Planning cycle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboard_lifecycle/sketches_wireframes_prototypes/" class="md-nav__link">
+        Sketches, Wireframes and Prototypes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../">Dashboard design</a>
+          
+            <label for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Dashboard design" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Dashboard design
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quick_summary/" class="md-nav__link">
+        Style guide rules
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../principles/" class="md-nav__link">
+        Principles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigation/" class="md-nav__link">
+        Navigation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../layout/" class="md-nav__link">
+        Layout
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cards/" class="md-nav__link">
+        Cards
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../typography/" class="md-nav__link">
+        Typography
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../colours/" class="md-nav__link">
+        Colours
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../icons/" class="md-nav__link">
+        Icons & logos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filters/" class="md-nav__link">
+        Filters & buttons
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kpis/" class="md-nav__link">
+        KPIs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Chart types
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Chart types
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#which-chart-to-use" class="md-nav__link">
+    Which chart to use?
+  </a>
+  
+    <nav class="md-nav" aria-label="Which chart to use?">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#demonstrate-deviation" class="md-nav__link">
+    Demonstrate deviation
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#better-understand-relationships" class="md-nav__link">
+    Better understand relationships
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understand-flow" class="md-nav__link">
+    Understand flow
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-rank" class="md-nav__link">
+    Show rank
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#analyse-trends" class="md-nav__link">
+    Analyse trends
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#understand-the-distribution" class="md-nav__link">
+    Understand the distribution
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#show-composition" class="md-nav__link">
+    Show composition
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#demonstrate-magnitude" class="md-nav__link">
+    Demonstrate magnitude
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#geographical-patterns" class="md-nav__link">
+    Geographical patterns
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-maps" class="md-nav__link">
+    Data maps
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#showing-national-standards" class="md-nav__link">
+    Showing national standards
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#spc-charts" class="md-nav__link">
+    SPC charts
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tables/" class="md-nav__link">
+        Table design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tooltips/" class="md-nav__link">
+        Tooltips
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../information/" class="md-nav__link">
+        Information & metrics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../download_templates/" class="md-nav__link">
+        Download templates
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+
+
+                  
+
+  <a href="https://github.com/NHSDigital/data-viz-community-of-practice/edit/main/docs/dashboard_design/chart_types.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="chart-types">Chart types</h1>
+<p>The same numbers can be shown in several ways, it is up to you to select the one that ensures your message is clear and accurate.</p>
+<table>
+<thead>
+<tr>
+<th>Use a table</th>
+<th>Use a chart</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>To allow comparison of precise, individual values</td>
+<td>To give an overview, when precise individual values aren't necessary</td>
+</tr>
+<tr>
+<td>To show multiple units of measure (e.g. n and %)</td>
+<td>To show relationships in the data</td>
+</tr>
+<tr>
+<td>To show values and their sums</td>
+<td>To highlight patterns and trends</td>
+</tr>
+</tbody>
+</table>
+<h2 id="which-chart-to-use">Which chart to use?</h2>
+<p>Make sure you are answering intelligent, useful and practical questions with your charts; consider quality not quantity. Use your questions as a starting point to help you think about the most appropriate chart type. We have provided flow charts to help you make the right decision based on your data and your product's purpose.</p>
+<h3 id="demonstrate-deviation">Demonstrate deviation</h3>
+<p><a class="glightbox" href="../images/demonstrate_deviation.PNG" data-type="image" data-width="100%" data-height="auto" data-title="Demonstrate deviation" data-description=".custom-desc1" data-desc-position="left" data-gallery="charts"><img alt="Deviation charts" data-caption-position="left" data-description=".custom-desc1" data-gallery="charts" data-title="Demonstrate deviation" src="../images/demonstrate_deviation.PNG" /></a></p>
+<div class="glightbox-desc custom-desc1">
+<ul>
+    <li>Diverging bar</li>
+    <li>Surplus/deficit filled line</li>
+    <li>Diverging stacked bar</li>
+    <li>Spine chart</li>
+</ul>
+</div>
+
+<h3 id="better-understand-relationships">Better understand relationships</h3>
+<p><a class="glightbox" href="../images/better_understand_relationships.PNG" data-type="image" data-width="100%" data-height="auto" data-title="Better understand relationships" data-description=".custom-desc2" data-desc-position="left" data-gallery="charts"><img alt="Relationship charts" data-caption-position="left" data-description=".custom-desc2" data-gallery="charts" data-title="Better understand relationships" src="../images/better_understand_relationships.PNG" /></a></p>
+<div class="glightbox-desc custom-desc2">
+<ul>
+    <li>Line + Column</li>
+    <li>Connected scatter plot</li>
+    <li>Scatter plot</li>
+    <li>Bubble chart</li>
+    <li>XY heatmap</li>
+</ul>
+</div>
+
+<h3 id="understand-flow">Understand flow</h3>
+<p><a class="glightbox" href="../images/understand_flow.PNG" data-type="image" data-width="100%" data-height="auto" data-title="Understand flow" data-description=".custom-desc3" data-desc-position="left" data-gallery="charts"><img alt="Flow charts" data-caption-position="left" data-description=".custom-desc3" data-gallery="charts" data-title="Understand flow" src="../images/understand_flow.PNG" /></a></p>
+<div class="glightbox-desc custom-desc3">
+<ul>
+    <li>Waterfall</li>
+    <li>Network</li>
+    <li>Chord</li>
+    <li>Sankey</li>
+</ul>
+</div>
+
+<h3 id="show-rank">Show rank</h3>
+<p><a class="glightbox" href="../images/show_rank.png" data-type="image" data-width="100%" data-height="auto" data-title="Show rank" data-description=".custom-desc4" data-desc-position="left" data-gallery="charts"><img alt="Rank charts" data-caption-position="left" data-description=".custom-desc4" data-gallery="charts" data-title="Show rank" src="../images/show_rank.png" /></a></p>
+<div class="glightbox-desc custom-desc4">
+<ul>
+    <li>Slope</li>
+    <li>Ordered proportional symbol</li>
+    <li>Bar graph</li>
+    <li>Lollipop chart</li>
+    <li>Column graph</li>
+    <li>Bullet graph/Dot strip</li>
+</ul>
+</div>
+
+<h3 id="analyse-trends">Analyse trends</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="__tabbed_1_1">Analyse trends</label><label for="__tabbed_1_2">continued</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a class="glightbox" href="../images/analyse_trends_1.png" data-type="image" data-width="100%" data-height="auto" data-title="Analyse trends" data-description=".custom-desc5" data-desc-position="left" data-gallery="charts"><img alt="Trend charts" data-caption-position="left" data-description=".custom-desc5" data-gallery="charts" data-title="Analyse trends" src="../images/analyse_trends_1.png" /></a></p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" href="../images/analyse_trends_2.png" data-type="image" data-width="100%" data-height="auto" data-title="Analyse trends continued" data-description=".custom-desc5" data-desc-position="left" data-gallery="charts"><img alt="Trend charts" data-caption-position="left" data-description=".custom-desc5" data-gallery="charts" data-title="Analyse trends continued" src="../images/analyse_trends_2.png" /></a></p>
+</div>
+</div>
+</div>
+<div class="glightbox-desc custom-desc5">
+<ul>
+    <li>Fan chart</li>
+    <li>Calendar heatmap</li>
+    <li>Priestly timeline</li>
+    <li>Circle timeline</li>
+    <li>Area chart</li>
+    <li>Dual-axis chart</li>
+    <li>Connected scatter plot</li>
+    <li>Stock price</li>
+    <li>Slope</li>
+    <li>Line graph</li>
+    <li>Column chart</li>
+    <li>Seismogram</li>
+</ul>
+</div>
+
+<h3 id="understand-the-distribution">Understand the distribution</h3>
+<p><a class="glightbox" href="../images/understand_distribution.png" data-type="image" data-width="100%" data-height="auto" data-title="Understand the distribution" data-description=".custom-desc6" data-desc-position="left" data-gallery="charts"><img alt="Distribution charts" data-caption-position="left" data-description=".custom-desc6" data-gallery="charts" data-title="Understand the distribution" src="../images/understand_distribution.png" /></a></p>
+<div class="glightbox-desc custom-desc6">
+<ul>
+    <li>Dot plot</li>
+    <li>Barcode plot</li>
+    <li>Dot strip plot</li>
+    <li>Box plot</li>
+    <li>Violin plot</li>
+    <li>Histogram</li>
+    <li>Population pyramid</li>
+    <li>Cumulative curve</li>
+</ul>
+</div>
+
+<h3 id="show-composition">Show composition</h3>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="__tabbed_2_1" name="__tabbed_2" type="radio" /><input id="__tabbed_2_2" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="__tabbed_2_1">Show composition</label><label for="__tabbed_2_2">continued</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p><a class="glightbox" href="../images/show_composition_1.png" data-type="image" data-width="100%" data-height="auto" data-title="Show composition" data-description=".custom-desc7" data-desc-position="left" data-gallery="charts"><img alt="Composition charts" data-caption-position="left" data-description=".custom-desc7" data-gallery="charts" data-title="Show composition" src="../images/show_composition_1.png" /></a></p>
+</div>
+<div class="tabbed-block">
+<p><a class="glightbox" href="../images/show_composition_2.png" data-type="image" data-width="100%" data-height="auto" data-title="Show composition continued" data-description=".custom-desc7" data-desc-position="left" data-gallery="charts"><img alt="Composition charts" data-caption-position="left" data-description=".custom-desc7" data-gallery="charts" data-title="Show composition continued" src="../images/show_composition_2.png" /></a></p>
+</div>
+</div>
+</div>
+<div class="glightbox-desc custom-desc7">
+<ul>
+    <li>Venn diagram</li>
+    <li>Stacked proportional bar</li>
+    <li>Stacked column</li>
+    <li>Tree map</li>
+    <li>Sunburst</li>
+    <li>Waterfall chart</li>
+    <li>Grid plot</li>
+    <li>Arc/pie chart</li>
+    <li>Donut chart</li>
+</ul>
+</div>
+
+<h3 id="demonstrate-magnitude">Demonstrate magnitude</h3>
+<p><a class="glightbox" href="../images/demonstrate_magnitude.png" data-type="image" data-width="100%" data-height="auto" data-title="Demonstrate magnitude" data-description=".custom-desc8" data-desc-position="left" data-gallery="charts"><img alt="Magnitude charts" data-caption-position="left" data-description=".custom-desc8" data-gallery="charts" data-title="Demonstrate magnitude" src="../images/demonstrate_magnitude.png" /></a></p>
+<div class="glightbox-desc custom-desc8">
+<ul>
+    <li>Isotypes</li>
+    <li>Paired bar graph</li>
+    <li>Paired column graph</li>
+    <li>Parallel coordinates</li>
+    <li>Bar graph</li>
+    <li>Column graph</li>
+    <li>Lollipop chart</li>
+    <li>Radar chart</li>
+</ul>
+</div>
+
+<h3 id="geographical-patterns">Geographical patterns</h3>
+<p><a class="glightbox" href="../images/geographical_patterns.png" data-type="image" data-width="100%" data-height="auto" data-title="Geographical patterns" data-description=".custom-desc9" data-desc-position="left" data-gallery="charts"><img alt="Geographical charts" data-caption-position="left" data-description=".custom-desc9" data-gallery="charts" data-title="Geographical patterns" src="../images/geographical_patterns.png" /></a></p>
+<div class="glightbox-desc custom-desc9">
+<ul>
+    <li>Flow map</li>
+    <li>Basic choropleth</li>
+    <li>Proportional symbol</li>
+    <li>Contour map</li>
+    <li>Heat map</li>
+    <li>Dot density</li>
+    <li>Scaled cartogram</li>
+    <li>Equalized cartogram</li>
+</ul>
+</div>
+
+<div class="admonition note">
+<p class="admonition-title">Useful links</p>
+<ul>
+<li>
+<p>Visual vocabulary - Alan Smith, The Chart Doctor @Financial times</p>
+</li>
+<li>
+<p>How to choose the right chart for your data - Infogram</p>
+</li>
+<li>
+<p>Choosing the right chart</p>
+</li>
+</ul>
+</div>
+<h2 id="data-maps">Data maps</h2>
+<p>Removing as much clutter as possible removes potential distractions from your data and makes everything easier to read.</p>
+<div class="admonition tip inline">
+<p class="admonition-title">Best practice</p>
+<p>Forgo 'chart-junk'</p>
+<ul>
+<li>
+<p>For filled maps, you can get rid of everything in the map by setting washout to 100% in map layers</p>
+</li>
+<li>
+<p>For unfilled maps, uncheck base to remove the water colour
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p></p>
+</li>
+</ul>
+</div>
+<p><a class="glightbox" href="../images/uncluttered_tableau_map.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="map"><img alt="Uncluttered map in Tableau" data-gallery="map" src="../images/uncluttered_tableau_map.png" width="63%" /></a></p>
+<div class="admonition note">
+<p class="admonition-title">Useful links</p>
+<ul>
+<li>See how data mapping has halted the epidemic - John Snow's cholera map</li>
+</ul>
+</div>
+<h2 id="showing-national-standards">Showing national standards</h2>
+<p>National standards should be clearly labelled in charts wherever applicable. They should be shown with a black dashed (not dotted) line and "standard = n%" label.</p>
+<figure>
+<p><a class="glightbox" href="../images/national_standards_chart.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="national"><img alt="National standards" data-gallery="national" src="../images/national_standards_chart.png" /></a></p>
+</figure>
+<h2 id="spc-charts">SPC charts</h2>
+<p>Approaches popular in the NHS, such as red, amber, green (RAG) rating and two point comparisons, have limitations for good decision-making.</p>
+<figure>
+<p><a class="glightbox" href="../images/specialty_rtt_performance_table.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="rtt"><img alt="RAG table" data-gallery="rtt" src="../images/specialty_rtt_performance_table.png" /></a>
+  </p>
+<figcaption>An example RAG table</figcaption>
+</figure>
+<!-- 
+Specialty RTT Performance (Target: 92.0%)
+<table border="1" style="font-size:50%;">
+    <tr>
+        <th>
+            Specialty Performance
+        </th>
+        <th>
+            Jul-18
+        </th>
+        <th>
+            Aug-18
+        </th>
+        <th>
+            Sep-18
+        </th>
+        <th>
+            Oct-18
+        </th>
+        <th>
+            Trend
+        </th>
+        <th>
+            Trend
+        </th>
+    </tr>
+    <tr>
+        <td>
+            General Surgery
+        </td>
+        <td bgcolor="#DA291C">
+            87.5%
+        </td>
+        <td bgcolor="#DA291C">
+            89.0%
+        </td>
+        <td bgcolor="#DA291C">
+            87.1%
+        </td>
+        <td bgcolor="#DA291C">
+            90.4%
+        </td>
+        <td bgcolor="#DA291C" style="text-align: center">
+            &#8595;
+        </td>
+        <td bgcolor="#DA291C">
+            -0.9%
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Rheumatology
+        </td>
+        <td bgcolor="#DA291C">
+            76.0%
+        </td>
+        <td bgcolor="#DA291C">
+            74.1%
+        </td>
+        <td bgcolor="#DA291C">
+            71.5%
+        </td>
+        <td bgcolor="#DA291C">
+            74.9%
+        </td>
+        <td bgcolor="#DA291C" style="text-align: center">
+            &#8595;
+        </td>
+        <td bgcolor="#DA291C">
+            -0.1%
+        </td>
+    </tr>
+</table> -->
+
+<p>The table above contains a lot of data but key messages such as "Are we improving or declining?" are very hard to determine.
+These two specialities when viewed as an SPC chart with more data, show a more informative picture.
+Clearly, conversations with these two specialities should be different, something the RAG table would not have suggested.</p>
+<figure>
+<p><a class="glightbox" href="../images/spc_chart.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="rtt"><img alt="SPC chart" data-gallery="rtt" src="../images/spc_chart.png" /></a>
+  </p>
+<figcaption>An example SPC chart</figcaption>
+</figure>
+<p>SPC charts will allow you to understand when something statistically significant is happening, caused by an external factor, rather than the natural variation of the system.
+SPC can help to avoid tampering and the costs associated with it.
+It can also help you to determine if, given the variance of the system, a target can be met and how reliably.
+This will help to guide you when a system needs a complete re-design, an improvement cycle, or is in fact capable.
+You can use SPC anywhere you have a metric that displays variance in between a time period. The data does not have to have a normal distribution.</p>
+<p><strong>Caution:</strong> Although there are many benefits to using SPC charts, they should also be applied with caution.
+If there are situations where your data set displays seasonality, autocorrelation or small data sets, then additional research on how to construct an SPC accurately is necessary.
+Caution should also be taken with users, as interpreting an SPC chart not only requires understanding on how to interpret SPC charts, but a proper knowledge of the data and it's relationship with other information to avoid incorrect conclusions. Consider whether including SPC will benefit the conversation.</p>
+<div class="admonition note">
+<p class="admonition-title">Useful links</p>
+<ul>
+<li><a href="https://www.england.nhs.uk/publication/making-data-count/" title="Making data count">Making data count</a></li>
+</ul>
+</div>
+
+
+
+
+
+                
+
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+ <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+
+<!-- Code for the next arrow from Material for MkDocs -->
+<footer class="md-footer">
+   
+  <nav
+    class="md-footer__inner md-grid"
+    aria-label="Footer"
+    
+  >
+     
+    <a
+      href="../kpis/"
+      class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: KPIs"
+      rel="prev"
+    >
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction"> Previous </span>
+          KPIs
+        </div>
+      </div>
+    </a>
+      
+    <a
+      href="../tables/"
+      class="md-footer__link md-footer__link--next"
+      aria-label="Next: Table design"
+      rel="next"
+    >
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction"> Next </span>
+          Table design
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+</footer>
+
+<footer class="footer">
+  <div class="footer_left">
+    <a href="mailto:analyticsproductsteam@nhs.net"><p>Contact Us</p></a>
+    <p>Developed by <a href="https://www.england.nhs.uk/">NHS England</a></p>
+    <p>
+      View the project on
+      <a href="https://github.com/NHSDigital/data-viz-community-of-practice"
+        >GitHub</a
+      >
+    </p>
+    <p>View what's <a href="/data-viz-community-of-practice/change_log">changed</a></p>
+    <p>View our <a href="/data-viz-community-of-practice/launch">launch ceremony</a></p>
+  </div>
+  
+
+  <div class="legal">
+    <div class="footer_left">
+    <p>&copy; 2024 Crown Copyright (NHS England)</p>
+    <p>All content is available under the
+        <a
+          href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+          >Open Government Licence v3.0</a
+        >, except where otherwise stated.
+      </p>    
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.share", "content.code.annotate", "content.tabs.link", "navigation.tabs", "navigation.indexes", "navigation.path", "toc.integrate", "navigation.top"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>

@@ -1,0 +1,1035 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../images/favicon/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Principles - Data Viz Community of Practice</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4051b5">
+        
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--<type>:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2 1 21Z"/></svg>');}</style>
+
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Arial";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#key-principles" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!--
+  Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine class according to configuration -->
+
+
+
+<!-- Header -->
+<header class="md-header" data-md-component="header">
+  <nav
+    class="md-header__inner md-grid"
+    aria-label="Header"
+  >
+
+<!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+
+    <!-- Link to home -->
+    <a
+      href="../.."
+      title="Data Viz Community of Practice"
+      class="md-header__button md-logo-nhs"
+      aria-label="Data Viz Community of Practice"
+      data-md-component="logo"
+    >
+      
+  <img src="../../images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Data Viz Community of Practice
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Principles
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Color palette -->
+    
+
+    <!-- Site language selector -->
+    
+
+    <!-- Button to open search modal -->
+    
+
+    <!-- Repository information -->
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NHSDigital/data-viz-community-of-practice" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Data Viz Community of Practice
+  </div>
+</a>
+      </div>
+    
+  </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../dashboard_lifecycle/" class="md-tabs__link">
+        Dashboard lifecycle
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../" class="md-tabs__link md-tabs__link--active">
+        Dashboard design
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Data Viz Community of Practice" class="md-nav__button md-logo" aria-label="Data Viz Community of Practice" data-md-component="logo">
+      
+  <img src="../../images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+    Data Viz Community of Practice
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NHSDigital/data-viz-community-of-practice" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Data Viz Community of Practice
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../dashboard_lifecycle/">Dashboard lifecycle</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Dashboard lifecycle" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Dashboard lifecycle
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboard_lifecycle/planning_cycle/" class="md-nav__link">
+        Planning cycle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboard_lifecycle/sketches_wireframes_prototypes/" class="md-nav__link">
+        Sketches, Wireframes and Prototypes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../">Dashboard design</a>
+          
+            <label for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Dashboard design" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Dashboard design
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quick_summary/" class="md-nav__link">
+        Style guide rules
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Principles
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Principles
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#visual-hierarchy" class="md-nav__link">
+    Visual Hierarchy
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#white-space" class="md-nav__link">
+    White Space
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-ink-ratio" class="md-nav__link">
+    Data-ink ratio
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#contrast" class="md-nav__link">
+    Contrast
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#size-and-scale" class="md-nav__link">
+    Size and Scale
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#naming-conventions" class="md-nav__link">
+    Naming conventions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dealing-with-data-quality-issues" class="md-nav__link">
+    Dealing with data quality issues
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigation/" class="md-nav__link">
+        Navigation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../layout/" class="md-nav__link">
+        Layout
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cards/" class="md-nav__link">
+        Cards
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../typography/" class="md-nav__link">
+        Typography
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../colours/" class="md-nav__link">
+        Colours
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../icons/" class="md-nav__link">
+        Icons & logos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filters/" class="md-nav__link">
+        Filters & buttons
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kpis/" class="md-nav__link">
+        KPIs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chart_types/" class="md-nav__link">
+        Chart types
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tables/" class="md-nav__link">
+        Table design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tooltips/" class="md-nav__link">
+        Tooltips
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../information/" class="md-nav__link">
+        Information & metrics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../download_templates/" class="md-nav__link">
+        Download templates
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+
+
+                  
+
+  <a href="https://github.com/NHSDigital/data-viz-community-of-practice/edit/main/docs/dashboard_design/principles.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="key-principles">Key Principles</h1>
+<h2 id="visual-hierarchy">Visual Hierarchy</h2>
+<p>Visual Hierarchy is the organisation of design elements by importance. It directs a user's attention to enhance their engagement of the information presented.</p>
+<details class="tip" open="open">
+<summary>Visual Hierarchy</summary>
+<p>The first place your eyes go to is the <strong>top of the screen</strong>. 
+Place important information here for users to easily scan.</p>
+</details>
+<p>There are two primary <a href="https://99designs.com/blog/tips/visual-hierarchy-landing-page-designs">reading layouts</a>
+: Z pattern and F pattern.</p>
+<p>A <a href="https://thenextweb.com/news/designing-websites-that-mirror-how-our-eyes-work-part-2">Z-pattern layout</a> draws attention to the top-left corner first before moving to the top right, then down to the bottom left, with the bottom-right corner as the last stop. Each corner has a visual cue (like a logo) or CTA (like a contact button).</p>
+<p>An <a href="https://uxmag.com/articles/the-f-pattern-understanding-how-users-scan-content">F-pattern layout</a>, which follows a more crowded pattern leading visitors from left to right and back again, works well for text-heavy pages.</p>
+<p><a class="glightbox" href="../images/reading-layouts.png" data-type="image" data-width="100%" data-height="auto" data-title="Diagram of Z and F reading patterns" data-desc-position="top"><img alt="Diagram of Z and F reading patterns" data-caption-position="top" data-title="Diagram of Z and F reading patterns" src="../images/reading-layouts.png" title="Diagram of Z and F reading patterns" /></a></p>
+<h2 id="white-space">White Space</h2>
+<p>White space separates and groups elements in a dashboard.</p>
+<p>It helps the eye to scan a page for information. Without it, your dashboard will be hard to read.</p>
+<p>Adding white space reinforces the visual hierarchy of your dashboard. It puts the spotlight on the data in your dashboard.</p>
+<p>Click <a href="https://www.creatopy.com/blog/white-space-in-graphic-design/">here</a> for more examples of using white space in practice.</p>
+<h2 id="data-ink-ratio">Data-ink ratio</h2>
+<blockquote>
+<p>Perfection is achieved, not when there is nothing more to add, but when there is nothing left to take away.</p>
+<p><strong>Antoine de Saint-Exupéry</strong></p>
+</blockquote>
+<p><strong>Definition</strong></p>
+<p>The data-ink ratio is a concept introduced by Edward Tufte.
+He refers to data-ink as the non-erasable ink used for the presentation of data.
+If data-ink would be removed from the image, the graphic would lose the content.
+The non-erasable portion of a graph is subjective, so Tufte follows up his principal of data-ink with the five laws of data-ink.</p>
+<div class="admonition danger">
+<p class="admonition-title">Five laws of data-ink<ol>
+<li>Above all else show the data</li>
+<li>Maximise the data-ink ratio</li>
+<li>Erase non-data ink</li>
+<li>Erase redundant data-ink</li>
+<li>Revise and edit</li>
+</ol>
+</p>
+</div>
+<p><strong>Redesign of a bar chart</strong></p>
+<p>The data-ink ratio on this chart can be reduced significantly by taking the following actions:</p>
+<p><a class="glightbox" href="https://images.squarespace-cdn.com/content/v1/56713bf4dc5cb41142f28d1f/1450306653111-70K5IT30R69NWPDIE1ZJ/data-ink.gif" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom"><img align="right" alt="Reducing data-ink" src="https://images.squarespace-cdn.com/content/v1/56713bf4dc5cb41142f28d1f/1450306653111-70K5IT30R69NWPDIE1ZJ/data-ink.gif" width="70%" /></a></p>
+<ul style="padding-top: 10px; padding-bottom: 10px;">
+<li style="padding-top: 6px; padding-bottom: 6px;">remove backgrounds</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">remove redundant labels</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">remove borders</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">remove colours</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">remove special effects</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">remove bolding</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">lighten labels</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">lighten lines or remove lines</li>
+<li style="padding-top: 6px; padding-bottom: 6px;">direct label</li>
+</ul>
+
+<p>Remember, 'less is more'</p>
+<h2 id="contrast">Contrast</h2>
+<p>Contrast directs the user's attention to focal point in your dashboard, highlighting important information to achieve impact.</p>
+<p>It is also crucial for practical reasons. For instance, text should have a <a href="https://www.w3.org/TR/WCAG20-TECHS/G183.html">contrast ratio of at least 3:1</a> to ensure your dashboard is accessible to all users.</p>
+<p>Contrast in size, shape and colour are all important to ensure your dashboard is successful in achieving its specific goal. With no contrast all, you'd just end up with a single coloured block for a dashboard!</p>
+<h2 id="size-and-scale">Size and Scale</h2>
+<p>Size and scale are used in visual hierarchy to communicate prioritized information.</p>
+<p>Size refers to the physical dimensions of an element, while scale defines its proportion relative to other elements on the page. Large elements generally attract more attention in the hierarchy, while smaller ones are secondary.</p>
+<p>Manipulating the size and scale of your dashboard components creates a sense of perspective, guiding users to focus on the most important information first.</p>
+<h2 id="naming-conventions">Naming conventions</h2>
+<p>Naming of products is key, particularly in the context of an A-Z product list within the core platform.
+We are aware from user research that discoverability of products is an issue.
+Naming of products is a key aspect to be addressed to improve discoverability.
+Alongside the name, the brief description is also valuable in helping the user find the data they are looking for.</p>
+<div class="admonition tip">
+<p class="admonition-title">Guidelines for naming new dashboards<ol>
+<li>Start with key word(s) eg Cancer, COVID, A&amp;E</li>
+<li>Consider frequency eg daily, weekly, monthly</li>
+<li>Describe functionality eg monitoring, performance, forecasting, benchmarking</li>
+</ol>
+</p>
+</div>
+<p><strong>Keep it simple and descriptive</strong></p>
+<p>Avoid unnecessary words and especially at the start of the name where it affects the alphabetical listing.
+Where possible avoid using acronyms.
+If an acronym needs to be included in the product title, ensure it is also written out in full.
+Eg Summary emergency department indicator table (SEDIT)</p>
+<p><strong>Consider alphabetical listing</strong></p>
+<p>Ensure the key word(s) is at the start of the sentence, this also ensures similar dashboards are grouped together.
+Do not start the name with 'the'.
+Eg 'The long stays' dashboard would appear under 't' in an alphabetical list, use 'Long stays' instead.</p>
+<p>Avoid starting names with 'NHS' or 'national' for the same alphabetical clustering reason.
+There may be exceptions eg 'NHS 111'</p>
+<p><strong>Case Type</strong></p>
+<p>Capitalisation is generally to be avoided in accordance with NHS style guidelines.
+Titles should use sentence case as per the NHS England style <a href="https://nhsengland.sharepoint.com/sites/Content/SitePages/House-style.aspx?">guidelines</a>, capitalisation just like in standard English sentences, where only the first word of each sentence and proper nouns are capitalised.</p>
+<div class="admonition tip">
+<p class="admonition-title">Managing versions<p>If an updated version of a dashboard is released it should ideally replace the previous version and use the existing name.
+However if it is required for a new version to be added and the previous version to be still available then it should be clearly distinguishable
+eg 'A&amp;E daily performance (new)' and 'A&amp;E daily performance (2021).</p>
+</p>
+</div>
+<h2 id="dealing-with-data-quality-issues">Dealing with data quality issues</h2>
+<p>Sharing known data quality issues can reduce misinterpretation of data.</p>
+<p><strong>Data quality check list</strong></p>
+<p>Unfortunately the data we use is not always 100% complete, or 100% accurate.
+Adding a page to the dashboard or linking to a supporting web page to include information on data quality can be very useful for users.
+Try adding information such as:</p>
+<ul>
+<li>Missing submissions</li>
+<li>Known missing or incorrect data</li>
+<li>Dates highlighting when new metrics were introduced or methodologies were changed</li>
+<li>Known data quality issues</li>
+</ul>
+<p>The data quality page and metric descriptions page can be combined into one metric information page.</p>
+<details class="info">
+<summary><em>External Links Disclaimer</em></summary>
+<p><em>NHS England makes every effort to ensure that external links are accurate, up to date and relevant, however we cannot take responsibility for pages maintained by external providers.</em></p>
+<p><em>NHS England is not affiliated with any of the websites or companies in the links to external websites.</em></p>
+<p><em>If you come across any external links that do not work, we would be grateful if you could report them by raising an issue on our <a href="https://github.com/NHSDigital/data-viz-community-of-practice">Data Viz Community of Practice GitHub</a>.</em></p>
+</details>
+
+
+
+
+
+                
+
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+ <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+
+<!-- Code for the next arrow from Material for MkDocs -->
+<footer class="md-footer">
+   
+  <nav
+    class="md-footer__inner md-grid"
+    aria-label="Footer"
+    
+  >
+     
+    <a
+      href="../quick_summary/"
+      class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Style guide rules"
+      rel="prev"
+    >
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction"> Previous </span>
+          Style guide rules
+        </div>
+      </div>
+    </a>
+      
+    <a
+      href="../navigation/"
+      class="md-footer__link md-footer__link--next"
+      aria-label="Next: Navigation"
+      rel="next"
+    >
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction"> Next </span>
+          Navigation
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+</footer>
+
+<footer class="footer">
+  <div class="footer_left">
+    <a href="mailto:analyticsproductsteam@nhs.net"><p>Contact Us</p></a>
+    <p>Developed by <a href="https://www.england.nhs.uk/">NHS England</a></p>
+    <p>
+      View the project on
+      <a href="https://github.com/NHSDigital/data-viz-community-of-practice"
+        >GitHub</a
+      >
+    </p>
+    <p>View what's <a href="/data-viz-community-of-practice/change_log">changed</a></p>
+    <p>View our <a href="/data-viz-community-of-practice/launch">launch ceremony</a></p>
+  </div>
+  
+
+  <div class="legal">
+    <div class="footer_left">
+    <p>&copy; 2024 Crown Copyright (NHS England)</p>
+    <p>All content is available under the
+        <a
+          href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+          >Open Government Licence v3.0</a
+        >, except where otherwise stated.
+      </p>    
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.share", "content.code.annotate", "content.tabs.link", "navigation.tabs", "navigation.indexes", "navigation.path", "toc.integrate", "navigation.top"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>

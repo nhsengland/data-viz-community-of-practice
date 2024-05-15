@@ -1,0 +1,1587 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../images/favicon/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Colours - Data Viz Community of Practice</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4051b5">
+        
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--<type>:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2 1 21Z"/></svg>');}</style>
+
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Arial";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#colours" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!--
+  Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine class according to configuration -->
+
+
+
+<!-- Header -->
+<header class="md-header" data-md-component="header">
+  <nav
+    class="md-header__inner md-grid"
+    aria-label="Header"
+  >
+
+<!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+
+    <!-- Link to home -->
+    <a
+      href="../.."
+      title="Data Viz Community of Practice"
+      class="md-header__button md-logo-nhs"
+      aria-label="Data Viz Community of Practice"
+      data-md-component="logo"
+    >
+      
+  <img src="../../images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Data Viz Community of Practice
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Colours
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Color palette -->
+    
+
+    <!-- Site language selector -->
+    
+
+    <!-- Button to open search modal -->
+    
+
+    <!-- Repository information -->
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NHSDigital/data-viz-community-of-practice" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Data Viz Community of Practice
+  </div>
+</a>
+      </div>
+    
+  </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../dashboard_lifecycle/" class="md-tabs__link">
+        Dashboard lifecycle
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../" class="md-tabs__link md-tabs__link--active">
+        Dashboard design
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Data Viz Community of Practice" class="md-nav__button md-logo" aria-label="Data Viz Community of Practice" data-md-component="logo">
+      
+  <img src="../../images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+    Data Viz Community of Practice
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NHSDigital/data-viz-community-of-practice" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Data Viz Community of Practice
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../dashboard_lifecycle/">Dashboard lifecycle</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Dashboard lifecycle" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Dashboard lifecycle
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboard_lifecycle/planning_cycle/" class="md-nav__link">
+        Planning cycle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboard_lifecycle/sketches_wireframes_prototypes/" class="md-nav__link">
+        Sketches, Wireframes and Prototypes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../">Dashboard design</a>
+          
+            <label for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Dashboard design" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Dashboard design
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quick_summary/" class="md-nav__link">
+        Style guide rules
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../principles/" class="md-nav__link">
+        Principles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigation/" class="md-nav__link">
+        Navigation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../layout/" class="md-nav__link">
+        Layout
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cards/" class="md-nav__link">
+        Cards
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../typography/" class="md-nav__link">
+        Typography
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Colours
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Colours
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#downloading-colours-directly-into-tableau" class="md-nav__link">
+    Downloading colours directly into Tableau
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nhs-blue-and-white" class="md-nav__link">
+    NHS blue and white
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nhs-regions" class="md-nav__link">
+    NHS regions
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#nhs-ambulance" class="md-nav__link">
+    NHS ambulance
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#chart-colours" class="md-nav__link">
+    Chart colours
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rag-colours" class="md-nav__link">
+    RAG colours
+  </a>
+  
+    <nav class="md-nav" aria-label="RAG colours">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#national-targets-red-green" class="md-nav__link">
+    National Targets (Red - Green)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#local-targets-red-amber-green" class="md-nav__link">
+    Local Targets (Red - Amber - Green)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#divergence" class="md-nav__link">
+    Divergence
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#colour-tints-for-measures" class="md-nav__link">
+    Colour tints for measures
+  </a>
+  
+    <nav class="md-nav" aria-label="Colour tints for measures">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#continuous-scale" class="md-nav__link">
+    Continuous scale
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#discrete-scale" class="md-nav__link">
+    Discrete scale
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#charts-with-multiple-measures" class="md-nav__link">
+    Charts with multiple measures
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ui-specs-for-visualisation" class="md-nav__link">
+    UI specs for visualisation
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../icons/" class="md-nav__link">
+        Icons & logos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filters/" class="md-nav__link">
+        Filters & buttons
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kpis/" class="md-nav__link">
+        KPIs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chart_types/" class="md-nav__link">
+        Chart types
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tables/" class="md-nav__link">
+        Table design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tooltips/" class="md-nav__link">
+        Tooltips
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../information/" class="md-nav__link">
+        Information & metrics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../download_templates/" class="md-nav__link">
+        Download templates
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+
+
+                  
+
+  <a href="https://github.com/NHSDigital/data-viz-community-of-practice/edit/main/docs/dashboard_design/colours.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+<h1 id="colours">Colours</h1>
+<p>Colour is a key element of the National Health Service's identity. Research shows that patients and the public strongly associate the NHS with the colours blue and white.</p>
+<h2 id="downloading-colours-directly-into-tableau">Downloading colours directly into Tableau</h2>
+<p>Having the NHS England default colours for charts can save time and this can be achieved by having the colour palette installed in 'My Tableau Repository' on your system:</p>
+<div class="admonition download">
+<p class="admonition-title">Download .tps file</p>
+<p>Download the Preferences.tps file by <a href="../../files/Preferences.tps">clicking here</a></p>
+</div>
+<ul>
+<li>Download this custom "Preferences.tps"</li>
+<li>Replace your "Preferences.tps" file in your 'My Tableau Repository' which can be found by clicking File &gt; Repository Location</li>
+<li>A number of NHS England specific colour palettes should now appear when using a discrete dimension (e.g regions)</li>
+</ul>
+<h2 id="nhs-blue-and-white">NHS blue and white</h2>
+<p>87% of people spontaneously recall these two colours - white and NHS blue - when asked about the NHS identity. Therefore, NHS blue and white are the dominant colours in our colour palette. They also ensure that communications maximise the strong value of the NHS identity and the positive attributes that patients, the public and stakeholders attach to it. </p>
+<div class="colour-grid">
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #005eb8;"></div>
+<div class="colour-circle-text">
+<div><b>NHS Blue</b></div>
+<div><b>RGB: 0 / 94 / 184</b></div>
+<div><b>#005EB8</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #FFFFFF;"></div>
+<div class="colour-circle-text">
+<div><b>NHS White</b></div>
+<div><b>RGB: 255 / 255 / 255</b></div>
+<div><b>#FFFFFF</b></div>
+</div>
+</div>
+</div>
+<p><br>
+<br></p>
+<p>You can use other NHS blues to support the main NHS Blue and add tonal variety / emphasis. Use NHS neutral black and grey for type (NHS Blue can also be used).
+For more information, see the <a href="https://www.england.nhs.uk/nhsidentity/identity-guidelines/colours/" title="NHS Identity Guidelines">NHS Identity Guidelines - Colours</a>.</p>
+<h2 id="nhs-regions">NHS regions</h2>
+<p>Use these colours in boundary maps, or sparingly in charts where it would be useful for identifying the separate regions.</p>
+<div class="colour-grid">
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #005eb8;"></div>
+<div class="colour-circle-text">
+<div><b>North East</b></div>
+<div><b>NHS Blue</b></div>
+<div><b>#005EB8</b></div>
+</div>
+</div>
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #41B6E6;"></div>
+<div class="colour-circle-text">
+<div><b>North West</b></div>
+<div><b>NHS Light Blue</b></div>
+<div><b>#41B6E6</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #330072;"></div>
+<div class="colour-circle-text">
+<div><b>East of England</b></div>
+<div><b>NHS Purple</b></div>
+<div><b>#330072</b></div>
+</div>
+</div>
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #AE2573;"></div>
+<div class="colour-circle-text">
+<div><b>Midlands</b></div>
+<div><b>NHS Pink</b></div>
+<div><b>#AE2573</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #78BE20;"></div>
+<div class="colour-circle-text">
+<div><b>London</b></div>
+<div><b>NHS Light Green</b></div>
+<div><b>#78BE20</b></div>
+</div>
+</div>
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #FAE100;"></div>
+<div class="colour-circle-text">
+<div><b>South West</b></div>
+<div><b>NHS Yellow</b></div>
+<div><b>#FAE100</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #ED8B00;"></div>
+<div class="colour-circle-text">
+<div><b>South East</b></div>
+<div><b>NHS Orange</b></div>
+<div><b>#ED8B00</b></div>
+</div>
+</div>
+
+</div>
+<p><br>
+<br></p>
+<h2 id="nhs-ambulance">NHS ambulance</h2>
+<p>Use these colours in maps, or sparingly in charts, wherever it would be useful to identify ambulance trusts.</p>
+<div class="colour-grid">
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #003087;"></div>
+<div class="colour-circle-text">
+<div><b>North East</b></div>
+<div><b>NHS Dark Blue</b></div>
+<div><b>#003087</b></div>
+</div>
+</div>
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #005EB8;"></div>
+<div class="colour-circle-text">
+<div><b>Yorkshire</b></div>
+<div><b>NHS Blue</b></div>
+<div><b>#005EB8</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #41B6E6;"></div>
+<div class="colour-circle-text">
+<div><b>North West</b></div>
+<div><b>NHS Light Blue</b></div>
+<div><b>#41B6E6</b></div>
+</div>
+</div>
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #330072;"></div>
+<div class="colour-circle-text">
+<div><b>East of England</b></div>
+<div><b>NHS Purple</b></div>
+<div><b>#330072</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #880FB8;"></div>
+<div class="colour-circle-text">
+<div><b>East Midlands</b></div>
+<div><b>NHS Light Purple</b></div>
+<div><b>#880FB8</b></div>
+</div>
+</div>
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #AE2573;"></div>
+<div class="colour-circle-text">
+<div><b>West Midlands</b></div>
+<div><b>NHS Pink</b></div>
+<div><b>#AE2573</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #78BE20;"></div>
+<div class="colour-circle-text">
+<div><b>London</b></div>
+<div><b>NHS Light Green</b></div>
+<div><b>#78BE20</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #ECE354;"></div>
+<div class="colour-circle-text">
+<div><b>South Western</b></div>
+<div><b>#ECE354</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #EE9F00;"></div>
+<div class="colour-circle-text">
+<div><b>South Central</b></div>
+<div><b>#EE9F00</b></div>
+</div>
+</div>
+
+<div class="colour-div">
+<div class="colour-circle" style="--colour: #ED4F00;"></div>
+<div class="colour-circle-text">
+<div><b>South East</b></div>
+<div><b>#ED4F00</b></div>
+</div>
+</div>
+
+</div>
+<p><br>
+<br></p>
+<h2 id="chart-colours">Chart colours</h2>
+<p>We recommend to stick to no more than five different variables on a graph. Otherwise your visualisation will be confusing. If you need to plot more than 5 variables, you should consider alternative ways to visualise this information.</p>
+<p>For any reasons, if we have to use more than five colours in a visualisation (to show multiple values on the same graph where no measure is more important than another e.g. plotting A&amp;E attendances at different hospitals over time) then use the colours listed below. </p>
+<p>Note: This colour palette is not applicable if you are visualising <a href="#nhs-regions" title="NHS Region colours">Regional</a> or <a href="#nhs-ambulance" title="Ambulance colours">Ambulance</a> data. Click the hyperlinks to view their colour set.</p>
+<style>
+td {
+    font-weight: 500;
+    font-size: medium;
+    margin: 0px;
+
+}
+</style>
+
+<table style="border-radius: 10px; background-color: #f0f4f5;">
+  <colgroup>
+    <col style="background-color:#f0f4f5; width: 10%;">
+    <col style="background-color:#005EB8; width: 7.5%;">
+    <col style="background-color:#41B6E6; width: 7.5%;">
+    <col style="background-color:#4C6272; width: 7.5%;">
+    <col style="background-color:#FfB81C; width: 7.5%;">
+    <col style="background-color:#AE2573; width: 7.5%;">
+    <col style="background-color:#00A499; width: 7.5%;">
+    <col style="background-color:#E317AA; width: 7.5%;">
+    <col style="background-color:#007F3B; width: 7.5%;">
+    <col style="background-color:#9A6324; width: 7.5%;">
+    <col style="background-color:#78BE20; width: 7.5%;">
+    <col style="background-color:#ED4F00; width: 7.5%;">
+    <col style="background-color:#880FB8; width: 7.5%;">
+  </colgroup>
+<tbody>
+  <tr>
+    <td NOWRAP>One colour chart</td>
+    <td class="table-font">#005EB8</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Two colour chart</td>
+    <td></td>
+    <td class="table-font" style="color: black">#41B6E6</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Three colour chart</td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#4C6272</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Four colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font" style="color: black">#FFB81C</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Five colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#AE2573</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Six colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#00A499</td>
+  </tr>
+   <tr>
+    <td NOWRAP>Seven colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#E317AA</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Eight colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#007F3B</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Nine colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#9A6324</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Ten colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#78BE20</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Eleven colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#ED4F00</td>
+  </tr>
+  <tr>
+    <td NOWRAP>Twelve colour chart</td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td></td>
+    <td class="table-font">#880FB8</td>
+  </tr>
+  </tbody>
+</table>
+
+<h2 id="rag-colours">RAG colours</h2>
+<h3 id="national-targets-red-green">National Targets (Red - Green)</h3>
+<p><strong>Purpose:</strong> Red - Green should be used when the viz shows whether a national target has been met or not met</p>
+<p><strong>Example:</strong> A&amp;E performance, Cancer performance</p>
+<div style="display: flex; gap: 0.125rem; align-items: center;">
+<div class="colour-rect" style="--colour: #DA291C; --txt_clr: white">#DA291C</div>
+<div class="colour-rect" style="--colour: #006747; --txt_clr: white">#006747</div>
+</div>
+
+<h3 id="local-targets-red-amber-green">Local Targets (Red - Amber - Green)</h3>
+<p><strong>Purpose:</strong> Red - Amber - Green should be used when the viz shows whether a local target is on track to be met or not met. </p>
+<p>Green indicates that a target is on track to be met.
+Amber indicates that performance needs improvement.
+Red indicates that a target is not going to be met and intervention is required.</p>
+<p><strong>Example:</strong> Digital &amp; Interoperable Medicines</p>
+<div style="display: flex; gap: 0.125rem; align-items: center;">
+<div class="colour-rect" style="--colour: #DA291C; --txt_clr: white">#DA291C</div>
+<div class="colour-rect" style="--colour: #ED8B00; --txt_clr: white">#ED8B00</div>
+<div class="colour-rect" style="--colour: #006747; --txt_clr: white">#006747</div>
+</div>
+
+<h3 id="divergence">Divergence</h3>
+<p><strong>Purpose:</strong> Divergence should be used when there is a wide range of good, bad and neutral areas to be shown and a clear central value (e.g. 0). We can only define the far end colours (e.g. dark red, dark blue) but not the neutral colour in Tableau, it will be selected dynamically. </p>
+<p><strong>Example:</strong> Map showing of product uptake across England, Difference of year on year comparison</p>
+<div style="background: linear-gradient(to right, #DA291C, #DFDFDF, #DFDFDF, #005EB8); height: 20px; width: 100%; padding-top: 10px; padding-bottom: 10px"></div>
+
+<div style="display: flex; gap: 0.125rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div class="colour-rect" style="--colour: #DA291C; --txt_clr: white">#DA291C</div>
+<div class="colour-rect" style="--colour: #DFDFDF; --txt_clr: black">#DFDFDF</div>
+<div class="colour-rect" style="--colour: #005EB8; --txt_clr: white">#005EB8</div>
+</div>
+
+<h2 id="colour-tints-for-measures">Colour tints for measures</h2>
+<p>Important factors need to be considered when using tints:</p>
+<ul>
+<li>
+<p><p class="inline-container">100% solid NHS blue <span class="inline-container-pill" style="--colour: #005EB8;"><span class="inline-colour-square" style="--colour: #005EB8"></span>#005EB8</span> should always be the dominant colour over any tints</p></p>
+</li>
+<li>
+<p>Tints should never obscure the legibility or accessibility of any communication</p>
+</li>
+<li>
+<p>The colour emphasis should always be adhered to when using tints</p>
+</li>
+</ul>
+<h3 id="continuous-scale">Continuous scale</h3>
+<p>For darker and lighter colour values, the in-between colours will be inferred by Tableau automatically.
+e.g. Continuous scale: 1, 1.1, 1.2, 1.3, 1.4 etc</p>
+<div class="inline-container" style="padding-top: 10px; padding-bottom: 10px">
+<div class="inline-colour-square" style="--colour: #005EB8"></div><div class="inline-colour-square-text">#005EB8</div>
+<div class="inline-colour-square" style="--colour: #4C6272"></div><div class="inline-colour-square-text">#4C6272</div>
+<div class="inline-colour-square" style="--colour: #FFB81C"></div><div class="inline-colour-square-text">#FFB81C</div>
+<div class="inline-colour-square" style="--colour: #AE2573"></div><div class="inline-colour-square-text">#AE2573</div>
+<div class="inline-colour-square" style="--colour: #00A499"></div><div class="inline-colour-square-text">#00A499</div>
+</div>
+
+<div style="display: flex; gap: 0.625rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div class="colour-gradient-square" style="--colour_top: #005EB8; --colour_bottom: #B3CFEA"></div>
+<div class="colour-gradient-square" style="--colour_top: #4C6272; --colour_bottom: #D1D6D9"></div>
+<div class="colour-gradient-square" style="--colour_top: #FFB81C; --colour_bottom: #F5E7C8"></div>
+<div class="colour-gradient-square" style="--colour_top: #AE2573; --colour_bottom: #E5C9D9"></div>
+<div class="colour-gradient-square" style="--colour_top: #00A499; --colour_bottom: #C2E3E1"></div>
+</div>
+
+<div class="inline-container" style="padding-top: 10px; padding-bottom: 10px">
+<div class="inline-colour-square" style="--colour: #B3CFEA"></div><div class="inline-colour-square-text">#B3CFEA</div>
+<div class="inline-colour-square" style="--colour: #D1D6D9"></div><div class="inline-colour-square-text">#D1D6D9</div>
+<div class="inline-colour-square" style="--colour: #F5E7C8"></div><div class="inline-colour-square-text">#F5E7C8</div>
+<div class="inline-colour-square" style="--colour: #E5C9D9"></div><div class="inline-colour-square-text">#E5C9D9</div>
+<div class="inline-colour-square" style="--colour: #C2E3E1"></div><div class="inline-colour-square-text">#C2E3E1</div>
+</div>
+
+<h3 id="discrete-scale">Discrete scale</h3>
+<p>The top bar in each case shows the solid (100%) value of the colour and the bars below show decreasing values from 80% to 20%. It is acceptable to use tints of the colours. Any % value is accepted as long as it is visible, clear and accessible.
+e.g. Discrete scale: 10, 6, 5, 2 etc</p>
+<div class="inline-container" style="padding-top: 10px; padding-bottom: 10px">
+<div class="inline-colour-square" style="--colour: #005EB8"></div><div class="inline-colour-square-text">#005EB8</div>
+<div class="inline-colour-square" style="--colour: #4C6272"></div><div class="inline-colour-square-text">#4C6272</div>
+<div class="inline-colour-square" style="--colour: #FFB81C"></div><div class="inline-colour-square-text">#FFB81C</div>
+<div class="inline-colour-square" style="--colour: #AE2573"></div><div class="inline-colour-square-text">#AE2573</div>
+<div class="inline-colour-square" style="--colour: #00A499"></div><div class="inline-colour-square-text">#00A499</div>
+</div>
+
+<div style="display: flex; gap: 0.625rem; align-items: center; padding-top: 10px; padding-bottom: 10px">
+<div class="colour-gradient-square" style="background: linear-gradient(to bottom, #005EB8 0, #005EB8 20%, #2D7AC5 20%, #2D7AC5 40%, #5A97D1 40%, #5A97D1 60%, #86B3DE 60%, #86B3DE 80%, #B3CFEA 80%, #B3CFEA 100%)"></div>
+<div class="colour-gradient-square" style="background: linear-gradient(to bottom, #4C6272 0, #4C6272 20%, #6D7F8C 20%, #6D7F8C 40%, #8F9CA6 40%, #8F9CA6 60%, #B0B9BF 60%, #B0B9BF 80%, #D1D6D9 80%, #D1D6D9 100%)"></div>
+<div class="colour-gradient-square" style="background: linear-gradient(to bottom, #FFB81C 0, #FFB81C 20%, #FDC447 20%, #FDC447 40%, #FAD072 40%, #FAD072 60%, #F8DB9D 60%, #F8DB9D 80%, #F5E7C8 80%, #F5E7C8 100%)"></div>
+<div class="colour-gradient-square" style="background: linear-gradient(to bottom, #AE2573 0, #AE2573 20%, #BC4E8D 20%, #BC4E8D 40%, #CA77A6 40%, #CA77A6 60%, #D7A0C0 60%, #D7A0C0 80%, #E5C9D9 80%, #E5C9D9 100%)"></div>
+<div class="colour-gradient-square" style="background: linear-gradient(to bottom, #00A499 0, #00A499 20%, #31B4AB 20%, #31B4AB 40%, #61C4BD 40%, #61C4BD 60%, #92D3CF 60%, #92D3CF 80%, #C2E3E1 80%, #C2E3E1 100%)"></div>
+</div>
+
+<div class="inline-container" style="padding-top: 10px; padding-bottom: 10px">
+<div class="inline-colour-square" style="--colour: #B3CFEA"></div><div class="inline-colour-square-text">#B3CFEA</div>
+<div class="inline-colour-square" style="--colour: #D1D6D9"></div><div class="inline-colour-square-text">#D1D6D9</div>
+<div class="inline-colour-square" style="--colour: #F5E7C8"></div><div class="inline-colour-square-text">#F5E7C8</div>
+<div class="inline-colour-square" style="--colour: #E5C9D9"></div><div class="inline-colour-square-text">#E5C9D9</div>
+<div class="inline-colour-square" style="--colour: #C2E3E1"></div><div class="inline-colour-square-text">#C2E3E1</div>
+</div>
+
+<h3 id="charts-with-multiple-measures">Charts with multiple measures</h3>
+<p>Below are the set of gradients which should be used if the value of the measure needs to be displayed on the intensity of the colour.</p>
+<p>If multiple measures need to be displayed in the visualisation, use the listed colour options below:
+<br><br></p>
+<!-- Parent container for all measure tints -->
+<p style="padding-bottom: 8px">Chart with <b>one</b> measure</p>
+<div class="colour-tint-container">
+<!-- 1st row -->
+<div style="padding-bottom: 25px;">
+<div class="colour-gradient-rect" style="--colour_left: #005EB8; --colour_right: #B3CFEA; --width: 100%;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #005EB8; --txt_clr: white;">#005EB8</div>
+<div class="colour-tint-rect" style="--colour: #B3CFEA; --txt_clr: black;">#B3CFEA</div>
+</div>
+</div>
+
+<!-- 2nd row -->
+<p>Chart with <b>two</b> measures</p>
+<div class="colour-tint-grid">
+
+<div>
+<div style="height: 20px;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #005EB8; --txt_clr: white;">#005EB8</div>
+<div class="colour-tint-rect" style="--colour: #B3CFEA; --txt_clr: black;">#B3CFEA</div>
+</div>
+</div>
+
+<div style="width:100%">
+<div class="colour-gradient-rect" style="--colour_left: #4C6272; --colour_right: #D1D6D9; --width: 100%;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #4C6272; --txt_clr: white;">#4C6272</div>
+<div class="colour-tint-rect" style="--colour: #D1D6D9; --txt_clr: black;">#D1D6D9</div>
+</div>
+</div>
+
+</div>
+
+<!-- 3rd row -->
+<p>Chart with <b>three</b> measures</p>
+<div class="colour-tint-grid">
+
+<div>
+<div style="height: 20px;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #005EB8; --txt_clr: white;">#005EB8</div>
+<div class="colour-tint-rect" style="--colour: #B3CFEA; --txt_clr: black;">#B3CFEA</div>
+</div>
+</div>
+
+<div>
+<div style="height: 20px;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #4C6272; --txt_clr: white;">#4C6272</div>
+<div class="colour-tint-rect" style="--colour: #D1D6D9; --txt_clr: black;">#D1D6D9</div>
+</div>
+</div>
+
+<div style="width: 100%;">
+<div class="colour-gradient-rect" style="--colour_left: #FFB81C; --colour_right: #F5E7C8; --width: 100%;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #FFB81C; --txt_clr: white;">#FFB81C</div>
+<div class="colour-tint-rect" style="--colour: #F5E7C8; --txt_clr: black;">#F5E7C8</div>
+</div>
+</div>
+
+</div>
+
+<!-- 4th row -->
+<p>Chart with <b>four</b> measures</p>
+<div class="colour-tint-grid">
+
+<div>
+<div style="height: 20px;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #005EB8; --txt_clr: white;">#005EB8</div>
+<div class="colour-tint-rect" style="--colour: #B3CFEA; --txt_clr: black;">#B3CFEA</div>
+</div>
+</div>
+
+<div>
+<div style="height: 20px;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #4C6272; --txt_clr: white;">#4C6272</div>
+<div class="colour-tint-rect" style="--colour: #D1D6D9; --txt_clr: black;">#D1D6D9</div>
+</div>
+</div>
+
+<div>
+<div style="height: 20px;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #FFB81C; --txt_clr: white;">#FFB81C</div>
+<div class="colour-tint-rect" style="--colour: #F5E7C8; --txt_clr: black;">#F5E7C8</div>
+</div>
+</div>
+
+<div style="width: 100%;">
+<div class="colour-gradient-rect" style="--colour_left: #AE2573; --colour_right: #E5C9D9; --width: 100%;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #AE2573; --txt_clr: white;">#AE2573</div>
+<div class="colour-tint-rect" style="--colour: #E5C9D9; --txt_clr: black;">#E5C9D9</div>
+</div>
+</div>
+
+</div>
+
+<!-- 5th row -->
+<p>Chart with <b>five</b> measures</p>
+<div class="colour-tint-grid">
+
+<div>
+<div style="height: 20px;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #005EB8; --txt_clr: white;">#005EB8</div>
+<div class="colour-tint-rect" style="--colour: #B3CFEA; --txt_clr: black;">#B3CFEA</div>
+</div>
+</div>
+
+<div>
+<div style="height: 20px;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #4C6272; --txt_clr: white;">#4C6272</div>
+<div class="colour-tint-rect" style="--colour: #D1D6D9; --txt_clr: black;">#D1D6D9</div>
+</div>
+</div>
+
+<div>
+<div style="height: 20px;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #FFB81C; --txt_clr: white;">#FFB81C</div>
+<div class="colour-tint-rect" style="--colour: #F5E7C8; --txt_clr: black;">#F5E7C8</div>
+</div>
+</div>
+
+<div>
+<div style="height: 20px;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #AE2573; --txt_clr: white;">#AE2573</div>
+<div class="colour-tint-rect" style="--colour: #E5C9D9; --txt_clr: black;">#E5C9D9</div>
+</div>
+</div>
+
+<div style="width: 100%;">
+<div class="colour-gradient-rect" style="--colour_left: #00A499; --colour_right: #C2E3E1; --width: 100%;"></div>
+<div class="colour-rect-grid">
+<div class="colour-tint-rect" style="--colour: #00A499; --txt_clr: white;">#00A499</div>
+<div class="colour-tint-rect" style="--colour: #C2E3E1; --txt_clr: black;">#C2E3E1</div>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<h2 id="ui-specs-for-visualisation">UI specs for visualisation</h2>
+<p><a class="glightbox" href="../images/ui-colour-spec.png" data-type="image" data-width="100%" data-height="auto" data-title="UI specs for visualisation" data-description=".ui-spec-viz" data-desc-position="left" data-gallery="icons"><img alt="UI specs for visualisation" data-caption-position="left" data-description=".ui-spec-viz" data-gallery="icons" data-title="UI specs for visualisation" src="../images/ui-colour-spec.png" /></a></p>
+<div class="glightbox-desc ui-spec-viz">
+Font: Arial
+<br>
+Size: 10px
+<br>
+Weight: Normal
+<br>
+Colour: Chart colour hex
+</div>
+
+
+
+
+
+                
+
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+ <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+
+<!-- Code for the next arrow from Material for MkDocs -->
+<footer class="md-footer">
+   
+  <nav
+    class="md-footer__inner md-grid"
+    aria-label="Footer"
+    
+  >
+     
+    <a
+      href="../typography/"
+      class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Typography"
+      rel="prev"
+    >
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction"> Previous </span>
+          Typography
+        </div>
+      </div>
+    </a>
+      
+    <a
+      href="../icons/"
+      class="md-footer__link md-footer__link--next"
+      aria-label="Next: Icons &amp; logos"
+      rel="next"
+    >
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction"> Next </span>
+          Icons & logos
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+</footer>
+
+<footer class="footer">
+  <div class="footer_left">
+    <a href="mailto:analyticsproductsteam@nhs.net"><p>Contact Us</p></a>
+    <p>Developed by <a href="https://www.england.nhs.uk/">NHS England</a></p>
+    <p>
+      View the project on
+      <a href="https://github.com/NHSDigital/data-viz-community-of-practice"
+        >GitHub</a
+      >
+    </p>
+    <p>View what's <a href="/data-viz-community-of-practice/change_log">changed</a></p>
+    <p>View our <a href="/data-viz-community-of-practice/launch">launch ceremony</a></p>
+  </div>
+  
+
+  <div class="legal">
+    <div class="footer_left">
+    <p>&copy; 2024 Crown Copyright (NHS England)</p>
+    <p>All content is available under the
+        <a
+          href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+          >Open Government Licence v3.0</a
+        >, except where otherwise stated.
+      </p>    
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.share", "content.code.annotate", "content.tabs.link", "navigation.tabs", "navigation.indexes", "navigation.path", "toc.integrate", "navigation.top"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>

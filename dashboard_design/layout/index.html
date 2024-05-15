@@ -1,0 +1,1285 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../images/favicon/favicon.ico">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.10">
+    
+    
+      
+        <title>Layout - Data Viz Community of Practice</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.975780f9.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.2505c338.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#4051b5">
+        
+      
+      
+  
+  
+    
+    
+  
+  
+  <style>:root{--md-admonition-icon--<type>:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2 1 21Z"/></svg>');}</style>
+
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arial:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Arial";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#general-layout" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      <!--
+  Copyright (c) 2016-2022 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Determine class according to configuration -->
+
+
+
+<!-- Header -->
+<header class="md-header" data-md-component="header">
+  <nav
+    class="md-header__inner md-grid"
+    aria-label="Header"
+  >
+
+<!-- Button to open drawer -->
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+
+    <!-- Link to home -->
+    <a
+      href="../.."
+      title="Data Viz Community of Practice"
+      class="md-header__button md-logo-nhs"
+      aria-label="Data Viz Community of Practice"
+      data-md-component="logo"
+    >
+      
+  <img src="../../images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+
+    <!-- Header title -->
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Data Viz Community of Practice
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Layout
+            
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Color palette -->
+    
+
+    <!-- Site language selector -->
+    
+
+    <!-- Button to open search modal -->
+    
+
+    <!-- Repository information -->
+    
+      <div class="md-header__source">
+        <a href="https://github.com/NHSDigital/data-viz-community-of-practice" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Data Viz Community of Practice
+  </div>
+</a>
+      </div>
+    
+  </nav>
+
+  <!-- Navigation tabs (sticky) -->
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../.." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../dashboard_lifecycle/" class="md-tabs__link">
+        Dashboard lifecycle
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../" class="md-tabs__link md-tabs__link--active">
+        Dashboard design
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+  
+
+<nav class="md-nav md-nav--primary md-nav--lifted md-nav--integrated" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Data Viz Community of Practice" class="md-nav__button md-logo" aria-label="Data Viz Community of Practice" data-md-component="logo">
+      
+  <img src="../../images/logo/nhs-blue-on-white.jpg" alt="logo">
+
+    </a>
+    Data Viz Community of Practice
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/NHSDigital/data-viz-community-of-practice" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Data Viz Community of Practice
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../dashboard_lifecycle/">Dashboard lifecycle</a>
+          
+            <label for="__nav_2">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Dashboard lifecycle" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Dashboard lifecycle
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboard_lifecycle/planning_cycle/" class="md-nav__link">
+        Planning cycle
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../dashboard_lifecycle/sketches_wireframes_prototypes/" class="md-nav__link">
+        Sketches, Wireframes and Prototypes
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" checked>
+      
+      
+      
+        
+          
+            
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        
+        
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../">Dashboard design</a>
+          
+            <label for="__nav_3">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
+          
+        </div>
+      
+      <nav class="md-nav" aria-label="Dashboard design" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Dashboard design
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../quick_summary/" class="md-nav__link">
+        Style guide rules
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../principles/" class="md-nav__link">
+        Principles
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../navigation/" class="md-nav__link">
+        Navigation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Layout
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Layout
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#general-layout" class="md-nav__link">
+    General layout
+  </a>
+  
+    <nav class="md-nav" aria-label="General layout">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#header" class="md-nav__link">
+    Header
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#titles-and-subtitles" class="md-nav__link">
+    Titles and subtitles
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#data-refresh-date" class="md-nav__link">
+    Data refresh date
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#margins" class="md-nav__link">
+    Margins
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nhs-identity" class="md-nav__link">
+    NHS identity
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#text-and-image-alignment" class="md-nav__link">
+    Text and image alignment
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dashboard-sizing-device-layouts" class="md-nav__link">
+    Dashboard sizing &amp; device layouts
+  </a>
+  
+    <nav class="md-nav" aria-label="Dashboard sizing &amp; device layouts">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#fixed-range-automatic-sizing" class="md-nav__link">
+    Fixed, range &amp; automatic sizing
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#nhs-england-recommendation-on-which-sizing-to-use" class="md-nav__link">
+    NHS England recommendation on which sizing to use
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#device-layouts" class="md-nav__link">
+    Device layouts
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cards/" class="md-nav__link">
+        Cards
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../typography/" class="md-nav__link">
+        Typography
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../colours/" class="md-nav__link">
+        Colours
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../icons/" class="md-nav__link">
+        Icons & logos
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../filters/" class="md-nav__link">
+        Filters & buttons
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kpis/" class="md-nav__link">
+        KPIs
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../chart_types/" class="md-nav__link">
+        Chart types
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tables/" class="md-nav__link">
+        Table design
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../tooltips/" class="md-nav__link">
+        Tooltips
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../information/" class="md-nav__link">
+        Information & metrics
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../download_templates/" class="md-nav__link">
+        Download templates
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+
+
+
+                  
+
+  <a href="https://github.com/NHSDigital/data-viz-community-of-practice/edit/main/docs/dashboard_design/layout.md" title="Edit this page" class="md-content__button md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25Z"/></svg>
+  </a>
+
+
+  <h1>Layout</h1>
+
+<h2 id="general-layout">General layout</h2>
+<blockquote>
+<p>Layout done perfectly, will be invisible to the user. Layout done badly may be the only thing they see.</p>
+</blockquote>
+<p>The following page template is used across the product, particularly for report pages. it is best practice to use a Z-formation, like how you would read a book.
+For more details see the <a href="../principles/#visual-hierarchy">principles page</a>.</p>
+<p><a class="glightbox" href="../images/z_layout.png" data-type="image" data-width="100%" data-height="auto" data-title="Z layout examples" data-desc-position="top" data-gallery="z"><img alt="Z layout examples" data-caption-position="top" data-gallery="z" data-title="Z layout examples" src="../images/z_layout.png" /></a></p>
+<div class="admonition danger">
+<p class="admonition-title">General rules</p>
+<ul>
+<li>
+<p>32px margin on all sides of the dashboard as per <a href="https://www.england.nhs.uk/nhsidentity/identity-guidelines/nhs-logo/">NHS England identity guidelines.</a></p>
+</li>
+<li>
+<p>16px padding on top, bottom, left and right of cards. For further information visit the <a href="../cards/">cards page</a>.</p>
+</li>
+<li>
+<p>32px spacing between cards on the dashboard.</p>
+</li>
+<li>
+<p>Minimum font size 11px or 11pt.</p>
+</li>
+<li>
+<p>Utilise various weights to establish a hierarchy. Be consistent in size, boldness and colour.</p>
+</li>
+<li>
+<p>All text should be sentence case.</p>
+</li>
+<li>
+<p>Dashboard background colour #F0F4F5 (NHS Grey 5).</p>
+</li>
+<li>
+<p>If the viz is going to show more data (more lines/bars) use the full width card so it helps the user to digest information quickly.</p>
+</li>
+</ul>
+</div>
+<details class="- tip">
+<summary>Example dashboard layout annotated with padding and spacing</summary>
+<p><a class="glightbox" href="../images/full_page_layout.png" data-type="image" data-width="100%" data-height="auto" data-title="Full page layout" data-desc-position="top" data-gallery="full"><img alt="Finished layout" data-caption-position="top" data-gallery="full" data-title="Full page layout" src="../images/full_page_layout.png" /></a></p>
+</details>
+<h3 id="header">Header</h3>
+<ul>
+<li>On the left should be the dashboard title, subtitle if used, a brief dashboard description and an alert/message banner if needed.</li>
+<li>On the right should be the NHS logo and any data refresh information. </li>
+</ul>
+<p><a class="glightbox" href="../images/page_layout_dimensions_fixed.png" data-type="image" data-width="100%" data-height="auto" data-title="Page header example" data-description=".custom-desc-page" data-desc-position="left" data-gallery="page"><img alt="Page layout dimension" data-caption-position="left" data-description=".custom-desc-page" data-gallery="page" data-title="Page header example" src="../images/page_layout_dimensions_fixed.png" /></a></p>
+<div class="admonition tip">
+<p class="admonition-title">Useful tips for header section</p>
+<ol>
+<li>
+<p>Use either tabs or buttons for navigation purposes. Not both. This repetition makes the header look busy.</p>
+</li>
+<li>
+<p>Do not use the 'Hide note' functionality in the header section.</p>
+</li>
+<li>
+<p>Avoid using icons/images in the header area to redirect users to different dashboards.</p>
+<ul>
+<li>
+<p>Clicking on icons without labels is not intuitive.</p>
+</li>
+<li>
+<p>Multiple icons increases visual clutter.</p>
+</li>
+<li>
+<p>Instead move the icons next to relevant / related visualisations outside of the header section.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Add links to related dashboards and supporting webpages to an 'information &amp; guidance' page or a 'related dashboards' page.</p>
+</li>
+</ol>
+<p><a class="glightbox" href="../images/header_tips.png" data-type="image" data-width="100%" data-height="auto" data-title="Page header example" data-desc-position="bottom" data-gallery="header"><img alt="Header section tips" data-gallery="header" data-title="Page header example" src="../images/header_tips.png" /></a></p>
+<p>See the <a href="../download_templates/">Download templates page</a> for details on how to download and use the templates.</p>
+</div>
+<details class="- tip">
+<summary>Header design for 1200px to 1840px width range dashboards</summary>
+<ul>
+<li>The top of the page should be split into two main sections.</li>
+<li>In Tableau, these two sections would each be in a separate container sat within an overall top of page horizontal container.</li>
+<li>On the left should be the dashboard title, subtitle if used, a brief dashboard description and an alert/message banner if needed.
+This section should be no more than 1200px.</li>
+<li>On the right should be the NHS logo and any data refresh information. This section should be a fixed width of 300px.</li>
+</ul>
+<p><a class="glightbox" href="../images/page_layout_dimensions.png" data-type="image" data-width="100%" data-height="auto" data-title="Page header example" data-description=".custom-desc-page" data-desc-position="left" data-gallery="page"><img alt="Page layout dimension" data-caption-position="left" data-description=".custom-desc-page" data-gallery="page" data-title="Page header example" src="../images/page_layout_dimensions.png" /></a></p>
+<p><div class="glightbox-desc custom-desc-page">Header example</div></p>
+</details>
+<h3 id="titles-and-subtitles">Titles and subtitles</h3>
+<p>For easy identification and navigation, every tab should show the workbook title (NHS Grey1, 24pt, Arial, sentence case), and the subtitle which matches the tab name (Black, 24pt, Arial, sentence case), with a black hyphen with spaces either side between the two names. A brief description of what the tab is showing can be added.</p>
+<h3 id="data-refresh-date">Data refresh date</h3>
+<p>The data refresh date should be shown to the left of the NHS logo in dashboards using the web wrapper. For dashboards not using the web wrapper the data refresh should be to the right of the page underneath the navigation bar(s).</p>
+<h3 id="margins">Margins</h3>
+<p>Left, top and right margins should be 32 pixels. The bottom of each page should show an NHS Blue line (height = 2 pixels) and contact information.
+Additional information on latest data available is an optional extra.</p>
+<h3 id="nhs-identity">NHS identity</h3>
+<p>See the <a href="../icons/">icons &amp; logos page</a> for details on the NHS logo</p>
+<h3 id="text-and-image-alignment">Text and image alignment</h3>
+<p>All text and images should be left aligned to improve accessibility.</p>
+<h2 id="dashboard-sizing-device-layouts">Dashboard sizing &amp; device layouts</h2>
+<ul>
+<li>Tableau provides different types of <strong>sizing</strong> for dashboards which are fixed, range and automatic. </li>
+<li>Tableau provides different <strong>device layouts</strong>, which display a different layout of the dashboard depending on what device is viewing the dashboard such as desktop, tablet or phone.</li>
+</ul>
+<h3 id="fixed-range-automatic-sizing">Fixed, range &amp; automatic sizing</h3>
+<details class="tip" open="open">
+<summary>Fixed sizing (Default recommended option)</summary>
+<p><a class="glightbox" href="../images/fixed_layout.png" data-type="image" data-width="100%" data-height="auto" data-title="Fixed layout" data-desc-position="top" data-gallery="layout"><img align="right" alt="Fixed layout" data-caption-position="top" data-gallery="layout" data-title="Fixed layout" height="100px" src="../images/fixed_layout.png" /></a></p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> The dashboard remains the same size, regardless of the size of the window used to display it.
+If the dashboard is larger than the window, it becomes scrollable.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Lets you specify the exact location and position of objects, which can be useful if there are floating objects which are often used for "show/hide" implementations where dynamic zones are not suitable.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> These will load faster because a fixed width dashboard can be cached on Tableau server.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Less development work and testing is required as you do not have to test multiple screen sizes and monitors to ensure the dashboard appears and functions as expected.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> When using the recommended 1200px width, there will be no horizontal scroll bar for the vast majority of common screen sizes.</p>
+</li>
+</ul>
+</details>
+<details class="- tip">
+<summary>Range sizing (Valid use case under the right conditions)</summary>
+<p><a class="glightbox" href="../images/range_layout.png" data-type="image" data-width="100%" data-height="auto" data-title="Range layout" data-desc-position="top" data-gallery="layout"><img align="right" alt="Range layout" data-caption-position="top" data-gallery="layout" data-title="Range layout" height="100px" src="../images/range_layout.png" /></a></p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> The dashboard scales between minimum and maximum sizes that you specify.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> If the window displaying the dashboard is smaller than the minimum size, scroll bars are displayed.
+If it is larger than the maximum size, white space is displayed.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Use this setting when you are designing for two different display sizes that need the same content and have similar shapes - such as small and medium sized browser windows. 1200 to 1840px range width is recommended in these use cases. For larger monitors certain charts will be wider and be easier to read and interpret.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Developers must ensure that the dashboard displays correctly at all screen sizes, this requires more development work and testing.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> These will load slower as they are unable to use a cached version on the server.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> Floating containers cannot be used effectively, restricting certain features for users.</p>
+</li>
+</ul>
+</details>
+<details class="- tip">
+<summary>Automatic sizing (not recommended)</summary>
+<p><a class="glightbox" href="../images/auto_layout.png" data-type="image" data-width="100%" data-height="auto" data-title="Automatic layout" data-desc-position="top" data-gallery="layout"><img align="right" alt="Automatic layout" data-caption-position="top" data-gallery="layout" data-title="Automatic layout" height="100px" src="../images/auto_layout.png" /></a></p>
+<ul class="task-list">
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> The dashboard automatically resizes to fill the window used to display it.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Use this setting if you want Tableau to take care of resizing. For best results, use a tiled dashboard layout.</p>
+</li>
+<li class="task-list-item">
+<p><label class="task-list-control"><input type="checkbox" disabled/><span class="task-list-indicator"></span></label> This setting is not recommended</p>
+</li>
+</ul>
+</details>
+<h3 id="nhs-england-recommendation-on-which-sizing-to-use">NHS England recommendation on which sizing to use</h3>
+<details class="success" open="open">
+<summary>Default recommended option: 1200px fixed width dashboard</summary>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Suitable for a wide range of screen sizes used by a diverse user base</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Enables better feature development using a full range of Tableau functionality (e.g floating containers for show/hide)</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Speed improvements in dashboard performance</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Less development and testing required</li>
+</ul>
+</details>
+<details class="- warning">
+<summary>Valid use case under the right conditions: 1840px fixed width dashboard</summary>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Where the user base is entirely analytical</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Where all screen sizes are known or dashboard is designed for a permanent screen (e.g a control room)</li>
+<li>Note that users accessing dashboards with smaller monitors will have a horizontal scroll bar and may omit elements of the dashboard. It is recommended to add an information note on the dashboard to explain that it is best viewed on a wide screen monitor (i.e 1920px width at 100% display scaling).</li>
+</ul>
+</details>
+<details class="- warning">
+<summary>Valid use case under the right conditions: 1200px to 1840px width range dashboard</summary>
+<ul class="task-list">
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Where the user base is entirely analytical</li>
+<li class="task-list-item"><label class="task-list-control"><input type="checkbox" disabled checked/><span class="task-list-indicator"></span></label> Where a wide range of screen sizes is used by different users</li>
+<li>This will allow certain visuals such as line charts and bar charts to expand to monitors that are wider. This benefit must be weighed against the performance trade off of slower load times, more development/testing and reduced Tableau functionality in responsive range dashboards </li>
+</ul>
+</details>
+<h3 id="device-layouts">Device layouts</h3>
+<p>Dashboards can be designed to show different views based on the device that is viewing the dashboard. For dashboards that are viewed directly on server, Tableau applies the following rules to display each device layout. </p>
+<table>
+<thead>
+<tr>
+<th>If the smallest iframe dimension is...</th>
+<th>This device layout appears...</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>500 pixels or less</td>
+<td>Phone</td>
+</tr>
+<tr>
+<td>Between 501 and 800 pixels</td>
+<td>Tablet</td>
+</tr>
+<tr>
+<td>Greater than 800 pixels</td>
+<td>Desktop</td>
+</tr>
+</tbody>
+</table>
+<p><a class="glightbox" href="../images/tableau_device_layout.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="tableau_layout"><img align="right" alt="Selecting Tableau device layout" data-gallery="tableau_layout" src="../images/tableau_device_layout.png" width="20%" /></a></p>
+<p>These different views are created in Tableau using the device preview button.</p>
+<ul>
+<li>The default view is the full sized view that is designed by default. </li>
+<li>Adding in tablet and phone views will allow your dashboard to be viewed correctly by those devices. </li>
+<li>The templates have default (desktop), tablet and phone views included already. </li>
+<li>Anything created or amended in the default view should be checked in the tablet and phone views afterwards before publishing</li>
+<li>This is recommended to be done at the end of the development process to avoid rework across all three views.</li>
+</ul>
+<details class="tip">
+<summary>Desktop (range above 800 pixels)</summary>
+<ul>
+<li>
+<p>If the user is looking at the dashboard in a browser that is less than 1200 pixels width then a horizontal scroll bar should appear.</p>
+</li>
+<li>
+<p>If the user is viewing the dashboard in a browser that is wider than 1840 pixels, then the dashboard has to be centre aligned to the screen by leaving space on either side.</p>
+</li>
+<li>
+<p>Based on the screen size, the width of the elements (filter dropdowns, KPIs) should change but not the space between them.</p>
+</li>
+<li>
+<p>Five filters per row.</p>
+</li>
+<li>
+<p>Six KPIs per row.</p>
+</li>
+</ul>
+<p><a class="glightbox" href="../images/laptop_resolution.png" data-type="image" data-width="100%" data-height="auto" data-title="Laptop range layout" data-desc-position="top" data-gallery="range"><img align="left" alt="Laptop range layout" data-caption-position="top" data-gallery="range" data-title="Laptop range layout" src="../images/laptop_resolution.png" width="45%" /></a>
+<a class="glightbox" href="../images/desktop_resolution.png" data-type="image" data-width="100%" data-height="auto" data-title="Desktop range layout" data-desc-position="top" data-gallery="range"><img align="right" alt="Desktop range layout" data-caption-position="top" data-gallery="range" data-title="Desktop range layout" src="../images/desktop_resolution.png" width="45%" /></a></p>
+</details>
+<details class="tip">
+<summary>Tablet (range between 501 - 800 pixels)</summary>
+<p><a class="glightbox" href="../images/tablet_resolution.png" data-type="image" data-width="100%" data-height="auto" data-title="Tablet range layout" data-desc-position="top" data-gallery="range"><img align="right" alt="Tablet range layout" data-caption-position="top" data-gallery="range" data-title="Tablet range layout" src="../images/tablet_resolution.png" width="45%" /></a></p>
+<ul>
+<li>
+<p>If the user is viewing the dashboard in a screen range between 501 - 800 pixels, then the tablet layout should be populated.</p>
+</li>
+<li>
+<p>Three filters per row.</p>
+</li>
+<li>
+<p>Four KPIs per row.</p>
+</li>
+<li>
+<p>Please note, as users will not be able to do the hover on touch devices (mobile &amp; tablet), avoid tooltips and hover actions.
+It is advisable to complete you dashboard before setting this functionality up, otherwise each time you make changes to the dashboard, they need to be done in both views.</p>
+</li>
+<li>
+<p>Based on the screen size, the width of the elements (filter dropdowns, KPIs) should change but not the space between them.</p>
+</li>
+</ul>
+</details>
+<details class="tip">
+<summary>Mobile (range under 501 pixels)</summary>
+<p><a class="glightbox" href="../images/mobile_resolution.png" data-type="image" data-width="100%" data-height="auto" data-title="Mobile range layout" data-desc-position="top" data-gallery="range"><img align="right" alt="Mobile range layout" data-caption-position="top" data-gallery="range" data-title="Mobile range layout" src="../images/mobile_resolution.png" width="35%" /></a></p>
+<ul>
+<li>
+<p>If the user is viewing the dashboard in a screen range of 500 pixels or fewer, then the mobile layout should be populated.</p>
+</li>
+<li>
+<p>Three filters per row.</p>
+</li>
+<li>
+<p>Four KPIs per row.</p>
+</li>
+<li>
+<p>Although we have identified a few patterns/examples on how we can simplify and present the data on mobile devices, we should still look at each dashboard individually to suggest any recommendations or simplify further.</p>
+</li>
+<li>
+<p>Because of the limited space on mobiles, wherever possible please present only key important information.
+If the user requires a deeper analysis we will ask them to visit the desktop version.</p>
+</li>
+<li>
+<p>Do not put graphs side by side.</p>
+</li>
+<li>
+<p>Please note, as users will not be able to use the hover on touch devices (mobile &amp; tablet) avoid tooltips and hover actions.
+It is advisable to complete your dashboard before setting up this functionality, otherwise each time you make changes to the dashboard, they need to be done in both views.</p>
+</li>
+</ul>
+<p><br style="clear:both; mso-break-type:section-break" /></p>
+<ul>
+<li>An example, shown below, for simplifying multiple visualisations with complex data for mobile layouts, is to show only the highest values in a tabular format rather than showing the visualisation.</li>
+</ul>
+<p><a class="glightbox" href="../images/desktop_visualisation.png" data-type="image" data-width="100%" data-height="auto" data-title="An example desktop complex visualisation" data-desc-position="top" data-gallery="visualisation"><img align="left" alt="A desktop visualisation" data-caption-position="top" data-gallery="visualisation" data-title="An example desktop complex visualisation" src="../images/desktop_visualisation.png" width="63%" /></a>
+<span style="font-size:900%;">&#8600;</span>
+<a class="glightbox" href="../images/mobile_optimising.png" data-type="image" data-width="100%" data-height="auto" data-title="Simplified mobile visualisation" data-desc-position="top" data-gallery="visualisation"><img align="right" alt="A mobile visualisation" data-caption-position="top" data-gallery="visualisation" data-title="Simplified mobile visualisation" src="../images/mobile_optimising.png" width="20%" /></a></p>
+<p><br style="clear:both; mso-break-type:section-break" /></p>
+<ul>
+<li>The example below, shows how complex tabular data can be simplified for mobile devices. Rather than showing multiple days in the table, we could give an option for the user to select a day in additional filters.</li>
+</ul>
+<p><a class="glightbox" href="../images/desktop_table.png" data-type="image" data-width="100%" data-height="auto" data-title="An example desktop complex table" data-desc-position="top" data-gallery="visualisation"><img align="left" alt="A desktop table" data-caption-position="top" data-gallery="visualisation" data-title="An example desktop complex table" src="../images/desktop_table.png" width="43%" /></a>
+<span style="font-size:900%;">&#8594;</span>
+<a class="glightbox" href="../images/mobile_table.png" data-type="image" data-width="100%" data-height="auto" data-title="Simplified mobile table" data-desc-position="top" data-gallery="visualisation"><img align="right" alt="A mobile table" data-caption-position="top" data-gallery="visualisation" data-title="Simplified mobile table" src="../images/mobile_table.png" width="35%" /></a></p>
+<p><br style="clear:both; mso-break-type:section-break" /></p>
+<ul>
+<li>Further simplifications could be to limit charts to the top three by default with the option to show all.</li>
+</ul>
+<p><a class="glightbox" href="../images/desktop_chart.png" data-type="image" data-width="100%" data-height="auto" data-title="An example desktop long chart" data-desc-position="top" data-gallery="visualisation"><img align="left" alt="A desktop chart" data-caption-position="top" data-gallery="visualisation" data-title="An example desktop long chart" src="../images/desktop_chart.png" width="43%" /></a>
+<span style="font-size:900%;">&#8594;</span>
+<a class="glightbox" href="../images/mobile_chart.png" data-type="image" data-width="100%" data-height="auto" data-title="Simplified mobile top 3 chart and expanded view" data-desc-position="top" data-gallery="visualisation"><img align="right" alt="A mobile chart" data-caption-position="top" data-gallery="visualisation" data-title="Simplified mobile top 3 chart and expanded view" src="../images/mobile_chart.png" width="35%" /></a></p>
+</details>
+<details class="warning" open="open">
+<summary>Avoid scroll bars</summary>
+<p>In general you should try to avoid scroll bars in your products. However, where the use of a scroll bar is necessary, ensure that there is only one scroll bar on your dashboard either vertical or horizontal.</p>
+<p>Not two vertical scroll bars (one applied for the browser and the second one applied to a component within the dashboard).</p>
+<p><a class="glightbox" href="../images/scroll_bars.png" data-type="image" data-width="100%" data-height="auto" data-desc-position="bottom" data-gallery="scroll"><img alt="Example scroll bars" data-gallery="scroll" src="../images/scroll_bars.png" width="35%" /></a></p>
+</details>
+
+
+
+
+
+                
+
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var tab,labels=set.querySelector(".tabbed-labels");for(tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+ <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+        html.glightbox-open { overflow: initial; height: 100%; }
+        .gslide-title { margin-top: 0px; user-select: text; }
+        .gslide-desc { color: #666; user-select: text; }
+        .gslide-image img { background: white; }
+        
+            .gscrollbar-fixer { padding-right: 15px; }
+            .gdesc-inner { font-size: 0.75rem; }
+            body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
+            body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
+            body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}
+            </style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
+
+<!-- Code for the next arrow from Material for MkDocs -->
+<footer class="md-footer">
+   
+  <nav
+    class="md-footer__inner md-grid"
+    aria-label="Footer"
+    
+  >
+     
+    <a
+      href="../navigation/"
+      class="md-footer__link md-footer__link--prev"
+      aria-label="Previous: Navigation"
+      rel="prev"
+    >
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </div>
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction"> Previous </span>
+          Navigation
+        </div>
+      </div>
+    </a>
+      
+    <a
+      href="../cards/"
+      class="md-footer__link md-footer__link--next"
+      aria-label="Next: Cards"
+      rel="next"
+    >
+      <div class="md-footer__title">
+        <div class="md-ellipsis">
+          <span class="md-footer__direction"> Next </span>
+          Cards
+        </div>
+      </div>
+      <div class="md-footer__button md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+      </div>
+    </a>
+    
+  </nav>
+  
+</footer>
+
+<footer class="footer">
+  <div class="footer_left">
+    <a href="mailto:analyticsproductsteam@nhs.net"><p>Contact Us</p></a>
+    <p>Developed by <a href="https://www.england.nhs.uk/">NHS England</a></p>
+    <p>
+      View the project on
+      <a href="https://github.com/NHSDigital/data-viz-community-of-practice"
+        >GitHub</a
+      >
+    </p>
+    <p>View what's <a href="/data-viz-community-of-practice/change_log">changed</a></p>
+    <p>View our <a href="/data-viz-community-of-practice/launch">launch ceremony</a></p>
+  </div>
+  
+
+  <div class="legal">
+    <div class="footer_left">
+    <p>&copy; 2024 Crown Copyright (NHS England)</p>
+    <p>All content is available under the
+        <a
+          href="https://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/"
+          >Open Government Licence v3.0</a
+        >, except where otherwise stated.
+      </p>    
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../..", "features": ["search.share", "content.code.annotate", "content.tabs.link", "navigation.tabs", "navigation.indexes", "navigation.path", "toc.integrate", "navigation.top"], "search": "../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.5a2dcb6a.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+    
+  <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
+</html>
